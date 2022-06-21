@@ -19,9 +19,12 @@ module.exports = {
         // gray: {
         //   350: "#6e6e6e",
         // },
+        yellow: {
+          500: "#FFE500",
+        }
       },
       backgroundImage: {
-        // "slide-1": "url('/images/slider-1.jpg')",
+        "pink-bg": "url('/assets/background.png')",
         // "slide-2": "url('/images/slider-2.jpg')",
         // "more-services": "url('/images/bgimage-4.jpg')",
         // "footer-img": "url('/images/footer-img.jpg')",

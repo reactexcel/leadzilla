@@ -1,8 +1,11 @@
 import React from 'react'
+import TopContent from './topcontent';
 
-function HomePageContainer() {
+const HomePageContainer=()=> {
   return (
-    <div>HomePageContainer</div>
+    <>
+    <TopContent />
+    </>
   )
 }
 
