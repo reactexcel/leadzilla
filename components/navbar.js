@@ -27,14 +27,6 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        {/* <div className="sm:hidden" id="mobile-menu">
-          <div className="px-2 pt-2 pb-3 space-y-1">
-            <div className="text-black block px-3 py-2 rounded-md font-medium text-lg" aria-current="page">Dashboard</div>
-            <div className="text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-lg font-medium">Team</div>
-            <div className="text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-lg font-medium">Projects</div>
-            <div className="text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-lg font-medium">Calendar</div>
-          </div>
-        </div> */}
       </nav>
     </>
   )
