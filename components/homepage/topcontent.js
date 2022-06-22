@@ -41,7 +41,7 @@ const TopContent = () => {
           </button>
         </button>
       </div>
-      <div className='flex justify-center' style={{ marginTop: '-63px' }}>
+      <div className='flex justify-center' style={{ marginTop: '-63px'}}>
         <Image src='/assets/group.png' alt='' height='800px' width='1100px' />
       </div>
     </div>
