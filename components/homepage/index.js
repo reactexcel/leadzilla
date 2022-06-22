@@ -1,10 +1,12 @@
 import React from 'react'
 import TopContent from './topcontent';
+import CutomerReviews from './cutomerReviews';
 
 const HomePageContainer=()=> {
   return (
     <>
-    <TopContent />
+      <TopContent />
+      <CutomerReviews />
     </>
   )
 }
