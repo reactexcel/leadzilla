@@ -5,12 +5,11 @@ const MiddleTopSection = () => {
   return (
     <>
       <div
-        className='mt-80 text-4xl text-center'
-        style={{ fontFamily: 'Manrope' }}
+        className='mt-80 text-5xl text-center'
       >
         <div className='py-1'>Let’s get real</div>
         <div className='p-1'>You don’t need contact data.</div>
-        <div className='font-bold mb-4'>
+        <div className='font-extrabold mb-4'>
           You need meetings with good fit buyers.
         </div>
       </div>

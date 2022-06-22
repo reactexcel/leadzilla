@@ -11,7 +11,7 @@ const TopContent = () => {
   ];
   return (
     <div
-      className='bg-pink-bg w-full h-240px md:h-auto bg-center bg-no-repeat bg-cover'
+      className='bg-pink-bg w-full h-240px md:h-auto bg-center bg-no-repeat bg-cover relative'
       style={{ fontFamily: 'Manrope', height: '871px' }}
     >
       <div className='pt-16 text-center text-7xl'>
@@ -33,6 +33,7 @@ const TopContent = () => {
           inbox.
         </div>
       </div>
+      <span className='absolute top-1/2 right-3/4'><Image src="/assets/bigArrowTwisted.png" alt="arrow" height="100" width="170" /></span>
       <div className='text-center p-6'>
         <button className='bg-black p-3 px-5 text-2xl font-bold relative'>
           Sign up and get 20 free leads now
@@ -41,6 +42,7 @@ const TopContent = () => {
           </button>
         </button>
       </div>
+      <span className='absolute top-1/2 left-3/4'><Image src="/assets/eye.svg" alt="eye" height="50" width="60" /></span>
       <div className='flex justify-center' style={{ marginTop: '-63px'}}>
         <Image src='/assets/group.png' alt='' height='800px' width='1100px' />
       </div>

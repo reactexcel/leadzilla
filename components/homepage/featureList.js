@@ -5,7 +5,7 @@ const FeatureList = () => {
   return (
     <>
       <div className='text-center'>
-        <div style={{ marginBottom: '-18px', marginLeft: '-86px' }}>
+        <div style={{ marginBottom: '-18px', marginLeft: '-101px' }}>
           <Image src='/assets/feature.png' alt='' width='20px' height='20px' />
         </div>
         <div className='text-5xl' style={{ letterSpacing: '-0.6px' }}>
@@ -13,10 +13,13 @@ const FeatureList = () => {
           <br />
           <div className='font-extrabold py-3'>
             here’s the feature list you <br />
-            <div className='py-3'> were looking for</div>
+            <div className='py-3'> were looking for
+            </div>
+            <div style={{marginTop: "-19px", marginLeft:"39%"}}><Image src="/assets/smallArrowtwisted.png" alt='arrow' height="45" width="65"/></div>
           </div>
         </div>
       </div>
+      
       <div>
         <div className='w-10/12 mx-auto flex justify-around items-center py-10'>
           <div>
@@ -32,7 +35,7 @@ const FeatureList = () => {
             <div className='mt-4'>
               <button className='bg-black p-3 px-8 text-base font-bold relative'>
                 Learn more
-                <button className='bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-2 left-2 whitespace-nowrap'>
+                <button className='bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-2 right-2 whitespace-nowrap'>
                   Learn more
                 </button>
               </button>
@@ -57,7 +60,7 @@ const FeatureList = () => {
               height='417px'
             />
           </div>
-          <div>
+          <div className='ml-4'>
             <div className='text-4xl font-extrabold'>Leadzilla extension</div>
             <div className='text-base font-semibold py-5'>
               <span className='text-blue-600'> Find, target and connect</span>{' '}
@@ -67,7 +70,7 @@ const FeatureList = () => {
             <div className='mt-4'>
               <button className='bg-black p-3 px-8 text-base font-bold relative'>
                 Learn more
-                <button className='bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-2 left-2 whitespace-nowrap'>
+                <button className='bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-2 right-2 whitespace-nowrap'>
                   Learn more
                 </button>
               </button>
@@ -120,18 +123,12 @@ const FeatureList = () => {
                   <br /> <span className='text-blue-600'>firmographics and our patent-pending Lookalike AI</span>
                 </div>
               </div>
-         
-         
-
-              {/* Convert more prospects into customers with targeted search
-              <br /> on over{' '}
-              <span className='text-blue-600'>20 search filters</span> */}
             </div>
 
             <div className='mt-4'>
               <button className='bg-black p-3 px-8 text-base font-bold relative'>
                 Learn more
-                <button className='bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-2 left-2 whitespace-nowrap'>
+                <button className='bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-2 right-2 whitespace-nowrap'>
                   Learn more
                 </button>
               </button>
@@ -156,7 +153,7 @@ const FeatureList = () => {
               height='417px'
             />
           </div>
-          <div>
+          <div className='ml-4'>
             <div className='text-4xl font-extrabold'>
               AI-powered personalization
             </div>
@@ -174,7 +171,7 @@ const FeatureList = () => {
             <div className='mt-4'>
               <button className='bg-black p-3 px-8 text-base font-bold relative'>
                 Learn more
-                <button className='bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-2 left-2 whitespace-nowrap'>
+                <button className='bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-2 right-2 whitespace-nowrap'>
                   Learn more
                 </button>
               </button>
