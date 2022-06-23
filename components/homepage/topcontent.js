@@ -11,7 +11,7 @@ const TopContent = () => {
   ];
   return (
     <div
-      className='bg-pink-bg w-full h-240px md:h-auto bg-center bg-no-repeat bg-cover relative'
+      className='bg- w-full h-240px md:h-auto bg-center bg-no-repeat bg-cover relative'
       style={{ fontFamily: 'Manrope', height: '871px' }}
     >
       <div className='pt-16 text-center text-7xl'>
