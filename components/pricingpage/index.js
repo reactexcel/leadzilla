@@ -67,16 +67,16 @@ function PricingPage() {
 
         <table className="m-auto mt-16 ">
           <thead className="bg-skin-bg border border-skin-border rounded-md text-left">
-            <th scope="col" class="px-6 py-3">
+            <th scope="col" className="px-6 py-3">
               Current Activity
             </th>
-            <th scope="col" class="px-16 py-3">
+            <th scope="col" className="px-16 py-3">
               Person
             </th>
-            <th scope="col" class="px-16 py-3">
+            <th scope="col" className="px-16 py-3">
               Average Time
             </th>
-            <th scope="col" class="px-16 py-3">
+            <th scope="col" className="px-16 py-3">
               Minimum Cost
             </th>
           </thead>
