@@ -2,7 +2,7 @@ import React from "react";
 
 const Contents = () => {
   return (
-    <div style={{ height: "500px" }}>
+    <div style={{ height: "800px" }}>
       <div className="bg-blue-300" style={{ height: "350px" }}>
         <div className="grid grid-cols-2 w-10/12 py-2 mx-auto  px-2 sm:px-6 lg:px-8">
           <div className="mt-36">
