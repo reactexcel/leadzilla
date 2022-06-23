@@ -8,6 +8,12 @@ module.exports = {
         // experience: ["'Playfair Display'", "serif"],
       },
       colors: {
+        "regal-green": "#94E7CB",
+        "skin-bg": "rgba(255, 229, 0, 0.1)",
+        "skin-border": "#D5DBE8",
+        "grey-bg": "#F6F6F6",
+        "pricing-border": "#E0E0E0",
+
         // blue: {
         //   950: "#1E2637",
         //   650: "#2C4A8A",
@@ -21,7 +27,7 @@ module.exports = {
         // },
         yellow: {
           500: "#FFE500",
-        }
+        },
       },
       backgroundImage: {
         "pink-bg": "url('/assets/background.png')",

@@ -27,7 +27,7 @@ const Navbar = () => {
                     Solutions
                   </div>
                   <div className="text-black px-3 py-2 text-lg font-medium">
-                    Pricing
+                    <Link href="/pricing">Pricing</Link>
                   </div>
                   <div className="text-black px-3 py-2 text-lg font-medium">
                     Resources
