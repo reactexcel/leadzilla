@@ -21,6 +21,9 @@ module.exports = {
         // },
         yellow: {
           500: "#FFE500",
+        },
+        voilet: {
+          300: "#FAE2FF",
         }
       },
       backgroundImage: {
