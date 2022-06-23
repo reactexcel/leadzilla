@@ -36,6 +36,12 @@ module.exports = {
         },
         voilet: {
           300: "#FAE2FF",
+        },
+        bordergray: {
+          200: "#F4F4F4"
+        },
+        backgray: {
+          200: "#F2F2F2"
         }
 
       },

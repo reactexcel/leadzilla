@@ -4,7 +4,7 @@ import Footer from "../../components/footer"
 //import ContactPage from "../../components/contactpage/index"
 import BlogPage from '../../components/blogPage/index'
 
-const index = () => {
+const BlogPage = () => {
   return (
     <>
     <Navbar />
@@ -14,4 +14,4 @@ const index = () => {
   )
 }
 
-export default index
+export default BlogPage
