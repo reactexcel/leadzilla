@@ -36,6 +36,9 @@ module.exports = {
         },
         voilet: {
           300: "#FAE2FF",
+        },
+        glad:{
+          100:"#E5DFFE"
         }
 
       },
