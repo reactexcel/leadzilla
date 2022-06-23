@@ -3,7 +3,7 @@ import Image from 'next/image'
 function Footer() {
   return (
     <>
-      <div className="bg-black w-full flex justify-center" style={{marginTop: "350px"}}>
+      <div className="bg-black w-full flex justify-center">
         <div className='w-10/12 py-20'>
           <div className='flex flex-row justify-between'>
             <div className='flex justify-center items-center'>
