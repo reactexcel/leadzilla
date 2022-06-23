@@ -33,6 +33,9 @@ module.exports = {
         },
         inputblack:{
           100:"#C2CEDD"
+        },
+        voilet: {
+          300: "#FAE2FF",
         }
 
       },

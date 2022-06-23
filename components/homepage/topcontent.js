@@ -15,9 +15,9 @@ const TopContent = () => {
       style={{ fontFamily: 'Manrope', height: '871px' }}
     >
       <div className='pt-16 text-center text-7xl'>
-        {starImage.map((val) => {
+        {starImage.map((val, key) => {
           return (
-            <Image src='/assets/star.png' alt='' width='40px' height='40px' className='py-3 p-2'/>
+            <Image src='/assets/star.png' alt='' width='40px' height='40px' className='py-3 p-2' key={key}/>
           );
         })}
         <div className='font-bold'>More than just accurate,</div>
