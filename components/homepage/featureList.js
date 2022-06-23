@@ -15,7 +15,7 @@ const FeatureList = () => {
             here’s the feature list you <br />
             <div className='py-3'> were looking for
             </div>
-            <div style={{marginTop: "-19px", marginLeft:"39%"}}><Image src="/assets/smallArrowtwisted.png" alt='arrow' height="45" width="65"/></div>
+            {/* <div style={{marginTop: "-19px", marginLeft:"39%"}}><Image src="/assets/smallArrowtwisted.png" alt='arrow' height="45" width="65"/></div> */}
           </div>
         </div>
       </div>
