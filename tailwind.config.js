@@ -21,7 +21,20 @@ module.exports = {
         // },
         yellow: {
           500: "#FFE500",
+        },
+        blue:{
+          300:"#E0FDFE"
+        },
+        voilet:{
+          300:"#10121B"
+        },
+        blur:{
+          200:"#6F7B99"
+        },
+        inputblack:{
+          100:"#C2CEDD"
         }
+
       },
       backgroundImage: {
         "pink-bg": "url('/assets/background.png')",
