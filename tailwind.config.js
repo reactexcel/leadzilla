@@ -43,8 +43,11 @@ module.exports = {
         inputblack:{
           100:"#C2CEDD"
         },
-        voilet: {
+        voiletw: {
           300: "#FAE2FF",
+        },
+        glad:{
+          100:"#E5DFFE"
         },
         bordergray: {
           200: "#F4F4F4"
@@ -58,6 +61,12 @@ module.exports = {
         aboutustextcolor: {
           200: "#2B3044"
         },
+        bluedon:{
+          300:"#4659FF"
+        },
+        pinky:{
+          300:"#FF71CA"
+        }
 
       },
       backgroundImage: {
