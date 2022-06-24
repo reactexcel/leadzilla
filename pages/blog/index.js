@@ -1,17 +1,17 @@
 import React from 'react'
+import Footer from '../../components/footer'
 import Navbar from '../../components/navbar'
-import Footer from "../../components/footer"
-//import ContactPage from "../../components/contactpage/index"
-import BlogPage from '../../components/blogPage/index'
+//import FrequencyAskedPage from '../../components/faqpage'
+import BlogPage from '../../components/blogPage/index.js'
 
-const index = () => {
+const Blog= () => {
   return (
     <>
     <Navbar />
-    <BlogPage />
+    <BlogPage/>
     <Footer />
     </>
   )
 }
 
-export default index
+export default Blog

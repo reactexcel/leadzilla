@@ -147,10 +147,10 @@ const FeatureList = () => {
         <div className='w-10/12 mx-auto flex justify-around items-center py-20'>
           <div>
             <Image
-              src='/assets/extansion.png'
+              src='/assets/aipower.png'
               alt=''
-              width='516px'
-              height='417px'
+              width='578px'
+              height='416px'
             />
           </div>
           <div className='ml-4'>
