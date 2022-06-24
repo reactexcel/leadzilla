@@ -18,21 +18,21 @@ const Navbar = () => {
                 />
                 <div className="font-bold ml-2 text-lg">Leadzilla</div>
               </div>
-              <div className="hidden sm:block sm:ml-6">
+              <div className="hidden sm:block sm:ml-6 font-bold">
                 <div className="flex space-x-4">
                   <div
-                    className="text-black px-3 py-2 text-lg font-medium"
+                    className="text-black px-3 py-2 text-base"
                     aria-current="page"
                   >
                     Solutions
                   </div>
-                  <div className="text-black px-3 py-2 text-lg font-medium">
+                  <div className="text-black px-3 py-2 text-base">
                     <Link href="/pricing">Pricing</Link>
                   </div>
-                  <div className="text-black px-3 py-2 text-lg font-medium">
+                  <div className="text-black px-3 py-2 text-base">
                     Resources
                   </div>
-                  <div className="text-black px-3 py-2 text-lg font-medium">
+                  <div className="text-black px-3 py-2 text-base">
                     <Link href="/about">About</Link>
                   </div>
                 </div>

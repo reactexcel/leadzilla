@@ -1,10 +1,11 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
-        // sans: ["Roboto", "Helvetica", "Arial", "sans-serif"],
+        sans: ["Manrope",...defaultTheme.fontFamily.sans],
         // experience: ["'Playfair Display'", "serif"],
       },
       colors: {
