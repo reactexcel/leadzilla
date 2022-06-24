@@ -138,15 +138,31 @@ const Contents = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 w-10/12 py-2 mx-auto px-2 sm:px-6 lg:px-8 mt-20 pl-14">
+      <div className="grid grid-cols-2   w-10/12 py-2 mx-auto px-2 sm:px-6 lg:px-8 mt-20 pl-14">
         {add.map((item) => {
           return (
             <>
-              (
+                <Image src={item.imgsrc} alt="" width="570px" height="400px" />
               <div>
-                <Image src={item.imgsrc} alt="" width="300px" height="250px" />
-              </div>
-              <div>{item.description}</div>)
+              <p
+              
+                  style={{
+                    color:
+                      item.author === "SALES"
+                        ? "red"
+                        : item.author === "MARKETING"
+                        ? "green"
+                        : "yellow",
+                  }}
+                >
+                </p>
+                <p className="text-5xl font-extrabold m-4 mt-9">
+
+                {item.description}
+
+                </p>
+              
+                </div>
             </>
           );
         })}
