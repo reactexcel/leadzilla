@@ -51,7 +51,13 @@ module.exports = {
         },
         backgray: {
           200: "#F2F2F2"
-        }
+        },
+        faqtextcolor: {
+          200:"#3F5671"
+        },
+        aboutustextcolor: {
+          200: "#2B3044"
+        },
 
       },
       backgroundImage: {

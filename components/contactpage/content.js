@@ -3,21 +3,21 @@ import React from 'react';
 const Contents = () => {
   return (
     <div style={{ height: '800px' }}>
-      <div className='bg-blue-300' style={{ height: '350px' }}>
+      <div className='bg-blue-300' style={{ height: '380px' }}>
         <div className='grid grid-cols-2 w-10/12 py-2 mx-auto  px-2 sm:px-6 lg:px-8'>
           <div className='mt-36'>
-            <h1 className='text-6xl font-extrabold leading-10'>Contact us</h1>
+            <h1 className='text-6xl font-extrabold leading-10 font-gilroybold'>Contact us</h1>
             <p className='mt-3 pt-4 mb-11 text-xl text-voilet-100 w-2/3'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incid.
             </p>
-            <div className=' mt-20 text-xl absolute mb-7'>
+            <div className=' mt-32 text-xl absolute mb-7'>
               <p className='text-blur-200 mb-2' text-xl>
                 Product Supply
               </p>
               <p>support@leadzilla.so</p>
             </div>
-            <div className='mt-44 text-xl absolute '>
+            <div className='mt-60 text-xl absolute '>
               <p className='text-blur-200 mb-2'>Other queries</p>
               <p>help@leadzilla.so</p>
             </div>
