@@ -5,7 +5,7 @@ import { TableData } from "../../hardcodedData";
 function PricingPage() {
   return (
     <>
-      <div className="bg-regal-green py-16" style={{ fontFamily: "Manrope" }}>
+      <div className="bg-regal-green py-16">
         <div className="flex items-center flex-col">
           <div>
             {" "}
@@ -146,7 +146,7 @@ function PricingPage() {
 
       <div className="mt-28 relative px-9">
         <div className="flex justify-center">
-          <div className="mr-96">
+          <div className="xl:mr-96 lg:mr-auto">
             {" "}
             <div className="font-extrabold text-4xl">
               The real cost of alternatives <br />
@@ -189,7 +189,7 @@ function PricingPage() {
         </span>
       </div>
 
-      <div className="flex justify-center mt-20 mb-20">
+      <div className="flex justify-center mt-20 mb-20 px-16">
         <div className="bg-grey-bg text-left text-2xl px-40 py-10">
           Even if we disregard the opportunity cost and value of using
           AI-powered hyper-
@@ -210,7 +210,7 @@ function PricingPage() {
           were looking for.
         </div>
 
-        <div className="flex justify-center mt-16 ">
+        <div className="flex justify-center mt-16 mx-10">
           <div className="bg-white rounded border border-pricing-border p-10">
             <div className="font-bold text-3xl mb-4">
               Which module is it <br /> a part of?

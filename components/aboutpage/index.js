@@ -6,9 +6,9 @@ function AboutUs() {
       {" "}
       <div
         className="bg-pink-bg w-full h-240px md:h-auto bg-center bg-no-repeat bg-cover  mb-100"
-        style={{ fontFamily: "Manrope", height: "871px" }}
+        style={{ height: "871px" }}
       >
-        <div className="text-center pt-16">
+        <div className="text-center pt-16 relative">
           {" "}
           <div className="font-medium text-xl">ABOUT Leadzilla</div>
           <div className="font-extrabold text-6xl pt-5">
@@ -21,7 +21,7 @@ function AboutUs() {
             <div>by commoditizing simple, self-service B2B SaaS products.</div>
           </div>
           <div className="text-center p-6">
-            <button className="bg-black p-3 px-7 text-2xl font-bold relative">
+            <button className="bg-black p-3 px-6 text-2xl font-bold relative">
               Join Us
               <span className="ml-2">
                 <Image
@@ -32,7 +32,7 @@ function AboutUs() {
                   height="20px"
                 />
               </span>
-              <button className="bg-yellow-500 p-3 px-7 text-2xl font-bold absolute bottom-2 left-2 whitespace-nowrap">
+              <button className="bg-yellow-500 p-3 px-8 text-2xl font-bold absolute bottom-2 left-2 whitespace-nowrap">
                 Join Us{" "}
                 <span className="ml-2">
                   <Image
@@ -46,7 +46,7 @@ function AboutUs() {
               </button>
             </button>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center relative">
             <div>
               {" "}
               <Image
@@ -76,8 +76,16 @@ function AboutUs() {
               />
             </div>
 
-            <div>
-              {" "}
+            <div className="flex items-start">
+              <div className="mr-12">
+                {" "}
+                <Image
+                  src="/assets/aboutus/freepikcursor.svg"
+                  alt="freepikcursor"
+                  width="50px"
+                  height="50px"
+                />
+              </div>{" "}
               <Image
                 src="/assets/aboutus/freepik--character-2--inject-4.svg"
                 alt="freepik4"
@@ -86,6 +94,15 @@ function AboutUs() {
               />
             </div>
           </div>
+          <span className="ml-2 absolute bottom-2 right-48">
+            <Image
+              src="/assets/aboutus/smiley.svg"
+              alt="eyesImg"
+              width="50px"
+              className="m-6 ml-4"
+              height="50px"
+            />
+          </span>
         </div>
 
         <span className="ml-2 absolute top-32 left-48">
@@ -98,7 +115,7 @@ function AboutUs() {
           />
         </span>
 
-        <span className="ml-2 absolute top-32 right-48 ">
+        <span className="ml-2 absolute top-32 right-48">
           <Image
             src="/assets/righteyeimg.svg"
             alt="eyesImg"
@@ -109,7 +126,7 @@ function AboutUs() {
         </span>
       </div>
       <div className="text-center">
-        <div className="flex items-center justify-center  mt-40 ">
+        <div className="flex items-center justify-around  mt-40 w-10/12 py-2 mx-auto">
           <div className="text-left ">
             <div className="font-extrabold text-4xl">What is Leadzilla?</div>
             <div className="font-normal text-lg pt-4 pb-6">
@@ -139,19 +156,16 @@ function AboutUs() {
             />
           </div>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex items-center justify-around  mt-40 w-10/12 py-2 mx-auto">
           <div className="relative ">
             <Image
               src="/assets/aboutus/groupspic.svg"
               alt="aboutourteam"
-              width="1100px"
+              width="1350px"
               height="600px"
             />
 
-            <div
-              className="absolute right-24 top-36"
-              style={{ fontFamily: "Manrope" }}
-            >
+            <div className="absolute right-24 top-36">
               <div className="font-extrabold text-4xl text-left">
                 Meet Saurav?
               </div>
@@ -171,13 +185,13 @@ function AboutUs() {
             </div>
           </div>
         </div>
+
         <div>
           <Image
             src="/assets/aboutus/aboutourteam.svg"
             alt="aboutourteam"
-            width="400"
-            className="m-6 ml-4"
-            height="250"
+            width="448"
+            height="296"
           />
         </div>
       </div>
