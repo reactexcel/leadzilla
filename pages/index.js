@@ -2,7 +2,7 @@ import HomePageContainer from "../components/homepage";
 import Meta from "./meta";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import SignInPage from "../components/Signup Page/SignInPage";
+import SignInPage from "../components/Signup Page/signInpage";
 import Features from "../components/Features/index";
 export default function App() {
   return (
