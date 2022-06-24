@@ -70,9 +70,9 @@ function CutomerReviews() {
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center py-24">
-        <p className="font-extrabold text-black text-5xl">See what our customers</p>
-        <p className="font-light text-black text-5xl">have to say for us</p>
+      <div className="flex flex-col justify-center items-center py-8">
+        <p className="font-extrabold text-black text-5xl font-gilroybold">See what our customers</p>
+        <p className="font-light text-black text-5xl font-gilroylight">have to say for us</p>
         <div className="w-10/12">
           <Carousel
             swipeable={true}

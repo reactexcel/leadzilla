@@ -4,7 +4,7 @@ import Navbar from '../../components/navbar'
 //import FrequencyAskedPage from '../../components/faqpage'
 import BlogPage from '../../components/blogPage/index.js'
 
-const Blog= () => {
+const BlogPageDesign = () => {
   return (
     <>
     <Navbar />
@@ -14,4 +14,4 @@ const Blog= () => {
   )
 }
 
-export default Blog
+export default BlogPageDesign

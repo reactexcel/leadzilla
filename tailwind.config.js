@@ -1,13 +1,22 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
-        // sans: ["Roboto", "Helvetica", "Arial", "sans-serif"],
+        sans: ['Manrope',...defaultTheme.fontFamily.sans],
+        gilroybold: ['Gilroy Bold'],
+        gilroylight: ['Gilroy Light'],
         // experience: ["'Playfair Display'", "serif"],
       },
       colors: {
+        "regal-green": "#94E7CB",
+        "skin-bg": "rgba(255, 229, 0, 0.1)",
+        "skin-border": "#D5DBE8",
+        "grey-bg": "#F6F6F6",
+        "pricing-border": "#E0E0E0",
+
         // blue: {
         //   950: "#1E2637",
         //   650: "#2C4A8A",
@@ -23,11 +32,11 @@ module.exports = {
           500: "#FFE500",
         },
         blue:{
-          300:"#E0FDFE"
+          300:"#E0FDFE",
         },
-        voilet:{
-          300:"#10121B"
-        },
+        // voilet:{
+        //   300:"#10121B"
+        // },
         blur:{
           200:"#6F7B99"
         },
