@@ -139,12 +139,12 @@ const Contents = () => {
       </div>
 
       <div className="grid grid-cols-2 w-10/12 py-2 mx-auto px-2 sm:px-6 lg:px-8 mt-20 pl-14">
-        {add.map((item) => {
+        {add.map((item, key) => {
           return (
             <>
               (
               <div>
-                <Image src={item.imgsrc} alt="" width="300px" height="250px" />
+                <Image src={item.imgsrc} alt="" width="300px" height="250px" key={key}/>
               </div>
               <div>{item.description}</div>)
             </>
@@ -155,7 +155,6 @@ const Contents = () => {
       <div style={{ height: "auto" }}>
         <div className="grid grid-cols-3   w-10/12 py-2 mx-auto px-2 sm:px-6 lg:px-8 mt-20 pl-14">
           {detail.map((item) => {
-            console.log(item, "BBBBBBBBBBBBBBBBBBBBBB");
             return (
               <div className="ml-7 h-auto col-span-1">
                 <Image

@@ -55,7 +55,7 @@ function PricingPage() {
       </div>
 
       <div className="text-center mt-16 relative">
-        <div className="font-light text-3xl">
+        <div className="font-light text-3xl font-gilroylight">
           Your time and efforts are not cheap.
         </div>
         <div className="font-extrabold text-4xl mt-6 mb-6 font-gilroybold">
