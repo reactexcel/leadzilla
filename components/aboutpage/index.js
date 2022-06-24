@@ -131,7 +131,7 @@ function AboutUs() {
             <div className="font-extrabold text-6xl font-gilroybold">
               What is Leadzilla?
             </div>
-            <div className="font-normal text-lg pt-4 pb-6">
+            <div className="font-normal pt-4 pb-6 text-aboutustextcolor-200"  style={{fontSize: "20px"}}>
               Leadzilla was founded by Assaf Eisenstein and Yoni Tserruya in
               <br />
               2016 with the aim of creating the world’s largest crowdsourced
@@ -141,7 +141,7 @@ function AboutUs() {
               company size accurate and accessible data through its simple,
               <br /> self-service products.{" "}
             </div>
-            <div className="font-normal text-lg">
+            <div className="font-normal text-aboutustextcolor-200" style={{fontSize: "20px"}}>
               With Leadzilla, sales professionals can identify, engage and{" "}
               <br /> close prospects, thanks to Lusha’s prospecting platform,
               web <br /> extension and API. Leadzilla community has expanded to
@@ -158,7 +158,7 @@ function AboutUs() {
             />
           </div>
         </div>
-        <div className="flex items-center justify-around  mt-40 w-10/12 py-2 mx-auto">
+        <div className="flex items-center justify-around  mt-24 w-10/12 py-2 mx-auto">
           <div className="relative ">
             <Image
               src="/assets/aboutus/groupspic.svg"
@@ -168,13 +168,13 @@ function AboutUs() {
             />
 
             <div className="absolute right-24 top-36">
-              <div className="font-extrabold text-4xl text-left font-gilroybold">
+              <div className="font-extrabold text-5xl text-left font-gilroybold">
                 Meet Saurav?
               </div>
-              <div className="text-left pb-4 pt-2">
+              <div className="text-left pb-4 pt-2 text-2xl text-aboutustextcolor-200">
                 The Founders of Leadzilla
               </div>
-              <div className="text-left">
+              <div className="text-left text-aboutustextcolor-200"  style={{fontSize: "20px"}}>
                 What started off as one developer's passion project <br /> has
                 quickly evolved into one of B2Bs largest and <br />
                 most respected contact data solutions. In 2016 Yoni,

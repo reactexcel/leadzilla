@@ -20,7 +20,7 @@ const AccordianLayout = ({ title,index, activeIndex, setActiveIndex, answer }) =
         </div>
       </div>
       {toggle && index===activeIndex &&
-      <div className='shadow-3xl rounded-2xl shadow-cyan-500/50 p-2 mb-6'>
+      <div className='shadow-3xl rounded-2xl shadow-cyan-500/50 p-2 mb-6 text-sm font-medium text-faqtextcolor-200'>
         {answer}
       </div>}
     </div>
