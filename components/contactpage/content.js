@@ -52,9 +52,7 @@ const Contents = () => {
               <input
                 className='mt-7 ml-7 p-5 w-6 h-6'
                 type='checkbox'
-                id='vehicle1'
-                name='vehicle1'
-                value='Bike'
+               
               />
               <div className='m-4 mt-5'>
                 <p className='text-sm text-gray-400'>

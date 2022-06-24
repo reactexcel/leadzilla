@@ -43,14 +43,23 @@ module.exports = {
         inputblack:{
           100:"#C2CEDD"
         },
-        voilet: {
+        voiletw: {
           300: "#FAE2FF",
+        },
+        glad:{
+          100:"#E5DFFE"
         },
         bordergray: {
           200: "#F4F4F4"
         },
         backgray: {
           200: "#F2F2F2"
+        },
+        bluedon:{
+          300:"#4659FF"
+        },
+        pinky:{
+          300:"#FF71CA"
         }
 
       },
