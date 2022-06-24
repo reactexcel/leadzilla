@@ -3,11 +3,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      
       fontFamily: {
         // sans: ["Roboto", "Helvetica", "Arial", "sans-serif"],
         // experience: ["'Playfair Display'", "serif"],
       },
       colors: {
+        "voilet-bg":"#AB78FF",
+        "yellow-bg":"#FAFFEE",
         // blue: {
         //   950: "#1E2637",
         //   650: "#2C4A8A",
