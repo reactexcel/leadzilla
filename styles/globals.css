@@ -7,8 +7,17 @@
   @font-face {
     font-family: 'Manrope';
     font-style: normal;
-    src: url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;700;800&display=swap');
+    src: url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
   }
+  @font-face {
+    font-family: 'Gilroy Bold';
+    src: url("../public/font/Gilroy-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Gilroy Light';
+    src: url("../public/font/Gilroy-Light.otf") format("opentype");
+}
 }
 html {
   scroll-behavior: smooth;

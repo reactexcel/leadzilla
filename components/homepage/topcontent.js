@@ -20,8 +20,8 @@ const TopContent = () => {
             <Image src='/assets/star.png' alt='' width='40px' height='40px' className='py-3 p-2' key={key}/>
           );
         })}
-        <div className='font-extrabold'>More than just accurate,</div>
-        <div className='py-1'>verified contact data </div>
+        <div className='font-extrabold font-gilroybold'>More than just accurate,</div>
+        <div className='py-1 font-gilroylight'>verified contact data </div>
       </div>
       <div className='text-2xl font-normal text-center p-6'>
         <div className=''>

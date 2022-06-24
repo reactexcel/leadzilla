@@ -7,9 +7,9 @@ const MiddleTopSection = () => {
       <div
         className='mt-80 text-5xl text-center'
       >
-        <div className='py-1'>Let’s get real</div>
-        <div className='p-1'>You don’t need contact data.</div>
-        <div className='font-extrabold mb-4'>
+        <div className='py-1 font-gilroylight'>Let’s get real</div>
+        <div className='p-2.5 font-gilroylight'>You don’t need contact data.</div>
+        <div className='font-extrabold mb-4 font-gilroybold'>
           You need meetings with good fit buyers.
         </div>
       </div>
@@ -43,9 +43,9 @@ const MiddleTopSection = () => {
           />
         </div>
         <div className='px-10' style={{ fontFamily: 'Manrope' }}>
-          <div className='text-4xl'>
-            <span className='font-bold'>Why choose us </span> over
-            <div>hundreds of other options?</div>
+          <div className='text-5xl'>
+            <span className='font-extrabold font-gilroybold'>Why choose us </span> over
+            <div className='font-gilroylight'>hundreds of other options?</div>
           </div>
           <div className='text-base'>
             <div className='mt-7'>

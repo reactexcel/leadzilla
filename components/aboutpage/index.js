@@ -6,7 +6,7 @@ function AboutUs() {
       {" "}
       <div
         className="bg-pink-bg w-full h-240px md:h-auto bg-center bg-no-repeat bg-cover  mb-100"
-        style={{ fontFamily: "Manrope", height: "871px" }}
+        style={{height: "871px" }}
       >
         <div className="text-center pt-16">
           {" "}
