@@ -6,45 +6,48 @@ function PricingPage() {
   return (
     <>
       <div className="bg-regal-green py-16" style={{ fontFamily: "Manrope" }}>
-        <div className="ml-48">
-          <div className="font-extdabold text-6xl text-left">
-            Looking for the pricing table?
-          </div>
+        <div className="flex items-center flex-col">
           <div>
-            <Image
-              src="/assets/pricing/quoteimgs.svg"
-              alt="quoteimg"
-              width="45"
-              height="80"
-            />
-          </div>{" "}
-          <div className="mb-4 flex ml-16">
-            <div className="mr-36">
-              <div className="font-medium text-xl">
-                I’m a lot like you! I see a lot of interesting software. But
-                <br />
-                bounce away from the pricing page!
-              </div>
-              <div className="font-medium text-xl pt-10 pb-10">
-                Sometimes I feel it’s pricey for me. Sometimes I can’t judge if
-                it’d <br /> create enough value for me or my team.
-              </div>
-              <div className="font-medium text-xl">
-                So, here’s some perspective on Leadzilla’s value v/s price, so{" "}
-                <br /> you can make an informed choice.
-              </div>
+            {" "}
+            <div className="font-extrabold text-6xl text-left">
+              Looking for the pricing table?
             </div>
             <div>
               <Image
-                src="/assets/pricing/founderceo.svg"
-                alt="founderceo"
-                width="200"
-                className="m-6 ml-4"
-                height="196"
+                src="/assets/pricing/quoteimgs.svg"
+                alt="quoteimg"
+                width="45"
+                height="80"
               />
-              <div className="font-bold text-xl text-center">
-                Founder and CEO at <br />
-                Leadzilla{" "}
+            </div>{" "}
+            <div className="mb-4 flex ml-16">
+              <div className="mr-36">
+                <div className="font-medium text-xl">
+                  I’m a lot like you! I see a lot of interesting software. But
+                  <br />
+                  bounce away from the pricing page!
+                </div>
+                <div className="font-medium text-xl pt-10 pb-10">
+                  Sometimes I feel it’s pricey for me. Sometimes I can’t judge
+                  if it’d <br /> create enough value for me or my team.
+                </div>
+                <div className="font-medium text-xl">
+                  So, here’s some perspective on Leadzilla’s value v/s price, so{" "}
+                  <br /> you can make an informed choice.
+                </div>
+              </div>
+              <div>
+                <Image
+                  src="/assets/pricing/founderceo.svg"
+                  alt="founderceo"
+                  width="200"
+                  className="m-6 ml-4"
+                  height="196"
+                />
+                <div className="font-bold text-xl text-center">
+                  Founder and CEO at <br />
+                  Leadzilla{" "}
+                </div>
               </div>
             </div>
           </div>
@@ -141,7 +144,7 @@ function PricingPage() {
         </span>
       </div>
 
-      <div className="mt-28 relative">
+      <div className="mt-28 relative px-9">
         <div className="flex justify-center">
           <div className="mr-96">
             {" "}
