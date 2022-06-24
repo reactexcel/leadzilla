@@ -154,9 +154,9 @@ const Contents = () => {
 
       <div style={{ height: "auto" }}>
         <div className="grid grid-cols-3   w-10/12 py-2 mx-auto px-2 sm:px-6 lg:px-8 mt-20 pl-14">
-          {detail.map((item) => {
+          {detail.map((item, key) => {
             return (
-              <div className="ml-7 h-auto col-span-1">
+              <div className="ml-7 h-auto col-span-1"  key={key}>
                 <Image
                   src={item.imgsrc}
                   alt=""
@@ -164,6 +164,7 @@ const Contents = () => {
                   height="100%"
                   layout="responsive"
                   objectFit="contain"
+                 
                 />
                 <p
                   className="mb-7 font-extrabold"
@@ -244,10 +245,10 @@ const Contents = () => {
 
       <div style={{ height: "auto" }}>
         <div className="grid grid-cols-3   w-10/12 py-2 mx-auto px-2 sm:px-6 lg:px-8 mt-20 pl-14">
-          {detailmain.map((item) => {
-            console.log(item, "BBBBBBBBBBBBBBBBBBBBBB");
+          {detailmain.map((item,key) => {
+           
             return (
-              <div className="ml-7 h-auto ">
+              <div className="ml-7 h-auto" key={key}>
                 <Image
                   src={item.imgsrc}
                   alt=""
