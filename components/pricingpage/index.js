@@ -9,7 +9,7 @@ function PricingPage() {
         <div className="flex items-center flex-col">
           <div>
             {" "}
-            <div className="font-extrabold text-6xl text-left">
+            <div className="font-extrabold text-6xl text-left font-gilroybold">
               Looking for the pricing table?
             </div>
             <div>
@@ -58,7 +58,7 @@ function PricingPage() {
         <div className="font-light text-3xl">
           Your time and efforts are not cheap.
         </div>
-        <div className="font-extrabold text-4xl mt-6 mb-6">
+        <div className="font-extrabold text-4xl mt-6 mb-6 font-gilroybold">
           You’re probably spending more than $1000 every <br />
           month on getting qualified leads already.
         </div>
@@ -148,7 +148,7 @@ function PricingPage() {
         <div className="flex justify-center">
           <div className="xl:mr-96 lg:mr-auto">
             {" "}
-            <div className="font-extrabold text-4xl">
+            <div className="font-extrabold text-4xl font-gilroybold">
               The real cost of alternatives <br />
               or leaving things as they are…
             </div>
@@ -205,7 +205,7 @@ function PricingPage() {
       </div>
 
       <div className="bg-pink-bg w-full h-240px md:h-auto bg-center bg-no-repeat bg-cover  mb-100">
-        <div className="font-extrabold text-center text-5xl pt-8">
+        <div className="font-extrabold text-center text-5xl pt-8 font-gilroybold">
           Now here’s the pricing table you <br />
           were looking for.
         </div>
@@ -268,10 +268,12 @@ function PricingPage() {
           </div>
         </div>
 
-        <div className="text-center font-light text-3xl py-16">
+        <div className="text-center font-light text-3xl py-16 font-gilroylight">
           Straight forward pricing{" "}
-          <span className="font-bold">$49/mo for 600 credits</span> , billed
-          monthly
+          <span className="font-bold font-gilroybold">
+            $49/mo for 600 credits
+          </span>{" "}
+          , billed monthly
         </div>
       </div>
     </>

@@ -9,9 +9,9 @@ const FeatureList = () => {
           <Image src='/assets/feature.png' alt='' width='20px' height='20px' />
         </div>
         <div className='text-5xl' style={{ letterSpacing: '-0.6px' }}>
-          Now
+         <span className='font-gilroylight'> Now </span>
           <br />
-          <div className='font-extrabold py-3'>
+          <div className='font-extrabold font-gilroybold py-3'>
             here’s the feature list you <br />
             <div className='py-3'> were looking for
             </div>
@@ -23,7 +23,7 @@ const FeatureList = () => {
       <div>
         <div className='w-10/12 mx-auto flex justify-around items-center py-10'>
           <div>
-            <div className='text-4xl font-extrabold'>
+            <div className='text-4xl font-extrabold font-gilroybold'>
               Leadzilla prospecting <br /> platform
             </div>
             <div className='text-base font-semibold py-5'>
@@ -61,7 +61,7 @@ const FeatureList = () => {
             />
           </div>
           <div className='ml-4'>
-            <div className='text-4xl font-extrabold'>Leadzilla extension</div>
+            <div className='text-4xl font-extrabold font-gilroybold'>Leadzilla extension</div>
             <div className='text-base font-semibold py-5'>
               <span className='text-blue-600'> Find, target and connect</span>{' '}
               with ideal prospects on LinkedIn
@@ -80,7 +80,7 @@ const FeatureList = () => {
 
         <div className='w-10/12 mx-auto flex justify-around items-center py-10'>
           <div>
-            <div className='text-4xl font-extrabold'>Contact search</div>
+            <div className='text-4xl font-extrabold font-gilroybold'>Contact search</div>
             <div className='text-base font-semibold py-5'>
               <div className='flex'>
                 <div className='mr-3'>
@@ -154,7 +154,7 @@ const FeatureList = () => {
             />
           </div>
           <div className='ml-4'>
-            <div className='text-4xl font-extrabold'>
+            <div className='text-4xl font-extrabold font-gilroybold'>
               AI-powered personalization
             </div>
             <div className='text-base font-semibold py-5'>

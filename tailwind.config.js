@@ -5,7 +5,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Manrope",...defaultTheme.fontFamily.sans],
+        sans: ['Manrope',...defaultTheme.fontFamily.sans],
+        gilroybold: ['Gilroy Bold'],
+        gilroylight: ['Gilroy Light'],
         // experience: ["'Playfair Display'", "serif"],
       },
       colors: {

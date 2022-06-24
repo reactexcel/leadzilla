@@ -11,7 +11,7 @@ function AboutUs() {
         <div className="text-center pt-16 relative">
           {" "}
           <div className="font-medium text-xl">ABOUT Leadzilla</div>
-          <div className="font-extrabold text-6xl pt-5">
+          <div className="font-extrabold text-6xl pt-5 font-gilroybold">
             Hi! We’re Leadzilla
           </div>
           <div className="text-2xl text-center p-6 font-normal">
@@ -128,7 +128,9 @@ function AboutUs() {
       <div className="text-center">
         <div className="flex items-center justify-around  mt-40 w-10/12 py-2 mx-auto">
           <div className="text-left ">
-            <div className="font-extrabold text-4xl">What is Leadzilla?</div>
+            <div className="font-extrabold text-6xl font-gilroybold">
+              What is Leadzilla?
+            </div>
             <div className="font-normal text-lg pt-4 pb-6">
               Leadzilla was founded by Assaf Eisenstein and Yoni Tserruya in
               <br />
@@ -166,7 +168,7 @@ function AboutUs() {
             />
 
             <div className="absolute right-24 top-36">
-              <div className="font-extrabold text-4xl text-left">
+              <div className="font-extrabold text-4xl text-left font-gilroybold">
                 Meet Saurav?
               </div>
               <div className="text-left pb-4 pt-2">
