@@ -24,7 +24,7 @@ const SignInPage = () => {
                   
                 />
                 </div>
-                <br />
+                 <br />
                 <div className="flex items-center justify-center border-2  px-2">
                   <Image src="/assets/Message.png" width="18px" height="18px" />
                 <input
