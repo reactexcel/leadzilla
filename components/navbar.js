@@ -11,12 +11,12 @@ const Navbar = () => {
             <div className="flex-1 flex items-center justify-between">
               <div className="flex-shrink-0 flex items-center">
                 <Image
-                  src="/assets/logo.png"
+                  src="/assets/logo_img.png"
                   alt=""
-                  width="45px"
-                  height="45px"
+                  width="160px"
+                  height="42px"
                 />
-                <div className="font-bold ml-2 text-lg">Leadzilla</div>
+                {/* <div className="font-bold ml-2 text-lg">Leadzilla</div> */}
               </div>
               <div className="hidden sm:block sm:ml-6 font-bold">
                 <div className="flex space-x-4">

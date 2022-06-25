@@ -5,8 +5,8 @@ const SignInPage = () => {
     <div class="grid grid-rows-1  grid-flow-col">
       <div className="p-10">
         <div className="flex">
-          <Image src="/assets/logo.png" alt="" width="45px" height="45px" />
-          <div className="pl-2 font-black text-xl mt-2 ">Leadzilla</div>
+          <Image src="/assets/logo_img.png" alt="" width="160px" height="42px" />
+          {/* <div className="pl-2 font-black text-xl mt-2 ">Leadzilla</div> */}
         </div>
         <div className="p-20">
           <div className="pt-10  font-bold text-2xl">Welcome to Leadzilla</div>
