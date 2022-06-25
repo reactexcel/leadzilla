@@ -6,13 +6,13 @@ const Contents = () => {
   const add = [
     {
       author: "MARKETING",
-      createdAt: " -17 SEP - ",
-      minRead: "6 MIN",
-      imgsrc: "/assets/image-23.png",
+      createdAt: " -4 AUG - ",
+      minRead: "3 MIN",
+      imgsrc: "/assets/cardimg_one.png",
       description: "Which marketing strategy to choose to generate leads?",
-      imagelogo: "/assets/profile-1.png",
+      imagelogo: "/assets/cardprofileimg_one.png",
       name: "Devon Lane",
-      post:"Marketing Manager"
+      post: "Marketing Manager",
     },
   ];
 
@@ -21,27 +21,29 @@ const Contents = () => {
       author: "SALES",
       createdAt: " -17 SEP - ",
       minRead: "6 MIN",
-      imgsrc: "/assets/image-2.png",
-      description: "Which marketing strategy to choose to generate leads? ",
-      imagelogo: "/assets/profile1.png",
+      imgsrc: "/assets/cardimg_two.png",
+      description: "The 5 steps for commercial prospecting",
+      imagelogo: "/assets/cardprofileimg_two.png",
       name: "Jenny Wilson",
     },
     {
       author: "SALES",
-      createdAt: " -17 SEP - ",
-      minRead: "6 MIN",
-      imgsrc: "/assets/image-3.png",
-      description: "The 5 steps for commercial prospecting",
-      imagelogo: "/assets/profile3.png",
+      createdAt: " -13 SEP - ",
+      minRead: "5 MIN",
+      imgsrc: "/assets/cardimg_three.png",
+      description:
+        "Discover the importance of managing your outbound prospecting well",
+      imagelogo: "/assets/cardprofileimg_three.png",
       name: "Jane Cooper",
     },
     {
       author: "MARKETING",
-      createdAt: " -17 SEP - ",
-      minRead: "6 MIN",
-      imgsrc: "/assets/image-5.png",
-      description: "The 5 steps for commercial prospecting",
-      imagelogo: "/assets/profile2.png",
+      createdAt: " -25 AUG - ",
+      minRead: "7 MIN",
+      imgsrc: "/assets/cardimg_four.png",
+      description:
+        "A successful Cold Emailing campaign to beat the competition",
+      imagelogo: "/assets/cardprofileimg_four.png",
       name: "Kristin Watson",
     },
   ];
@@ -50,57 +52,57 @@ const Contents = () => {
       author: "SALES",
       createdAt: " - 20 AUG - ",
       minRead: "6 MIN",
-      imgsrc: "/assets/image-5.png",
+      imgsrc: "/assets/cardimg_seven.png",
       description: "Tips and examples for successful telephone prospecting ",
-      imagelogo: "/assets/profile-6.png",
+      imagelogo: "/assets/cardprofileimg_five.png",
       name: "Esther Howard",
     },
     {
-      imgsrc: "/assets/image-7.png",
+      imgsrc: "/assets/cardimg_six.png",
       description: "Must have Skills to make a difference",
-      imagelogo: "/assets/profile-5.png",
+      imagelogo: "/assets/cardprofileimg_six.png",
       name: "Arlene McCoy",
       author: "RECRUITING",
-      createdAt: " -17 SEP - ",
-      minRead: "6 MIN",
+      createdAt: " -3 JUNE - ",
+      minRead: "2 MIN",
     },
     {
-      imgsrc: "/assets/image-8.png",
+      imgsrc: "/assets/cardimg_five.png",
       description: "Examples of prospecting emails",
-      imagelogo: "/assets/profile-10.png",
+      imagelogo: "/assets/cardprofileimg_seven.png",
       name: "Theresa Webb",
       author: "SALES",
-      createdAt: " -17 SEP - ",
-      minRead: "6 MIN",
+      createdAt: " -27 JULY - ",
+      minRead: "2 MIN",
     },
 
     {
-      imgsrc: "/assets/image-2.png",
+      imgsrc: "/assets/cardimg_two.png",
       description:
         "Why You Need Sales Intelligence to Create a Perfect Prospecting Process",
-      imagelogo: "/assets/profile-6.png",
+      imagelogo: "/assets/cardprofileimg_five.png",
       name: "Esther Howard",
       author: "SALES",
       createdAt: " -17 SEP - ",
       minRead: "6 MIN",
     },
     {
-      imgsrc: "/assets/image-3.png",
+      imgsrc: "/assets/cardimg_eight.png",
       description: "What is Purchasing Intention and How to Recognize It",
-      imagelogo: "/assets/profile-8.png",
+      imagelogo: "/assets/cardprofileimg_six.png",
       name: "Arlene McCoy",
       author: "MARKETING",
-      createdAt: " -17 SEP - ",
-      minRead: "6 MIN",
+      createdAt: " -14 SEP - ",
+      minRead: "2 MIN",
     },
     {
-      imgsrc: "/assets/image-5.png",
+      imgsrc: "/assets/cardimg_eight.png",
       description: "What is B2B Demand Generation Marketing?",
-      imagelogo: "/assets/profile-7.png",
+      imagelogo: "/assets/cardprofileimg_seven.png",
       name: "Theresa Webb ",
       author: "RECRUITING",
-      createdAt: " -17 SEP - ",
-      minRead: "6 MIN",
+      createdAt: " -14 SEP - ",
+      minRead: "2 MIN",
     },
   ];
 
@@ -146,9 +148,14 @@ const Contents = () => {
           {add.map((item) => {
             return (
               <>
-              <div >
-                <Image  src={item.imgsrc} alt="" width="560px" height="400px"   layout="responsive"
-                    />
+                <div>
+                  <Image
+                    src={item.imgsrc}
+                    alt=""
+                    width="560px"
+                    height="400px"
+                    layout="responsive"
+                  />
                 </div>
                 <div>
                   <div className="flex">
@@ -160,7 +167,7 @@ const Contents = () => {
                             ? "#FF3194"
                             : item.author === "MARKETING"
                             ? "#6C38FF"
-                            : "yellow",
+                            : "#508BFF",
                       }}
                     >
                       {item.author}
@@ -173,24 +180,30 @@ const Contents = () => {
                     {item.description}
                   </p>
 
-                  <div  className="mt-20 m-5 flex">
-                <Image src={item.imagelogo} alt="" width="65px" height="65px" />
-                  <div>
-                <p className="ml-4 text-xl font-extrabold">{item.name}</p>
-                <p className="ml-4 mt-2 text-sm text-grace-600">{item.post}</p>
+                  <div className="mt-20 m-5 flex">
+                    <Image
+                      src={item.imagelogo}
+                      alt=""
+                      width="65px"
+                      height="65px"
+                    />
+                    <div>
+                      <p className="ml-4 mt-1 text-xl font-extrabold">
+                        {item.name}
+                      </p>
+                      <p className="ml-4 mt-1 text-sm text-grace-600">
+                        {item.post}
+                      </p>
+                    </div>
+                  </div>
                 </div>
-
-                </div>
-                </div>
-
-               
               </>
             );
           })}
         </div>
 
         <div className="w-auto mx-auto grid-flow-col mt-20">
-          <div className="grid grid-cols-3 gap-8 mx-auto  my-auto  mt-20 ">
+          <div className="grid grid-cols-3  mx-auto  my-auto  mt-20 ">
             {detail.map((item) => {
               console.log(item, "BBBBBBBBBBBBBBBBBBBBBB");
               return (
@@ -203,9 +216,9 @@ const Contents = () => {
                     layout="responsive"
                     objectFit="contain"
                   />
-              <div className="flex">
+                  <div className="flex mb-5">
                     <p
-                      className="ml-5 font-extrabold"
+                      className=" font-extrabold"
                       style={{
                         color:
                           item.author === "SALES"
@@ -253,7 +266,7 @@ const Contents = () => {
                   className="bg-bluedon-300 p-3 py-4 text-xl text-center absolute bottom-2 right-2 whitespace-nowrap w-full  mt-20 border-2 border-darkcolor-200"
                   style={{ height: "500px" }}
                 >
-                  <p className="mt-20 text-xl text-white ">weekly News letter</p>
+                  <p className="mt-20 text-xl text-white ">WEEKLY NEWSLETTER</p>
                   <p className="text-5xl text-yellow-300 font-extrabold m-2 mb-7">
                     Join the community
                   </p>
@@ -269,7 +282,6 @@ const Contents = () => {
 
                   <div className="mt-7 mb-20">
                     <input
-                    
                       style={{ width: "506px", maxWidth: "540px" }}
                       className="p-5 border-2 border-darkcolor-200"
                       placeholder="Enter your email address"
@@ -299,16 +311,16 @@ const Contents = () => {
                     layout="responsive"
                     objectFit="contain"
                   />
-                <div className="flex">
+                  <div className="flex">
                     <p
-                      className="ml-5 font-extrabold"
+                      className="mb-5 font-extrabold"
                       style={{
                         color:
                           item.author === "SALES"
                             ? "#FF3194"
                             : item.author === "MARKETING"
                             ? "#6C38FF"
-                            : "yellow",
+                            : "#508BFF",
                       }}
                     >
                       {item.author}
@@ -364,7 +376,6 @@ const Contents = () => {
 
                   <div className=" mb-20 mt-12">
                     <input
-
                       style={{ width: "506px", maxWidth: "540px" }}
                       className="p-5 border-2 border-darkcolor-200"
                       placeholder="Enter your email address"
@@ -385,3 +396,4 @@ const Contents = () => {
 };
 
 export default Contents;
+//cardimg_one
