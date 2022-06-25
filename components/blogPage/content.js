@@ -396,4 +396,3 @@ const Contents = () => {
 };
 
 export default Contents;
-//cardimg_one

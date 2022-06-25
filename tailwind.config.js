@@ -4,6 +4,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      
       fontFamily: {
         sans: ['Manrope',...defaultTheme.fontFamily.sans],
         gilroybold: ['Gilroy Bold'],
@@ -11,6 +12,8 @@ module.exports = {
         // experience: ["'Playfair Display'", "serif"],
       },
       colors: {
+        "voilet-bg":"#AB78FF",
+        "yellow-bg":"#FAFFEE",
         "regal-green": "#94E7CB",
         "skin-bg": "rgba(255, 229, 0, 0.1)",
         "skin-border": "#D5DBE8",
