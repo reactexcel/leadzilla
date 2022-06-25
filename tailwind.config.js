@@ -69,11 +69,15 @@ module.exports = {
         },
         pinky:{
           300:"#FF71CA"
+        },
+        signupbg: {
+          200: "#E471FF"
         }
 
       },
       backgroundImage: {
         "pink-bg": "url('/assets/background.png')",
+        "signup-bg": "url('/assets/signupsmile.png')",
         // "slide-2": "url('/images/slider-2.jpg')",
         // "more-services": "url('/images/bgimage-4.jpg')",
         // "footer-img": "url('/images/footer-img.jpg')",
