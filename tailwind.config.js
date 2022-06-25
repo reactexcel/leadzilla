@@ -66,6 +66,12 @@ module.exports = {
         },
         pinky:{
           300:"#FF71CA"
+        },
+        grace:{
+          600:"#495377"
+        },
+        darkcolor:{
+          200:"#000000"
         }
 
       },
