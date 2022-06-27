@@ -10,7 +10,7 @@ const Features = () => {
     <FindContact/>
     <MiddleSection/>
     <LowerMiddlesection/>
-<LowerFeaturesSection/>
+    <LowerFeaturesSection/>
     </div>
   );
 };

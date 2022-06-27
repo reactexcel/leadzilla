@@ -29,34 +29,34 @@ const MiddleSection = () => {
           </div>
         </div>
         <div className="mt-14 pl-14">
-          <div className="text-3xl font-light">
+          <div className="font-gilroylight" style={{fontSize: "42px"}}>
             Press one button to
-            <span className="font-black"> write a</span>
-            <div className="font-black">highly personalized email for</div>
-            <div className="font-black">each person</div>
+            <span className="font-black font-gilroybold"> write a</span>
+            <div className="font-black font-gilroybold">highly personalized email for</div>
+            <div className="font-black font-gilroybold">each person</div>
           </div>
-          <div className="flex items-center mt-8">
-            <div className="border-t border-black w-3 mr-2" />
-            <div>
+          <div className="flex mt-8">
+            <div style={{marginTop: "-4px"}}><Image src="/assets/arrowfeature.png" alt="" width="15" height="2"/></div>
+            <div className="font-normal text-base ml-2">
               Our AI crawls the entire web for talking points that break the ice
-              <div>immediately with any prospect</div>
+              immediately with any prospect
             </div>
           </div>
-          <div className="flex items-center mt-4">
-            <div className="border-t border-black w-3 mr-2" />
-            <div>
+          <div className="flex mt-4">
+            <div style={{marginTop: "-4px"}}><Image src="/assets/arrowfeature.png" alt="" width="15" height="2"/></div>
+            <div className="font-normal text-base ml-2">
               It looks for information on their LinkedIn, blogs they authored,
-              <div> podcast appearances and much more</div>
+               podcast appearances and much more
             </div>
           </div>
-          <div className="flex items-center mt-4">
-            <div className="border-t border-black w-3 mr-2" />
-            <div>
+          <div className="flex mt-4">
+            <div style={{marginTop: "-4px"}}><Image src="/assets/arrowfeature.png" alt="" width="15" height="2"/></div>
+            <div className="font-normal text-base ml-2">
               And you just click one button to send that email or sync it to
-              <div>your favorite email automation tool</div>
+              your favorite email automation tool
             </div>
           </div>
-          <div className="mt-6 ml-1">
+          <div className="mt-20 ml-1">
             <button className="bg-black p-3 px-8 text-base font-bold relative">
               Learn more
               <button className="bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-1 right-1 whitespace-nowrap">

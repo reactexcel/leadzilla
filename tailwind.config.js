@@ -83,6 +83,19 @@ module.exports = {
         },
         lightgrayblog: {
           200: "#828282",
+        },
+        whitebagfeature:{
+          100:"#FFFFFF"
+        }
+        ,
+        grayfeature:{
+          100:"#CCCCCC"
+        },
+        darkgrayfeature:{
+          100:"#A3A3A3"
+        },
+        bluefeature:{
+          100:"#4659FF"
         }
 
       },

@@ -346,7 +346,6 @@ const Contents = () => {
             })}
           </div>
         </div>
-
         <div>
           <div style={{ height: "600px" }}>
             <div className="py-2  px-4  mt-20 ">
