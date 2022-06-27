@@ -113,23 +113,23 @@ const Contents = () => {
           <div className="mt-16 mb-16">
             <div className="flex items-center text-center justify-center flex-col">
               <div>
-                <p className="text-6xl font-extrabold mt-5">Leadzilla Blog</p>
+                <p className="text-6xl font-gilroybold mt-5">Leadzilla Blog</p>
               </div>
-              <div className="flex justify-evenly w-9/12 mt-7">
+              <div className="flex justify-evenly w-9/12 mt-7 items-center font-bold">
                 <div className="text-lg underline underline-offset-2">
-                  <Link href="/all">ALL</Link>
+                  <Link href="">ALL</Link>
                 </div>
                 <div className="text-lg text-gray-400">
-                  <Link href="/sales">Sales</Link>
+                  <Link href="">Sales</Link>
                 </div>
                 <div className="text-lg text-gray-400">
-                  <Link href="/marketing">Marketing</Link>
+                  <Link href="">Marketing</Link>
                 </div>
                 <div className="text-lg text-gray-400">
-                  <Link href="/pricing">Pricing</Link>
+                  <Link href="">Pricing</Link>
                 </div>
-                <div className="mt-1 bg-white ml-1 mr-7">
-                  <div className="ml-1 mr-1">
+                <div className="mt-1 bg-white ml-1 mr-7" style={{borderRadius: "5px"}}>
+                  <div className="ml-1 mr-1 p-2">
                     <Image
                       src="/assets/search.png"
                       alt=""
@@ -158,9 +158,9 @@ const Contents = () => {
                   />
                 </div>
                 <div>
-                  <div className="flex">
+                  <div className="flex font-gilroybold">
                     <p
-                      className="ml-5 font-extrabold"
+                      className="ml-5"
                       style={{
                         color:
                           item.author === "SALES"
@@ -176,7 +176,7 @@ const Contents = () => {
                     <p className="ml-2">{item.minRead}</p>
                   </div>
 
-                  <p className="text-5xl font-extrabold m-5 mt-9">
+                  <p className="text-5xl font-gilroybold m-5 mt-9">
                     {item.description}
                   </p>
 
@@ -205,18 +205,17 @@ const Contents = () => {
         <div className="w-auto mx-auto grid-flow-col mt-20">
           <div className="grid grid-cols-3  mx-auto  my-auto  mt-20 ">
             {detail.map((item) => {
-              console.log(item, "BBBBBBBBBBBBBBBBBBBBBB");
               return (
                 <div className="mr-4 h-auto ">
                   <Image
                     src={item.imgsrc}
                     alt=""
-                    width="100%"
-                    height="90%"
+                    width="370px"
+                    height="252px"
                     layout="responsive"
                     objectFit="contain"
                   />
-                  <div className="flex mb-5">
+                  <div className="flex mb-1.5 my-2 font-gilroybold">
                     <p
                       className=" font-extrabold"
                       style={{
@@ -233,7 +232,7 @@ const Contents = () => {
                     <p className="ml-2">{item.createdAt}</p>
                     <p className="ml-2">{item.minRead}</p>
                   </div>
-                  <p className="text-3xl font-extrabold mb-1">
+                  <p className="text-3xl font-gilroybold mb-1">
                     {item.description}
                   </p>
 
@@ -266,8 +265,8 @@ const Contents = () => {
                   className="bg-bluedon-300 p-3 py-4 text-xl text-center absolute bottom-2 right-2 whitespace-nowrap w-full  mt-20 border-2 border-darkcolor-200"
                   style={{ height: "500px" }}
                 >
-                  <p className="mt-20 text-xl text-white ">WEEKLY NEWSLETTER</p>
-                  <p className="text-5xl text-yellow-300 font-extrabold m-2 mb-7">
+                  <p className="mt-20 text-base font-gilroybold text-white ">WEEKLY NEWSLETTER</p>
+                  <p className="text-5xl text-yellow-300 font-gilroybold m-2 mb-7">
                     Join the community
                   </p>
 
@@ -287,7 +286,7 @@ const Contents = () => {
                       placeholder="Enter your email address"
                       type="search"
                     />
-                    <button className="bg-yellow-300 p-5 mb-20 border-2 border-darkcolor-200">
+                    <button className="bg-yellow-300 p-5 mb-20 border-2 border-darkcolor-200 font-bold">
                       Subscribe Now
                     </button>
                   </div>
@@ -300,18 +299,17 @@ const Contents = () => {
         <div style={{ height: "auto" }}>
           <div className="grid grid-cols-3  mt-20">
             {detailmain.map((item) => {
-              console.log(item, "BBBBBBBBBBBBBBBBBBBBBB");
               return (
-                <div className="mr-4 h-auto ">
+                <div className="mr-4 h-auto mb-10">
                   <Image
                     src={item.imgsrc}
                     alt=""
-                    width="100%"
-                    height="85%"
+                    width="370px"
+                    height="252px"
                     layout="responsive"
                     objectFit="contain"
                   />
-                  <div className="flex">
+                  <div className="flex font-gilroybold py-2.5">
                     <p
                       className="mb-5 font-extrabold"
                       style={{
@@ -325,13 +323,13 @@ const Contents = () => {
                     >
                       {item.author}
                     </p>
-                    <p className="ml-2">{item.createdAt}</p>
-                    <p className="ml-2">{item.minRead}</p>
+                    <p className="ml-2 text-lightgrayblog-200">{item.createdAt}</p>
+                    <p className="ml-2 text-lightgrayblog-200">{item.minRead}</p>
                   </div>
-                  <p className="text-3xl font-extrabold mb-1">
+                  <div className="text-3xl font-gilroybold">
                     {item.description}
-                  </p>
-                  <div className="flex mt-5 ">
+                  </div>
+                  <div className="flex mt-2.5 ">
                     <Image
                       className="mt-3"
                       src={item.imagelogo}
@@ -381,7 +379,7 @@ const Contents = () => {
                       placeholder="Enter your email address"
                       type="search"
                     />
-                    <button className="bg-yellow-300 p-5 mb-20 border-2 border-darkcolor-200">
+                    <button className="bg-yellow-300 p-5 mb-20 border-2 font-bold border-darkcolor-200">
                       Try for Free
                     </button>
                   </div>

@@ -81,6 +81,9 @@ module.exports = {
         pricingtextcolor: {
          200: "#10121B"
         },
+        lightgrayblog: {
+          200: "#828282",
+        }
 
       },
       backgroundImage: {
