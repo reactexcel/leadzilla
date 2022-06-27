@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const SignInPage = () => {
   return (
-    <div class="grid grid-rows-1  grid-flow-col">
+    <div className="grid grid-rows-1  grid-flow-col">
       <div className="p-10">
         <div className="flex">
           <Image src="/assets/logo_img.png" alt="" width="160px" height="42px" />
