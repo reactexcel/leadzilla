@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 const SignInPage = () => {
   return (
-    <div class="grid grid-rows-1 grid-flow-col">
-      <div className="items-center">
-        <div className="flex pl-8">
-          <Image src="/assets/logo.png" alt="" width="45px" height="45px" />
-          <div className="pl-2 font-black text-xl mt-2 ">Leadzilla</div>
+    <div class="grid grid-rows-1  grid-flow-col">
+      <div className="p-10">
+        <div className="flex">
+          <Image src="/assets/logo_img.png" alt="" width="160px" height="42px" />
+          {/* <div className="pl-2 font-black text-xl mt-2 ">Leadzilla</div> */}
         </div>
         <div className="pr-20 pt-4 m-auto pl-44">
           <div className="font-bold text-2xl">Welcome to Leadzilla</div>
@@ -24,7 +24,7 @@ const SignInPage = () => {
                   
                 />
                 </div>
-                <br />
+                 <br />
                 <div className="flex items-center justify-center border-2  px-2">
                   <Image src="/assets/Message.png" width="18px" height="18px" />
                 <input
