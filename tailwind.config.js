@@ -39,9 +39,6 @@ module.exports = {
         blue:{
           300:"#E0FDFE",
         },
-        // voilet:{
-        //   300:"#10121B"
-        // },
         blur:{
           200:"#6F7B99"
         },
@@ -80,7 +77,10 @@ module.exports = {
         },
         signupbg: {
           200: "#E471FF"
-        }
+        },
+        pricingtextcolor: {
+         200: "#10121B"
+        },
 
       },
       backgroundImage: {
