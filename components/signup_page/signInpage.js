@@ -2,14 +2,14 @@ import React from "react";
 import Image from "next/image";
 const SignInPage = () => {
   return (
-    <div class="grid grid-rows-1  grid-flow-col">
-      <div className="p-10">
-        <div className="flex">
+    <div class="grid grid-rows-1 grid-flow-col">
+      <div className="items-center">
+        <div className="flex pl-8">
           <Image src="/assets/logo.png" alt="" width="45px" height="45px" />
           <div className="pl-2 font-black text-xl mt-2 ">Leadzilla</div>
         </div>
-        <div className="p-20">
-          <div className="pt-10  font-bold text-2xl">Welcome to Leadzilla</div>
+        <div className="pr-20 pt-4 m-auto pl-44">
+          <div className="font-bold text-2xl">Welcome to Leadzilla</div>
           <div>The best zero password system to keep our customer secure</div>
           <div className=" pr-32 mt-4">
             <div>
@@ -33,7 +33,7 @@ const SignInPage = () => {
                 />
                 </div>
               </div>
-              <div className="mt-8">
+              <div className="mt-4">
                 <button className="bg-black w-full h-12 text-base font-bold relative">
                   SignUp
                   <button className="bg-yellow-500 w-full h-12 text-base font-bold absolute bottom-1 right-1 whitespace-nowrap">
@@ -41,7 +41,7 @@ const SignInPage = () => {
                   </button>
                 </button>
               </div>
-              <div className="flex pt-6 pb-8 justify-center">
+              <div className="flex pt-2 pb-4 justify-center">
                 <div className="border-t-2 border-gray-200 w-10 mt-3.5  "/>
                 <div className="mx-2"  style={{color: "grey"}}>or</div>
                 <div className="border-t-2 border-gray-200 w-10 mt-3.5 " />
@@ -60,7 +60,7 @@ const SignInPage = () => {
                 <Image src="/assets/Subtract.png" width="18px" height="18px" />
                 <div className="mx-2">Login with facebook</div>
               </div>
-              <div className="flex mt-6 justify-center">
+              <div className="flex mt-4 justify-center">
                 <p>Already have an account?</p>
                 <p className="font-medium underline underline-offset-1 mx-1">
                   Sign in
@@ -73,20 +73,18 @@ const SignInPage = () => {
       <div
         style={{
           backgroundColor: "#E471FF",
-          paddingLeft: "30px",
-          paddingTop: "35px",
-        }}
-      >
-
-        <div style={{ width: "365px", textAlign: "center" }}>
-          <div className="pt-10 m-auto">
-            <div className="flex justify-end line-height -mb-6 mr-4"><Image src="/assets/100.png" width="50px" height="50px"/></div>
+          textAlign: "center",
+          paddingTop:"10px",
+        
+         }}>
+          <div className="m-auto">
+            <div className="flex justify-end line-height -mb-6 mr-20"><Image src="/assets/100.png" width="50px" height="50px"/></div>
            <h2 className="text-2xl font-bold"> Join the World’s best</h2>
           </div>
-          <div className="font-bold text-2xl m-auto pl-12">
+          <div className="font-bold text-2xl pl-12">
             companies using Leadzilla
           </div>
-          <div className="pl-4 pt-4">
+          <div>
             <Image
               src="/assets/Underline 6.png"
               alt=""
@@ -95,7 +93,7 @@ const SignInPage = () => {
             />
           </div>
           <br />
-          <div className="pt-10">
+          <div>
             <Image
               src="/assets/Groupimg.png"
               alt=""
@@ -105,7 +103,6 @@ const SignInPage = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 export default SignInPage;

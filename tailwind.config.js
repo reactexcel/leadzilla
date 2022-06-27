@@ -19,6 +19,8 @@ module.exports = {
         "skin-border": "#D5DBE8",
         "grey-bg": "#F6F6F6",
         "pricing-border": "#E0E0E0",
+        "brown-bg": "#FFF9EC",
+        "green-bg": "#F4FFB4",
 
         // blue: {
         //   950: "#1E2637",

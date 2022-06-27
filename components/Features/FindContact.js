@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const FindContact = () => {
   return (
-    <div className="w-10/12 py-2 px-8 m-auto">
+    <div className="w-10/12 py-2 px-8 m-auto pb-20">
       <div className="-mt-36">
         <Image
           src="/assets/details.png"
@@ -11,10 +11,9 @@ const FindContact = () => {
           height="582px"
         />
       </div>
-
       <div className="flex justify-between">
         <div className="mt-10" >
-          <div className="text-2xl">
+          <div className="text-3xl font-light">
             <span className="font-black">Find contacts</span>
             <span> based on</span>
             <p> hyper-precise filters</p>
@@ -49,10 +48,11 @@ const FindContact = () => {
               </button>
             </div>
         </div>
-        <div className="flex " >
-            <div className=" flex flex-col ">
+        <div className="flex">
+            <div className=" flex flex-col justify-between">
                 <Image src="/assets/SmileyHeart.png" alt="smile" width ="50px" height="50px"/>
                 <div className=" justify-self-center"><Image src="/assets/ThumbsUp.png" alt="smile" width ="40px" height="40px"/></div>
+                <div><Image src="/assets/threeline.png" alt="" width="50px" height="50px"/></div>
             </div>
             <div className="bg-voilet-bg px-5 pt-20 border-t-4 border-r-4 mt-8 mx-2 border-black rounded-sm">
                 <Image  src="/assets/portfolio-img.png" alt="" width="339.68px" height="622.19px"/>

@@ -1,15 +1,16 @@
-import Navbar from "../navbar";
-import Footer from "../footer";
 import FeaturesDiscription from "./FeturesDiscription";
 import FindContact from "./FindContact";
+import LowerMiddlesection from "./LowerMiddlesection";
+import MiddleSection from "./MiddleSection";
+import LowerFeaturesSection from "./LowerFeaturesSection.js";
 const Features = () => {
   return (
     <div>
-      <Navbar />
-     <FeaturesDiscription/>
+    <FeaturesDiscription/>
     <FindContact/>
-     <Footer/>
-
+    <MiddleSection/>
+    <LowerMiddlesection/>
+<LowerFeaturesSection/>
     </div>
   );
 };
