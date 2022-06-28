@@ -94,7 +94,7 @@ const LowerFeaturesSection = () => {
         <div className='flex justify-end'>
           <div>
             <Image
-              src='/assets/belowfeature.png'
+              src='/assets/belowfeature.svg'
               alt=''
               width='340.73px'
               height='321.26px'

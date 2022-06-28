@@ -5,10 +5,10 @@ const FindContact = () => {
     <div className="w-10/12 py-2 px-8 m-auto pb-20">
       <div className="-mt-48 flex justify-center items-center">
         <Image
-          src="/assets/detailsfeature.png"
+          src="/assets/detailleadzilla.svg"
           alt=""
           width="900px"
-          height="750px"
+          height="700px"
         />
       </div>
       <div className="flex justify-between items-center">
@@ -55,7 +55,7 @@ const FindContact = () => {
             </div>
         </div>
         <div>
-          <Image src="/assets/jackcooper.png" alt="" width="562" height="677"/>
+          <Image src="/assets/entireimagefeature.svg" alt="" width="562" height="677"/>
         </div>
       </div>
     </div>

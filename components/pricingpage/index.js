@@ -115,10 +115,10 @@ const PricingPage=()=> {
               <td className="text-left font-bold px-6 py-4">Total</td>
               <td className="text-left font-bold px-16 py-4"></td>
               <td className="text-left font-bold px-16 py-4">
-                {">"}55-60 hours / mo
+                80 hours / mo
               </td>
               <td className="text-left font-bold px-16 py-4">
-                {">"} $800-$1200 / mo
+                {">"} $1000-$1500 / mo
               </td>
             </tr>
           </tbody>
