@@ -96,6 +96,9 @@ module.exports = {
         },
         bluefeature:{
           100:"#4659FF"
+        },
+        graytextcol: {
+          200: "#8891B6"
         }
 
       },

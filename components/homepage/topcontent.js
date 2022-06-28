@@ -44,7 +44,7 @@ const TopContent = () => {
       </div>
       <span className='absolute top-1/2 left-3/4'><Image src="/assets/eye.svg" alt="eye" height="50" width="60" /></span>
       <div className='flex justify-center' style={{ marginTop: '-63px'}}>
-        <Image src='/assets/group.png' alt='' height='800px' width='1100px' />
+        <Image src='/assets/updatecooler.svg' alt='' height='800px' width='1100px' />
       </div>
     </div>
   );

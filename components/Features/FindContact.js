@@ -3,7 +3,7 @@ import Image from "next/image";
 const FindContact = () => {
   return (
     <div className="w-10/12 py-2 px-8 m-auto pb-20">
-      <div className="-mt-48 flex justify-center">
+      <div className="-mt-48 flex justify-center items-center">
         <Image
           src="/assets/detailsfeature.png"
           alt=""
@@ -11,7 +11,7 @@ const FindContact = () => {
           height="750px"
         />
       </div>
-      <div className="flex justify-between">
+      <div className="flex justify-between items-center">
         <div className="mt-10" >
           <div className="font-light" style={{fontSize: "42px"}}>
             <span className="font-black font-gilroybold">Find contacts</span>
@@ -54,20 +54,8 @@ const FindContact = () => {
               </button>
             </div>
         </div>
-        <div className="flex">
-            <div className=" flex flex-col justify-between">
-                <div className="-mt-10"><Image src="/assets/SmileyHeart.png" alt="smile" width ="50" height="50"/></div> 
-                <div className="justify-self-center"><Image src="/assets/ThumbsUp.png" alt="smile" width ="40" height="40"/></div>
-                <div className="-mb-6"><Image src="/assets/threeline.png" alt="" width="50" height="50"/></div>
-            </div>
-            <div className="">
-                <Image  src="/assets/findcontacts.png" alt="" width="395" height="563"/>
-            </div>
-            <div className=" flex flex-col justify-between">
-              <div className="-mt-8"><Image src="/assets/HighlightNE.png" alt="smile" width ="30px" height="30px"/></div>
-              <Image src="/assets/CurlEnd.png" alt="smile" width ="30px" height="30px"/>
-            </div>
-            <div></div>
+        <div>
+          <Image src="/assets/jackcooper.png" alt="" width="562" height="677"/>
         </div>
       </div>
     </div>

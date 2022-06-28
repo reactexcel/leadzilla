@@ -6,11 +6,11 @@ function CarouselContent() {
       <div>
         <Image src="/assets/doubleQuotes.svg" width="180" height="160" alt='image' />
       </div>
-      <div className='flex flex-row items-center pt-16'>
-        <div>
-          <Image src="/assets/person.png" width='650' height='650' alt='profile picture' />
+      <div className='flex flex-row items-center pt-10'>
+        <div className='ml-3'>
+          <Image src="/assets/personleadzilla.svg" width='650' height='650' alt='profile picture' />
         </div>
-        <div className='pl-20'>
+        <div className='pl-2 mx-10'>
           <p className='text-black text-2xl'>"After checking all the alternatives, Leadzilla was the
             only solution to provide so much more than that. On top
             of that, it was also the only solution that didn’t involve so much pain during integration, so quick and easy,

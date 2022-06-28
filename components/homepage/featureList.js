@@ -15,7 +15,6 @@ const FeatureList = () => {
             here’s the feature list you <br />
             <div className='py-3'> were looking for
             </div>
-            {/* <div style={{marginTop: "-19px", marginLeft:"39%"}}><Image src="/assets/smallArrowtwisted.png" alt='arrow' height="45" width="65"/></div> */}
           </div>
         </div>
       </div>
@@ -44,7 +43,7 @@ const FeatureList = () => {
 
           <div>
             <Image
-              src='/assets/platform.png'
+              src='/assets/platform.svg'
               alt=''
               width='516px'
               height='417px'
@@ -54,7 +53,7 @@ const FeatureList = () => {
         <div className='w-10/12 mx-auto flex justify-around items-center py-20'>
           <div>
             <Image
-              src='/assets/extansion.png'
+              src='/assets/extansionleadzilla.svg'
               alt=''
               width='516px'
               height='417px'
@@ -137,17 +136,17 @@ const FeatureList = () => {
 
           <div>
             <Image
-              src='/assets/contactsearch.png'
+              src='/assets/rectangleleadzilla.svg'
               alt=''
               width='578px'
               height='425px'
             />
           </div>
         </div>
-        <div className='w-10/12 mx-auto flex justify-around items-center py-20'>
+        <div className='w-10/12 mx-auto flex justify-around items-center pt-10'>
           <div>
             <Image
-              src='/assets/aipower.png'
+              src='/assets/aipowerleadzilla.svg'
               alt=''
               width='578px'
               height='416px'

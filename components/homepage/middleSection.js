@@ -16,7 +16,7 @@ const MiddleTopSection = () => {
       <div className='my-12 flex justify-center'>
         <div className='mr-2'>
           <Image
-            src='/assets/current.png'
+            src='/assets/current.svg'
             alt=''
             width='486px'
             height='420px'
@@ -24,7 +24,7 @@ const MiddleTopSection = () => {
         </div>
         <div className='ml-2'>
           <Image
-            src='/assets/process.png'
+            src='/assets/process.svg'
             alt=''
             width='486px'
             height='420px'
@@ -36,7 +36,7 @@ const MiddleTopSection = () => {
       <div className='flex justify-center items-center py-20'>
         <div className='px-3 items-center' style={{ marginRight: '10px' }}>
           <Image
-            src='/assets/whychoosethis.png'
+            src='/assets/whychoosethis.svg'
             alt=''
             width='432px'
             height='490px'

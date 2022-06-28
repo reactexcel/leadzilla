@@ -172,8 +172,8 @@ const Contents = () => {
                     >
                       {item.author}
                     </p>
-                    <p className="ml-2">{item.createdAt}</p>
-                    <p className="ml-2">{item.minRead}</p>
+                    <p className="ml-2 text-graytextcol-200">{item.createdAt}</p>
+                    <p className="ml-2 text-graytextcol-200">{item.minRead}</p>
                   </div>
 
                   <p className="text-5xl font-gilroybold m-5 mt-9">
@@ -229,8 +229,8 @@ const Contents = () => {
                     >
                       {item.author}
                     </p>
-                    <p className="ml-2">{item.createdAt}</p>
-                    <p className="ml-2">{item.minRead}</p>
+                    <p className="ml-2 text-graytextcol-200">{item.createdAt}</p>
+                    <p className="ml-2 text-graytextcol-200">{item.minRead}</p>
                   </div>
                   <p className="text-3xl font-gilroybold mb-1">
                     {item.description}

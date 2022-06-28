@@ -32,13 +32,13 @@ function CutomerReviews() {
       <div className="carousel-button-group">
         <div className="flex justify-end">
           <button
-            className='mx-2 h-12 w-12 bg-yellow-300 flex justify-center items-center'
+            className='mx-2 h-12 w-12 bg-yellow-500 flex justify-center items-center'
             onClick={() => previous()}
           >
             <Image src="/assets/arrowBlackLeft.png" alt="next" height="16px" width="20px" className="py-1 px-2" />
           </button>
           <button
-            className='mx-2 h-12 w-12 bg-yellow-300 flex justify-center items-center'
+            className='mx-2 h-12 w-12 bg-yellow-500 flex justify-center items-center'
             onClick={() => next()}
           >
             <Image src="/assets/arrowBlackRight.png" alt="previous" height="16px" width="20px" className="py-1 px-2" />
@@ -72,7 +72,7 @@ function CutomerReviews() {
     <>
       <div className="flex flex-col justify-center items-center py-8">
         <p className="font-extrabold text-black text-5xl font-gilroybold">See what our customers</p>
-        <p className="font-light text-black text-5xl font-gilroylight">have to say for us</p>
+        <p className="font-light text-black text-5xl font-gilroylight pb-2">have to say for us</p>
         <div className="w-10/12">
           <Carousel
             swipeable={true}

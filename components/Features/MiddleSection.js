@@ -5,28 +5,7 @@ const MiddleSection = () => {
     <div className="bg-brown-bg">
       <div className="w-10/12 py-10 px-4 m-auto flex justify-evenly pt-20 ">
         <div>
-          <div className="flex">
-            <div>
-              <Image
-                src="/assets/greencard.png"
-                alt=""
-                width="294.79"
-                height="343.6"
-              />
-            </div>
-            <div></div>
-          </div>
-          <div className="flex">
-            <div className="w-56"></div>
-            <div className="-mt-16  ">
-              <Image
-                src="/assets/pinkcard.png"
-                alt=""
-                width="277.72px"
-                height="270.05px"
-              />
-            </div>
-          </div>
+          <Image src="/assets/writemail.png" alt="" width="521" height="564"/>
         </div>
         <div className="mt-14 pl-14">
           <div className="font-gilroylight" style={{fontSize: "42px"}}>
