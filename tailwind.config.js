@@ -4,6 +4,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      
       fontFamily: {
         sans: ['Manrope',...defaultTheme.fontFamily.sans],
         gilroybold: ['Gilroy Bold'],
@@ -11,11 +12,15 @@ module.exports = {
         // experience: ["'Playfair Display'", "serif"],
       },
       colors: {
+        "voilet-bg":"#AB78FF",
+        "yellow-bg":"#FAFFEE",
         "regal-green": "#94E7CB",
         "skin-bg": "rgba(255, 229, 0, 0.1)",
         "skin-border": "#D5DBE8",
         "grey-bg": "#F6F6F6",
         "pricing-border": "#E0E0E0",
+        "brown-bg": "#FFF9EC",
+        "green-bg": "#F4FFB4",
 
         // blue: {
         //   950: "#1E2637",
@@ -34,9 +39,6 @@ module.exports = {
         blue:{
           300:"#E0FDFE",
         },
-        // voilet:{
-        //   300:"#10121B"
-        // },
         blur:{
           200:"#6F7B99"
         },
@@ -66,11 +68,40 @@ module.exports = {
         },
         pinky:{
           300:"#FF71CA"
+        },
+        grace:{
+          600:"#495377"
+        },
+        darkcolor:{
+          200:"#000000"
+        },
+        signupbg: {
+          200: "#E471FF"
+        },
+        pricingtextcolor: {
+         200: "#10121B"
+        },
+        lightgrayblog: {
+          200: "#828282",
+        },
+        whitebagfeature:{
+          100:"#FFFFFF"
+        }
+        ,
+        grayfeature:{
+          100:"#CCCCCC"
+        },
+        darkgrayfeature:{
+          100:"#A3A3A3"
+        },
+        bluefeature:{
+          100:"#4659FF"
         }
 
       },
       backgroundImage: {
         "pink-bg": "url('/assets/background.png')",
+        "signup-bg": "url('/assets/signupsmile.png')",
         // "slide-2": "url('/images/slider-2.jpg')",
         // "more-services": "url('/images/bgimage-4.jpg')",
         // "footer-img": "url('/images/footer-img.jpg')",

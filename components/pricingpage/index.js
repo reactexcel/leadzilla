@@ -2,15 +2,15 @@ import React from "react";
 import Image from "next/image";
 import { TableData } from "../../hardcodedData";
 
-function PricingPage() {
+const PricingPage=()=> {
   return (
     <>
       <div className="bg-regal-green py-16">
         <div className="flex items-center flex-col">
-          <div>
-            {" "}
-            <div className="font-extrabold text-6xl text-left font-gilroybold">
-              Looking for the pricing table?
+          <div className="">
+            <div className="flex font-extrabold text-6xl text-left font-gilroybold">
+              <div>Looking for the pricing table?</div>
+               <div className="ml-6" style={{marginTop: "-30px"}}><Image src="/assets/highlightpricing.png" alt="" width="30px" height="30px"/></div>
             </div>
             <div>
               <Image
@@ -21,19 +21,19 @@ function PricingPage() {
               />
             </div>{" "}
             <div className="mb-4 flex ml-16">
-              <div className="mr-36">
-                <div className="font-medium text-xl">
+              <div className="mr-36 text-xl text-pricingtextcolor-200">
+                <div className="">
                   I’m a lot like you! I see a lot of interesting software. But
                   <br />
                   bounce away from the pricing page!
                 </div>
-                <div className="font-medium text-xl pt-10 pb-10">
+                <div className=" py-7">
                   Sometimes I feel it’s pricey for me. Sometimes I can’t judge
                   if it’d <br /> create enough value for me or my team.
                 </div>
-                <div className="font-medium text-xl">
+                <div className="">
                   So, here’s some perspective on Leadzilla’s value v/s price, so{" "}
-                  <br /> you can make an informed choice.
+                  <br /> you can make an informed choice.<span className="ml-2"><Image src="/assets/editpricing.png" alt="" width="20px" height="20px"/></span>
                 </div>
               </div>
               <div>
@@ -55,31 +55,31 @@ function PricingPage() {
       </div>
 
       <div className="text-center mt-16 relative">
-        <div className="font-light text-3xl">
+        <div className="font-light text-3xl font-gilroylight">
           Your time and efforts are not cheap.
         </div>
-        <div className="font-extrabold text-4xl mt-6 mb-6 font-gilroybold">
+        <div className="font-extrabold text-4xl my-5 font-gilroybold">
           You’re probably spending more than $1000 every <br />
           month on getting qualified leads already.
         </div>
-        <div className="text-xl font-normal">
+        <div className="text-xl py-2">
           There is significant cost and effort to set up a cold outbound process
           - you’ve hired sales <br /> reps, and they spend their precious hours
           getting nowhere.
         </div>
 
-        <table className="m-auto mt-16 ">
-          <thead className="bg-skin-bg border border-skin-border rounded-md text-left">
-            <th scope="col" className="px-6 py-3">
+        <table className="m-auto mt-16" style={{borderRadius: "14px"}}>
+          <thead className="bg-skin-bg border border-skin-border rounded-t-lg text-left">
+            <th scope="col" className="px-6 py-6">
               Current Activity
             </th>
-            <th scope="col" className="px-16 py-3">
+            <th scope="col" className="px-16 py-6">
               Person
             </th>
-            <th scope="col" className="px-16 py-3">
+            <th scope="col" className="px-16 py-6">
               Average Time
             </th>
-            <th scope="col" className="px-16 py-3">
+            <th scope="col" className="px-16 py-6">
               Minimum Cost
             </th>
           </thead>
@@ -144,7 +144,7 @@ function PricingPage() {
         </span>
       </div>
 
-      <div className="mt-28 relative px-9">
+      <div className="mt-48 relative px-9">
         <div className="flex justify-center">
           <div className="xl:mr-96 lg:mr-auto">
             {" "}
@@ -152,7 +152,7 @@ function PricingPage() {
               The real cost of alternatives <br />
               or leaving things as they are…
             </div>
-            <div className="font-normal text-base mt-6">
+            <div className="font-normal text-base	 mt-6">
               You can keep using your current contact database that’s giving you
               <br />
               inaccurate data, let your reps write personalized emails on their
@@ -190,7 +190,7 @@ function PricingPage() {
       </div>
 
       <div className="flex justify-center mt-20 mb-20 px-16">
-        <div className="bg-grey-bg text-left text-2xl px-40 py-10">
+        <div className="bg-grey-bg text-left text-2xl	text-aboutustextcolor-200 px-40 py-16">
           Even if we disregard the opportunity cost and value of using
           AI-powered hyper-
           <br />
@@ -205,14 +205,14 @@ function PricingPage() {
       </div>
 
       <div className="bg-pink-bg w-full h-240px md:h-auto bg-center bg-no-repeat bg-cover  mb-100">
-        <div className="font-extrabold text-center text-5xl pt-8 font-gilroybold">
+        <div className="font-extrabold text-center text-5xl pt-20 font-gilroybold">
           Now here’s the pricing table you <br />
           were looking for.
         </div>
 
         <div className="flex justify-center mt-16 mx-10">
-          <div className="bg-white rounded border border-pricing-border p-10">
-            <div className="font-bold text-3xl mb-4">
+          <div className="bg-white rounded border border-pricing-border p-10 pb-30">
+            <div className="font-bold text-3xl mb-2.5">
               Which module is it <br /> a part of?
             </div>
             <div className="flex items-center">
@@ -245,8 +245,8 @@ function PricingPage() {
               <div className="pl-2 text-xl font-normal">LookalikeAI</div>
             </div>
           </div>
-          <div className="bg-white rounded border border-pricing-border p-10 ml-10 mr-10 ">
-            <div className="font-bold text-3xl mb-3 pb-8">What do you get?</div>
+          <div className="bg-white rounded border border-pricing-border p-10 ml-10 pb-30 mr-10 ">
+            <div className="font-bold text-3xl mb-10">What do you get?</div>
             <div className="text-xl font-normal">1 email or 1 phone number</div>
             <div className="text-xl font-normal pt-5 pb-5">
               1 personalized line per prospect
@@ -268,7 +268,7 @@ function PricingPage() {
           </div>
         </div>
 
-        <div className="text-center font-light text-3xl py-16 font-gilroylight">
+        <div className="text-center font-light text-3xl py-20 font-gilroylight">
           Straight forward pricing{" "}
           <span className="font-bold font-gilroybold">
             $49/mo for 600 credits
