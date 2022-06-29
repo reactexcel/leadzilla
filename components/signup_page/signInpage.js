@@ -15,7 +15,7 @@ const SignInPage = () => {
           />
           </Link>
 
-          <div className="my-28 lg:w-9/12  md:w-full mx-auto">
+          <div className="my-28 xl:w-9/12 lg:w-full  md:w-full mx-auto">
             <div className="font-extrabold font-gilroybold text-3xl">
               Welcome to Leadzilla
             </div>

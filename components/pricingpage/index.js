@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { TableData } from "../../hardcodedData";
 
-const PricingPage=()=> {
+const PricingPage = () => {
   return (
     <>
       <div className="bg-regal-green py-16">
@@ -10,7 +10,14 @@ const PricingPage=()=> {
           <div className="">
             <div className="flex font-extrabold text-6xl text-left font-gilroybold">
               <div>Looking for the pricing table?</div>
-               <div className="ml-6" style={{marginTop: "-30px"}}><Image src="/assets/highlightpricing.png" alt="" width="30px" height="30px"/></div>
+              <div className="ml-6" style={{ marginTop: "-30px" }}>
+                <Image
+                  src="/assets/highlightpricing.png"
+                  alt=""
+                  width="30px"
+                  height="30px"
+                />
+              </div>
             </div>
             <div>
               <Image
@@ -33,7 +40,15 @@ const PricingPage=()=> {
                 </div>
                 <div className="">
                   So, here’s some perspective on Leadzilla’s value v/s price, so{" "}
-                  <br /> you can make an informed choice.<span className="ml-2"><Image src="/assets/editpricing.png" alt="" width="20px" height="20px"/></span>
+                  <br /> you can make an informed choice.
+                  <span className="ml-2">
+                    <Image
+                      src="/assets/editpricing.png"
+                      alt=""
+                      width="20px"
+                      height="20px"
+                    />
+                  </span>
                 </div>
               </div>
               <div>
@@ -63,12 +78,13 @@ const PricingPage=()=> {
           month on getting qualified leads already.
         </div>
         <div className="text-xl py-2">
-          There is significant cost and effort to set up a cold outbound process
-          - you’ve hired sales <br /> reps, and they spend their precious hours
-          getting nowhere.
+          There is significant cost and effort to find new customers - you spend
+          hours trying to find contact
+          <br /> information on Google or their website and then hours trying to
+          writing personalized emails
         </div>
 
-        <table className="m-auto mt-16" style={{borderRadius: "14px"}}>
+        <table className="m-auto mt-16" style={{ borderRadius: "14px" }}>
           <thead className="bg-skin-bg border border-skin-border rounded-t-lg text-left">
             <th scope="col" className="px-6 py-6">
               Current Activity
@@ -153,12 +169,15 @@ const PricingPage=()=> {
               or leaving things as they are…
             </div>
             <div className="font-normal text-base	 mt-6">
-              You can keep using your current contact database that’s giving you
+              You can keep searching for emails on Google or use an alternative
+              tool
               <br />
-              inaccurate data, let your reps write personalized emails on their
-              own <br /> and find accounts manually. But there are hidden costs
-              everywhere – <br />
-              and sometimes they can be dangerously expensive.
+              that gives you inaccurate work emails and phone numbers. But there
+              are
+              <br />
+              hidden costs everywhere – and sometimes they can be dangerously –{" "}
+              <br />
+              expensive.
             </div>
           </div>
 
@@ -172,7 +191,7 @@ const PricingPage=()=> {
 
         <div className="text-center mt-8">
           <Image
-            src="/assets/pricing/realcost.svg"
+            src="/assets/pricing/realcosts.svg"
             alt="realcost"
             width="1170"
             height="341"
@@ -278,6 +297,6 @@ const PricingPage=()=> {
       </div>
     </>
   );
-}
+};
 
 export default PricingPage;
