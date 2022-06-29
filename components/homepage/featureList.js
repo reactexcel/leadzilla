@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Fade from 'react-reveal/Fade';
 
 const FeatureList = () => {
   return (
@@ -21,6 +22,7 @@ const FeatureList = () => {
       
       <div>
         <div className='w-10/12 mx-auto flex justify-around items-center py-10'>
+        <Fade left>
           <div>
             <div className='text-4xl font-extrabold font-gilroybold'>
               Leadzilla prospecting <br /> platform
@@ -40,25 +42,30 @@ const FeatureList = () => {
               </button>
             </div>
           </div>
-
+         </Fade>
           <div>
+            <Fade right>
             <Image
               src='/assets/platform.svg'
               alt=''
               width='516px'
               height='417px'
             />
+            </Fade>
           </div>
         </div>
         <div className='w-10/12 mx-auto flex justify-around items-center py-20'>
           <div>
+          <Fade left>
             <Image
               src='/assets/extansionleadzilla.svg'
               alt=''
               width='516px'
               height='417px'
             />
+            </Fade>
           </div>
+          <Fade right>
           <div className='ml-4'>
             <div className='text-4xl font-extrabold font-gilroybold'>Leadzilla extension</div>
             <div className='text-base font-semibold py-5'>
@@ -75,9 +82,11 @@ const FeatureList = () => {
               </button>
             </div>
           </div>
+          </Fade>
         </div>
 
         <div className='w-10/12 mx-auto flex justify-around items-center py-10'>
+          <Fade left>
           <div>
             <div className='text-4xl font-extrabold font-gilroybold'>Contact search</div>
             <div className='text-base font-semibold py-5'>
@@ -133,25 +142,30 @@ const FeatureList = () => {
               </button>
             </div>
           </div>
-
+          </Fade>
           <div>
+          <Fade right>
             <Image
               src='/assets/rectangleleadzilla.svg'
               alt=''
               width='578px'
               height='425px'
             />
+            </Fade>
           </div>
         </div>
         <div className='w-10/12 mx-auto flex justify-around items-center pt-10'>
           <div>
+            <Fade left>
             <Image
               src='/assets/aipowerleadzilla.svg'
               alt=''
               width='578px'
               height='416px'
             />
+            </Fade>
           </div>
+          <Fade right>
           <div className='ml-4'>
             <div className='text-4xl font-extrabold font-gilroybold'>
               AI-powered personalization
@@ -176,6 +190,7 @@ const FeatureList = () => {
               </button>
             </div>
           </div>
+          </Fade>
         </div>
       </div>
     </>

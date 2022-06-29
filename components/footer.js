@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -27,10 +28,10 @@ function Footer() {
           <div className='flex flex-row items-center justify-between mt-16'>
             <div className='flex flex-col'>
               <p className='font-extrabold text-white text-lg mb-5'>Main</p>
-              <p className='text-gray-500 my-2'>Text here</p>
-              <p className='text-gray-500 my-2'>Text here</p>
-              <p className='text-gray-500 my-2'>Text here</p>
-              <p className='text-gray-500 my-2'>Text here</p>
+              <p className='text-gray-500 my-2 cursor-pointer'><Link href="/features">Features</Link></p>
+              <p className='text-gray-500 my-2 cursor-pointer'><Link href="/blog">Blogs</Link></p>
+              <p className='text-gray-500 my-2 cursor-pointer'><Link href="/faq">FAQ</Link></p>
+              <p className='text-gray-500 my-2 cursor-pointer'><Link href="/contactus">Contacts</Link></p>
             </div>
             <div className='flex flex-col'>
               <p className='font-extrabold text-white text-lg mb-5'>Solutions</p>
