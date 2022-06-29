@@ -12,7 +12,7 @@ const SignInPage = () => {
             height="42px"
           />
 
-          <div className="my-28 lg:w-9/12  md:w-full mx-auto">
+          <div className="my-28 xl:w-9/12 lg:w-full  md:w-full mx-auto">
             <div className="font-extrabold font-gilroybold text-3xl">
               Welcome to Leadzilla
             </div>
@@ -78,7 +78,7 @@ const SignInPage = () => {
         </div>
       </div>
 
-      <div className="bg-cover bg-no-repeat bg-purples-bg bg-right-top h-full md:h-auto ml-auto lg:w-2/3 md:w-full">
+      <div className="bg-cover bg-no-repeat bg-purples-bg bg-right-top lg:h-full md:h-auto ml-auto lg:w-2/3 md:w-full">
         {" "}
         <div className="relative h-full flex justify-end">
           <div className="mt-8">
