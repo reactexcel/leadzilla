@@ -84,7 +84,7 @@ const SignInPage = () => {
       <div className="bg-cover bg-no-repeat bg-purples-bg bg-right-top h-full md:h-auto ml-auto lg:w-2/4 md:w-full sm:w-full">
         {" "}
         <div className="relative h-full flex justify-end">
-          <div className="pt-16">
+          <div className="lg:fixed lg:bottom-0">
             <Image
               src="/assets/signup/backgroundimg.svg"
               layout="fixed"
