@@ -35,7 +35,7 @@ const MiddleSection = () => {
               your favorite email automation tool
             </div>
           </div>
-          <div className="mt-20 ml-1">
+          <div className="mt-20 ml-1  transform h-7 w-3/6 hover: transition duration-500 hover:scale-125">
             <button className="bg-black p-3 px-8 text-base font-bold relative">
               Learn more
               <button className="bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-1 right-1 whitespace-nowrap">

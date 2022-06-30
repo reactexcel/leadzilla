@@ -20,7 +20,13 @@ function AboutUs() {
             </div>
             <div>by commoditizing simple, self-service B2B SaaS products.</div>
           </div>
-          <div className="text-center p-6">
+
+
+
+
+
+              
+          <div className="text-center p-6 " >
             <button className="bg-black p-3 px-6 text-2xl font-bold relative">
               Join Us
               <span className="ml-2">
@@ -46,6 +52,10 @@ function AboutUs() {
               </button>
             </button>
           </div>
+        
+
+
+
           <div className="flex justify-center relative">
             <div>
               {" "}

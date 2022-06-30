@@ -69,8 +69,8 @@ const Contents = () => {
                 </p>
               </div>
             </div>
-
-            <div className='p-10'>
+         
+            <div className='p-10 transform w-7/12 hover: transition duration-500 hover:scale-125'>
               <button className='bg-black p-3 py-4 text-xl  relative '>
                 Send message
                 <button className='bg-yellow-500 p-3 py-4 text-xl  absolute bottom-2 right-2 whitespace-nowrap'>
@@ -78,6 +78,8 @@ const Contents = () => {
                 </button>
               </button>
             </div>
+          
+
           </div>
         </div>
       </div>

@@ -32,16 +32,16 @@ const FeatureList = () => {
                 <span className='text-blue-600'>20 search filters</span>
               </div>
 
-              <div className='transform h-7 w-3/6 hover: transition duration-500 hover:scale-125'>
-                <div className='mt-4 '>
-                  <button className='bg-black p-3 px-8 text-base font-bold relative'>
-                    Learn more
-                    <button className=' bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-2 right-2 whitespace-nowrap '>
-                      Learn more
+             
+                <div className='mt-4 transform h-7 w-3/6 hover: transition duration-500 hover:scale-125'>
+                  <button className='bg-black p-3 px-8 text-base font-bold relative  hover:ml-7'>
+                    Learn mores
+                    <button className=' bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-2 right-2 whitespace-nowrap'>
+                      Learn mores
                     </button>
                   </button>
                 </div>
-              </div>
+              
             </div>
           </Fade>
           <div>

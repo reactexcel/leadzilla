@@ -35,9 +35,9 @@ const TopContent = () => {
       </div>
       <span className='absolute top-1/2 right-3/4'><Image src="/assets/bigArrowTwisted.png" alt="arrow" height="100" width="170" /></span>
       <div className='text-center p-6 cursor-pointer  transform  w-11/12 hover:transition duration-500 hover:scale-125'>
-        <button className='bg-black p-3 px-5 text-2xl font-bold relative hover:text-white'>
+        <button className='bg-black p-3 px-5 text-2xl font-bold relative'>
           Sign up and get 20 free leads now
-          <button className='bg-yellow-500 p-3 px-4 text-2xl font-bold absolute bottom-2 left-2 whitespace-nowrap hover:text-white'>
+          <button className='bg-yellow-500 p-3 px-4 text-2xl font-bold absolute bottom-2 left-2 whitespace-nowrap '>
             Sign up and get 20 free leads now!
           </button>
         </button>

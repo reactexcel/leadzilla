@@ -231,7 +231,7 @@ const Contents = () => {
                     </p>
                     <p className="ml-2 text-graytextcol-200">{item.createdAt}</p>
                     <p className="ml-2 text-graytextcol-200">{item.minRead}</p>
-                  </div>
+                  </div>  
                   <p className="text-3xl font-gilroybold mb-1">
                     {item.description}
                   </p>
