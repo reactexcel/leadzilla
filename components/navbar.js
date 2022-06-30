@@ -40,12 +40,12 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="flex">
-              <Link href="/signup"> 
-                <button className="border-2 border-black px-2 mr-3 py-2 text-base font-medium hover:bg-black hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+              <Link href="https://app.leadzilla.ai/login"> 
+                <button className="border-2 hover:border-white border-black px-2 mr-3 py-2 text-base font-medium hover:bg-black hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                   Sign up
                 </button>
                 </Link>
-                <button className="hover:bg-black hover:text-white border-2 border-black py-2 px-2 text-base font-medium transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                <button className="hover:bg-black hover:border-white hover:text-white border-2 border-black py-2 px-2 text-base font-medium transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                   Book a demo
                 </button>
               </div>

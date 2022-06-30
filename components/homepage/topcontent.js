@@ -17,7 +17,7 @@ const TopContent = () => {
       <div className='pt-16 text-center text-7xl'>
         {starImage.map((val, key) => {
           return (
-            <Image src='/assets/star.png' alt='' width='40px' height='40px' className='py-3 p-2' key={key}/>
+            <Image src='/assets/starlandingpage.svg' alt='' width='40px' height='40px' className='py-3 p-2' key={key}/>
           );
         })}
         <div className='font-extrabold font-gilroybold'>More than just accurate,</div>
@@ -34,10 +34,10 @@ const TopContent = () => {
         </div>
       </div>
       <span className='absolute top-1/2 right-3/4'><Image src="/assets/bigArrowTwisted.png" alt="arrow" height="100" width="170" /></span>
-      <div className='text-center p-6'>
-        <button className='bg-black p-3 px-5 text-2xl font-bold relative'>
+      <div className='text-center p-6 cursor-pointer  transform  w-11/12 hover:transition duration-500 hover:scale-125'>
+        <button className='bg-black p-3 px-5 text-2xl font-bold relative hover:text-white'>
           Sign up and get 20 free leads now
-          <button className='bg-yellow-500 p-3 px-4 text-2xl font-bold absolute bottom-2 left-2 whitespace-nowrap'>
+          <button className='bg-yellow-500 p-3 px-4 text-2xl font-bold absolute bottom-2 left-2 whitespace-nowrap hover:text-white'>
             Sign up and get 20 free leads now!
           </button>
         </button>

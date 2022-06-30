@@ -72,7 +72,7 @@ const MiddleTopSection = () => {
                 placeholder='Enter Your Email'
               />
               <button
-                className='absolute bg-yellow-500 px-5 py-2 border-2 border-black text-base font-bold  right-0.5'
+                className='absolute bg-yellow-500 px-5 py-2 border-2 border-black text-base font-bold  right-0.5 hover:text-white'
                 type='submit'
               >
                 Contact us
