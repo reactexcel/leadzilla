@@ -9,7 +9,7 @@ const MiddleTopSection = () => {
       >
         <div className='py-1 font-gilroylight'>Let’s get real</div>
         <div className='p-2.5 font-gilroylight'>You don’t need contact data.</div>
-        <div className='font-extrabold mb-4 font-gilroybold'>
+        <div className='font-gilroybold'>
           You need meetings with good fit buyers.
         </div>
       </div>
@@ -34,7 +34,7 @@ const MiddleTopSection = () => {
       </div>
 
       <div className='flex justify-center items-center py-20'>
-        <div className='px-3 items-center' style={{ marginRight: '10px' }}>
+        <div className='px-3'>
           <Image
             src='/assets/whychoosethis.svg'
             alt=''
@@ -42,9 +42,9 @@ const MiddleTopSection = () => {
             height='490px'
           />
         </div>
-        <div className='px-10' style={{ fontFamily: 'Manrope' }}>
+        <div className='px-10'>
           <div className='text-5xl'>
-            <span className='font-extrabold font-gilroybold'>Why choose us </span> over
+            <span className='font-gilroybold'>Why choose us </span> over
             <div className='font-gilroylight'>hundreds of other options?</div>
           </div>
           <div className='text-base'>
