@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import AccordianLayout from "./accordianLayout";
+import { Fade } from "react-reveal";
 
 const AccordianComponent = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -44,6 +45,7 @@ const AccordianComponent = () => {
   return (
     <div className="w-10/12 mx-auto my-16">
       <div className="flex gap-16">
+        <Fade top>
         <div className="w-1/4 text-base">
           <div className="font-extrabold border-b-2 border-black">
             <span className="ml-1">What is Leadzilla?</span>
@@ -70,6 +72,8 @@ const AccordianComponent = () => {
             <div className="py-5">How do I cancel my membership?</div>
           </div>
         </div>
+        </Fade>
+        <Fade bottom>
         <div className="w-3/4">
           <div>
             <div className="flex flex-col justify-center items-center">
@@ -88,6 +92,7 @@ const AccordianComponent = () => {
             </div>
           </div>
         </div>
+        </Fade>
       </div>
     </div>
   );

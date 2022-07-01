@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { Fade } from 'react-reveal';
 
 const LowerFeaturesSection = () => {
   return (
@@ -25,10 +26,11 @@ const LowerFeaturesSection = () => {
               alt=''
               width='70.14px'
               height='65.72px'
+              className='animate-bounce'
             />
           </div>
         </div>
-
+       <Fade bottom>
         <div className='flex justify-center'>
           <div className='bg-black border-2 border-darkcolor-200 p-3 text-xl  relative w-4/5'>
           <div className='flex  flex-col justify-between text-left mx-auto ml-10 py-3'>
@@ -101,6 +103,7 @@ const LowerFeaturesSection = () => {
             />
           </div>
         </div>
+        </Fade>
       </div>
     </div>
   );

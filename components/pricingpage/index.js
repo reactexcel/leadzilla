@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { TableData } from "../../hardcodedData";
+import { Fade } from "react-reveal";
 
 const PricingPage = () => {
   return (
@@ -8,6 +9,7 @@ const PricingPage = () => {
       <div className="bg-regal-green py-16">
         <div className="flex items-center flex-col">
           <div className="">
+            <Fade left>
             <div className="flex font-extrabold text-6xl text-left font-gilroybold">
               <div>Looking for the pricing table?</div>
               <div className="ml-6" style={{ marginTop: "-30px" }}>
@@ -19,6 +21,8 @@ const PricingPage = () => {
                 />
               </div>
             </div>
+            </Fade>
+            <Fade right>
             <div>
               <Image
                 src="/assets/pricing/quoteimgs.svg"
@@ -27,6 +31,8 @@ const PricingPage = () => {
                 height="80"
               />
             </div>{" "}
+            </Fade>
+            <Fade right>
             <div className="mb-4 flex ml-16">
               <div className="mr-36 text-xl text-pricingtextcolor-200">
                 <div className="">
@@ -65,6 +71,7 @@ const PricingPage = () => {
                 </div>
               </div>
             </div>
+            </Fade>
           </div>
         </div>
       </div>
@@ -145,7 +152,7 @@ const PricingPage = () => {
             src="/assets/righteyeimg.svg"
             alt="eyesImg"
             width="50px"
-            className="m-6 ml-4"
+            className="m-6 ml-4 animate-bounce"
             height="50px"
           />
         </span>
@@ -159,7 +166,7 @@ const PricingPage = () => {
           />
         </span>
       </div>
-
+    <Fade right>
       <div className="mt-48 relative px-9">
         <div className="flex justify-center">
           <div className="xl:mr-96 lg:mr-auto">
@@ -207,7 +214,8 @@ const PricingPage = () => {
           />
         </span>
       </div>
-
+      </Fade>
+     <Fade left>
       <div className="flex justify-center mt-20 mb-20 px-16">
         <div className="bg-grey-bg text-left text-2xl	text-aboutustextcolor-200 px-40 py-16">
           Even if we disregard the opportunity cost and value of using
@@ -222,13 +230,14 @@ const PricingPage = () => {
           </span>
         </div>
       </div>
+      </Fade>
 
       <div className="bg-pink-bg w-full h-240px md:h-auto bg-center bg-no-repeat bg-cover  mb-100">
         <div className="font-extrabold text-center text-5xl pt-20 font-gilroybold">
           Now here’s the pricing table you <br />
           were looking for.
         </div>
-
+      <Fade bottom>
         <div className="flex justify-center mt-16 mx-10">
           <div className="bg-white rounded border border-pricing-border p-10 pb-30">
             <div className="font-bold text-3xl mb-2.5">
@@ -286,7 +295,7 @@ const PricingPage = () => {
             <div className="text-xl font-normal">1 credit/competitor</div>
           </div>
         </div>
-
+        </Fade>
         <div className="text-center font-light text-3xl py-20 font-gilroylight">
           Straight forward pricing{" "}
           <span className="font-bold font-gilroybold">

@@ -1,8 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
+import { Fade } from 'react-reveal';
 
 const LowerMiddlesection = () => {
   return (
+    <Fade right>
     <div className='w-10/12 py-2 px-8 m-auto text-center pt-20'>
       <div className='font-light' style={{ fontSize: '42px' }}>
         <div className='font-gilroybold'>
@@ -86,6 +88,7 @@ const LowerMiddlesection = () => {
         </div>
       </div>
     </div>
+    </Fade>
   );
 };
 export default LowerMiddlesection;

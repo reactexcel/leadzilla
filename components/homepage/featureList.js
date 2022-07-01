@@ -33,8 +33,8 @@ const FeatureList = () => {
               </div>
 
              
-                <div className='mt-4 transform h-7 w-3/6 hover: transition duration-500 hover:scale-125'>
-                  <button className='bg-black p-3 px-8 text-base font-bold relative  hover:ml-7'>
+                <div className='mt-4 h-7 w-3/6'>
+                  <button className='bg-black p-3 px-8 text-base font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
                     Learn mores
                     <button className=' bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-2 right-2 whitespace-nowrap'>
                       Learn mores
@@ -76,8 +76,8 @@ const FeatureList = () => {
                 with ideal prospects on LinkedIn
               </div>
 
-              <div className='mt-4 transform h-7 w-3/6 hover: transition duration-500 hover:scale-125'>
-                <button className='bg-black p-3 px-8 text-base font-bold relative'>
+              <div className='mt-4 h-7 w-3/6'>
+                <button className='bg-black p-3 px-8 text-base font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
                   Learn more
                   <button className='bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-2 right-2 whitespace-nowrap'>
                     Learn more
@@ -143,8 +143,8 @@ const FeatureList = () => {
                 </div>
               </div>
 
-              <div className='mt-4 transform h-7 w-3/6 hover: transition duration-500 hover:scale-125'>
-                <button className='bg-black p-3 px-8 text-base font-bold relative'>
+              <div className='mt-4 h-7 w-3/6'>
+                <button className='bg-black p-3 px-8 text-base font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
                   Learn more
                   <button className='bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-2 right-2 whitespace-nowrap'>
                     Learn more
@@ -192,8 +192,8 @@ const FeatureList = () => {
                 {/* <span className='text-blue-600'> Find, target and connect</span> with ideal prospects on LinkedIn  */}
               </div>
 
-              <div className='mt-4 transform h-7 w-3/6 hover: transition duration-500 hover:scale-125'>
-                <button className='bg-black p-3 px-8 text-base font-bold relative'>
+              <div className='mt-4 h-7 w-3/6'>
+                <button className='bg-black p-3 px-8 text-base font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
                   Learn more
                   <button className='bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-2 right-2 whitespace-nowrap'>
                     Learn more

@@ -36,17 +36,17 @@ const FeaturesDiscription = () => {
         <div className='flex pl-28'>
           <div className='pt-4'>
             <Image
-              src='/assets/Arrow 14.png'
+              src='/assets/arrowpricingpage.svg'
               alt=''
-              width='150px'
-              height='550px'
+              width='300px'
+              height='400px'
             />
           </div>
           <div
             className='font-black pl-10 pt-20 font-gilroybold'
             style={{ fontSize: '42px' }}
           >
-            <div>
+            <div className='text-justify'>
               That’s where{' '}
               <span className='text-blue-500'>
                 Leadzilla steps in and gives you the accurate, verified email
@@ -54,7 +54,7 @@ const FeaturesDiscription = () => {
               </span>
               you desperately want to get in touch with.{' '}
             </div>
-            <div>
+            <div className='text-justify'>
               And that’s not all,{' '}
               <span className='text-blue-500'>
                 it uses industry-leading AI to write personalized emails to
@@ -64,7 +64,7 @@ const FeaturesDiscription = () => {
           </div>
         </div>
         <div className='-mt-2 text-right'>
-          <Image src='/assets/Arrow 5.png' alt='' width='90px' height='100px' />
+          <Image src='/assets/btmarrowpricing.svg' alt='' width='90px' height='100px' />
         </div>
       </div>
     </div>

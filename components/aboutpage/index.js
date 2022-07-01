@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-function AboutUs() {
+import { Fade } from "react-reveal";
+const AboutUs=()=> {
   return (
     <>
       {" "}
@@ -20,14 +21,8 @@ function AboutUs() {
             </div>
             <div>by commoditizing simple, self-service B2B SaaS products.</div>
           </div>
-
-
-
-
-
-              
           <div className="text-center p-6 " >
-            <button className="bg-black p-3 px-6 text-2xl font-bold relative">
+            <button className="bg-black p-3 px-6 text-2xl font-bold relative transform  hover: transition duration-500 hover:scale-125">
               Join Us
               <span className="ml-2">
                 <Image
@@ -64,6 +59,7 @@ function AboutUs() {
                 alt="freepik1"
                 width="200"
                 height="200"
+                className="animate-pulse"
               />
             </div>
 
@@ -74,6 +70,7 @@ function AboutUs() {
                 alt="freepik2"
                 width="200"
                 height="200"
+                className="animate-pulse"
               />
             </div>
 
@@ -83,6 +80,7 @@ function AboutUs() {
                 alt="freepik3"
                 width="200"
                 height="200"
+                className="animate-pulse"
               />
             </div>
 
@@ -94,6 +92,7 @@ function AboutUs() {
                   alt="freepikcursor"
                   width="50px"
                   height="50px"
+                  className="animate-ping"  
                 />
               </div>{" "}
               <Image
@@ -101,6 +100,7 @@ function AboutUs() {
                 alt="freepik4"
                 width="200"
                 height="200"
+                className="animate-pulse"
               />
             </div>
           </div>
@@ -120,7 +120,7 @@ function AboutUs() {
             src="/assets/lefteyesImg.svg"
             alt="eyesImg"
             width="50px"
-            className="m-6 ml-4"
+            className="m-6 ml-4 animate-bounce"
             height="50px"
           />
         </span>
@@ -130,18 +130,19 @@ function AboutUs() {
             src="/assets/righteyeimg.svg"
             alt="eyesImg"
             width="50px"
-            className="m-6 ml-4 rotate-180"
+            className="m-6 ml-4 rotate-180 animate-bounce"
             height="50px"
           />
         </span>
       </div>
       <div className="text-center">
         <div className="flex items-center justify-around  mt-40 w-10/12 py-2 mx-auto">
+          <Fade left>
           <div className="text-left ">
             <div className="font-extrabold text-6xl font-gilroybold">
               What is Leadzilla?
             </div>
-            <div className="font-normal pt-4 pb-6 text-aboutustextcolor-200"  style={{fontSize: "20px"}}>
+            <div className="font-normal pt-4 pb-6 text-aboutustextcolor-200 text-xl">
               Leadzilla was founded by Assaf Eisenstein and Yoni Tserruya in
               <br />
               2016 with the aim of creating the world’s largest crowdsourced
@@ -151,7 +152,7 @@ function AboutUs() {
               company size accurate and accessible data through its simple,
               <br /> self-service products.{" "}
             </div>
-            <div className="font-normal text-aboutustextcolor-200" style={{fontSize: "20px"}}>
+            <div className="font-normal text-aboutustextcolor-200 text-xl">
               With Leadzilla, sales professionals can identify, engage and{" "}
               <br /> close prospects, thanks to Lusha’s prospecting platform,
               web <br /> extension and API. Leadzilla community has expanded to
@@ -159,6 +160,8 @@ function AboutUs() {
               organizations <br /> including Zendesk, Google, Dropbox and Uber.
             </div>
           </div>
+          </Fade>
+          <Fade right>
           <div>
             <Image
               src="/assets/aboutus/whatsleadzilla.svg"
@@ -167,7 +170,9 @@ function AboutUs() {
               width="614"
             />
           </div>
+          </Fade>
         </div>
+        <Fade left>
         <div className="flex items-center justify-around  mt-24 w-10/12 py-2 mx-auto">
           <div className="relative ">
             <Image
@@ -197,7 +202,8 @@ function AboutUs() {
             </div>
           </div>
         </div>
-
+        </Fade>
+        <Fade bottom>        
         <div>
           <Image
             src="/assets/aboutus/aboutourteam.svg"
@@ -206,6 +212,8 @@ function AboutUs() {
             height="296"
           />
         </div>
+        </Fade>
+
       </div>
     </>
   );
