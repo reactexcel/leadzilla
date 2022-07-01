@@ -22,17 +22,19 @@ const Navbar = () => {
               </div>
               <div className="hidden sm:block sm:ml-6 font-medium">
                 <div className="flex space-x-4">
-                  <div
+                  {/* <div
                     className="text-black px-3 py-2 text-base"
                     aria-current="page"
                   >
-                    Solutions
-                  </div>
+                    Blogs
+                  </div> */}
                   <div className="text-black px-3 py-2 text-base">
                     <Link href="/pricing">Pricing</Link>
                   </div>
                   <div className="text-black px-3 py-2 text-base">
-                    Resources
+                  <Link href="https://blog.leadzilla.ai">
+                    Blogs
+                    </Link>
                   </div>
                   <div className="text-black px-3 py-2 text-base">
                     <Link href="/about">About</Link>
@@ -45,9 +47,11 @@ const Navbar = () => {
                   Sign up
                 </button>
                 </Link>
+                <Link href="https://calendly.com/sam_gupta/15min">
                 <button className="hover:bg-black hover:border-white hover:text-white border-2 border-black py-2 px-2 text-base font-medium transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                   Book a demo
                 </button>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Fade } from "react-reveal";
+import Link from "next/link";
 const AboutUs=()=> {
   return (
     <>
@@ -22,6 +23,7 @@ const AboutUs=()=> {
             <div>by commoditizing simple, self-service B2B SaaS products.</div>
           </div>
           <div className="text-center p-6 " >
+          <Link href="https://app.leadzilla.ai/login">
             <button className="bg-black p-3 px-6 text-2xl font-bold relative transform  hover: transition duration-500 hover:scale-125">
               Join Us
               <span className="ml-2">
@@ -46,6 +48,7 @@ const AboutUs=()=> {
                 </span>
               </button>
             </button>
+            </Link>
           </div>
         
 

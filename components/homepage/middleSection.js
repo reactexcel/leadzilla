@@ -63,7 +63,7 @@ const MiddleTopSection = () => {
               Leadzilla
             </div>
           </div>
-          <div>
+          {/* <div>
             <div className='mt-8 relative' style={{ width: '620px' }}>
               <input
                 type='text'
@@ -78,7 +78,7 @@ const MiddleTopSection = () => {
                 Contact us
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

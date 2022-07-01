@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Fade from 'react-reveal/Fade';
+import Link from 'next/link';
 
 const FeatureList = () => {
   return (
@@ -34,12 +35,14 @@ const FeatureList = () => {
 
              
                 <div className='mt-4 h-7 w-3/6'>
+                <Link href="https://app.leadzilla.ai/login">
                   <button className='bg-black p-3 px-8 font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
                     Learn mores
                     <button className=' bg-yellow-500 p-3 px-8 font-bold absolute bottom-2 right-2 whitespace-nowrap'>
                       Learn mores
                     </button>
                   </button>
+                  </Link>
                 </div>
               
             </div>
@@ -77,12 +80,14 @@ const FeatureList = () => {
               </div>
 
               <div className='mt-4 h-7 w-3/6'>
+              <Link href="https://chrome.google.com/webstore/detail/leadzilla/mlknnmdepgmefemphhdombdflfgceejg">
                 <button className='bg-black p-3 px-8 font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
                   Learn more
                   <button className='bg-yellow-500 p-3 px-8 font-bold absolute bottom-2 right-2 whitespace-nowrap'>
                     Learn more
                   </button>
                 </button>
+                </Link>
               </div>
             </div>
           </Fade>
@@ -144,12 +149,14 @@ const FeatureList = () => {
               </div>
 
               <div className='mt-4 h-7 w-3/6'>
+              <Link href="https://app.leadzilla.ai/login">
                 <button className='bg-black p-3 px-8 font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
                   Learn more
                   <button className='bg-yellow-500 p-3 px-8 font-bold absolute bottom-2 right-2 whitespace-nowrap'>
                     Learn more
                   </button>
                 </button>
+                </Link>
               </div>
             </div>
           </Fade>
@@ -193,12 +200,14 @@ const FeatureList = () => {
               </div>
 
               <div className='mt-4 h-7 w-3/6'>
+              <Link href="https://app.leadzilla.ai/login">
                 <button className='bg-black p-3 px-8 font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
                   Learn more
                   <button className='bg-yellow-500 p-3 px-8 font-bold absolute bottom-2 right-2 whitespace-nowrap'>
                     Learn more
                   </button>
                 </button>
+                </Link>
               </div>
             </div>
           </Fade>
