@@ -11,13 +11,13 @@ const TopContent = () => {
   ];
   return (
     <div
-      className='bg-pink-bg w-full h-240px md:h-auto bg-center bg-no-repeat bg-cover relative'
+      className='bg-pink-bg w-full h-240px md:h-auto bg-cover relative'
       style={{height: '871px' }}
     >
       <div className='pt-16 text-center text-7xl'>
         {starImage.map((val, key) => {
           return (
-            <Image src='/assets/starlandingpage.svg' alt='' width='40px' height='40px' className='py-3 p-2' key={key}/>
+            <Image src='/assets/starlandingpage.svg' alt='' width='40' height='40' className='py-3 p-2' key={key}/>
           );
         })}
         <div className='font-extrabold font-gilroybold'>More than just accurate,</div>

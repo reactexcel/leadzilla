@@ -105,7 +105,7 @@ module.exports = {
 
       },
       backgroundImage: {
-        "pink-bg": "url('/assets/background.png')",
+        "pink-bg": "url('/assets/rectanglelanding.svg')",
         "signup-bg": "url('/assets/signup/backgroundimg.svg')",
         "purples-bg": "url('/assets/signup/reactangle.svg')",
 
