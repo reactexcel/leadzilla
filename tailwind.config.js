@@ -21,6 +21,7 @@ module.exports = {
         "brown-bg": "#FFF9EC",
         "green-bg": "#F4FFB4",
         "purple-bg": "#E471FF",
+        "purple-blue": "#7673FF",
 
         // blue: {
         //   950: "#1E2637",
@@ -96,18 +97,18 @@ module.exports = {
         bluefeature: {
           100: "#4659FF",
         },
-        bluefeature:{
-          100:"#4659FF"
+        bluefeature: {
+          100: "#4659FF",
         },
         graytextcol: {
-          200: "#8891B6"
-        }
-
+          200: "#8891B6",
+        },
       },
       backgroundImage: {
         "pink-bg": "url('/assets/rectanglelanding.svg')",
         "signup-bg": "url('/assets/signup/backgroundimg.svg')",
         "purples-bg": "url('/assets/signup/reactangle.svg')",
+        "pinkbg-bg": "url('/assets/aboutus/pinkbg.svg')",
 
         // "slide-2": "url('/images/slider-2.jpg')",
         // "more-services": "url('/images/bgimage-4.jpg')",
