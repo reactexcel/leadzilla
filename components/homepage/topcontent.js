@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const TopContent = () => {
   const starImage = [
@@ -35,12 +36,14 @@ const TopContent = () => {
       </div>
       <span className='absolute top-1/2 right-3/4'><Image src="/assets/bigArrowTwisted.png" alt="arrow" height="100" width="170" /></span>
       <div className='text-center p-6 mb-10'>
+      <Link href="https://app.leadzilla.ai/login"> 
         <button className='bg-black p-3 px-5 text-2xl font-bold relative cursor-pointer transform hover: transition duration-500 hover:scale-125'>
           Sign up and get 20 free leads now
           <button className='bg-yellow-500 p-3 px-4 text-2xl font-bold absolute bottom-2 left-2 whitespace-nowrap cursor-pointer'>
             Sign up and get 20 free leads now!
           </button>
         </button>
+        </Link>
       </div>
       <span className='absolute top-1/2 left-3/4 animate-bounce'><Image src="/assets/eye.svg" alt="eye" height="50" width="60" /></span>
       <div className='flex justify-center' style={{ marginTop: '-80px'}}>

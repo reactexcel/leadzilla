@@ -1,27 +1,29 @@
 import React from "react";
 import Image from "next/image";
 import { Fade } from "react-reveal";
+import Link from "next/link";
 const AboutUs=()=> {
   return (
     <>
       {" "}
       <div
-        className="bg-pink-bg w-full h-240px md:h-auto bg-center bg-no-repeat bg-cover  mb-100"
+        className="bg-pink-bg w-full md:h-auto bg-no-repeat bg-cover"
         style={{ height: "871px" }}
       >
         <div className="text-center pt-16 relative">
           {" "}
           <div className="font-medium text-xl">ABOUT Leadzilla</div>
-          <div className="font-extrabold text-6xl pt-5 font-gilroybold">
+          <div className="text-6xl pt-5 font-gilroybold">
             Hi! We’re Leadzilla
           </div>
-          <div className="text-2xl text-center p-6 font-normal">
+          <div className="text-2xl p-6">
             <div>
               A team of veteran salespeople who want to be of help. 
             </div>
             <div>If you're thinking about or struggling with cold emailing or cold calling, we can help.</div>
           </div>
           <div className="text-center p-6 " >
+          <Link href="https://app.leadzilla.ai/login">
             <button className="bg-black p-3 px-6 text-2xl font-bold relative transform  hover: transition duration-500 hover:scale-125">
               Join Us
               <span className="ml-2">
@@ -46,6 +48,7 @@ const AboutUs=()=> {
                 </span>
               </button>
             </button>
+            </Link>
           </div>
         
 
@@ -109,7 +112,7 @@ const AboutUs=()=> {
               src="/assets/aboutus/smiley.svg"
               alt="eyesImg"
               width="50px"
-              className="m-6 ml-4"
+              // className="m-6 ml-4"
               height="50px"
             />
           </span>
@@ -135,14 +138,14 @@ const AboutUs=()=> {
           />
         </span>
       </div>
-      <div className="text-center">
+      <div>
         <div className="flex items-center justify-around  mt-40 w-10/12 py-2 mx-auto">
           <Fade left>
           <div className="text-left ">
-            <div className="font-extrabold text-6xl font-gilroybold">
+            <div className="text-6xl font-gilroybold">
               What is Leadzilla?
             </div>
-            <div className="font-normal pt-4 pb-6 text-aboutustextcolor-200 text-xl">
+            <div className="pt-4 pb-6 text-aboutustextcolor-200 text-xl">
               Leadzilla was founded by Saurav Gupta in 2020 
               <br />
               with the aim of creating the world’s best data source for 
@@ -152,7 +155,7 @@ const AboutUs=()=> {
               Think of Leadzilla as an AI assistant for cold outreach on email, phone or LinkedIn.
               <br /> {" "}
             </div>
-            <div className="font-normal text-aboutustextcolor-200 text-xl">
+            <div className="text-aboutustextcolor-200 text-xl">
               With Leadzilla, sales professionals can identify, engage and{" "}
               <br /> close prospects, thanks to our prospecting platform,
               web <br /> extension. Leadzilla is used by 
@@ -182,11 +185,11 @@ const AboutUs=()=> {
               height="600px"
             />
 
-            <div className="absolute right-24 top-36">
-              <div className="font-extrabold text-5xl text-left font-gilroybold">
+            <div className="absolute right-24 top-36 text-xl">
+              <div className="text-5xl font-gilroybold">
                 Meet Saurav?
               </div>
-              <div className="text-left pb-4 pt-2 text-2xl text-aboutustextcolor-200">
+              <div className="py-2 text-2xl text-aboutustextcolor-200">
                 The Founder of Leadzilla
               </div>
               <div className="text-left text-aboutustextcolor-200"  style={{fontSize: "20px"}}>
@@ -204,7 +207,7 @@ const AboutUs=()=> {
         </div>
         </Fade>
         <Fade bottom>        
-        <div>
+        <div className="flex justify-center">
           <Image
             src="/assets/aboutus/aboutourteam.svg"
             alt="aboutourteam"
