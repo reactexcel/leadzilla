@@ -12,7 +12,7 @@ const FeatureList = () => {
         <div className='text-5xl' style={{ letterSpacing: '-0.6px' }}>
           <span className='font-gilroylight'> Now </span>
           <br />
-          <div className='font-extrabold font-gilroybold py-3'>
+          <div className='font-gilroybold py-3'>
             here’s the feature list you <br />
             <div className='py-3'> were looking for</div>
           </div>
@@ -23,7 +23,7 @@ const FeatureList = () => {
         <div className='w-10/12 mx-auto flex justify-around items-center py-10'>
           <Fade left>
             <div>
-              <div className='text-4xl font-extrabold font-gilroybold'>
+              <div className='text-4xl font-gilroybold'>
                 Leadzilla prospecting <br /> platform
               </div>
               <div className='text-base font-semibold py-5'>
@@ -34,9 +34,9 @@ const FeatureList = () => {
 
              
                 <div className='mt-4 h-7 w-3/6'>
-                  <button className='bg-black p-3 px-8 text-base font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
+                  <button className='bg-black p-3 px-8 font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
                     Learn mores
-                    <button className=' bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-2 right-2 whitespace-nowrap'>
+                    <button className=' bg-yellow-500 p-3 px-8 font-bold absolute bottom-2 right-2 whitespace-nowrap'>
                       Learn mores
                     </button>
                   </button>
@@ -68,18 +68,18 @@ const FeatureList = () => {
           </div>
           <Fade right>
             <div className='ml-4'>
-              <div className='text-4xl font-extrabold font-gilroybold'>
+              <div className='text-4xl font-gilroybold'>
                 Leadzilla extension
               </div>
-              <div className='text-base font-semibold py-5'>
+              <div className='font-semibold py-5'>
                 <span className='text-blue-600'> Find, target and connect</span>{' '}
                 with ideal prospects on LinkedIn
               </div>
 
               <div className='mt-4 h-7 w-3/6'>
-                <button className='bg-black p-3 px-8 text-base font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
+                <button className='bg-black p-3 px-8 font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
                   Learn more
-                  <button className='bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-2 right-2 whitespace-nowrap'>
+                  <button className='bg-yellow-500 p-3 px-8 font-bold absolute bottom-2 right-2 whitespace-nowrap'>
                     Learn more
                   </button>
                 </button>
@@ -91,10 +91,10 @@ const FeatureList = () => {
         <div className='w-10/12 mx-auto flex justify-around items-center py-10'>
           <Fade left>
             <div>
-              <div className='text-4xl font-extrabold font-gilroybold'>
+              <div className='text-4xl font-gilroybold'>
                 Contact search
               </div>
-              <div className='text-base font-semibold py-5'>
+              <div className='font-semibold py-5'>
                 <div className='flex'>
                   <div className='mr-3'>
                     <Image
@@ -144,9 +144,9 @@ const FeatureList = () => {
               </div>
 
               <div className='mt-4 h-7 w-3/6'>
-                <button className='bg-black p-3 px-8 text-base font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
+                <button className='bg-black p-3 px-8 font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
                   Learn more
-                  <button className='bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-2 right-2 whitespace-nowrap'>
+                  <button className='bg-yellow-500 p-3 px-8 font-bold absolute bottom-2 right-2 whitespace-nowrap'>
                     Learn more
                   </button>
                 </button>
@@ -177,10 +177,10 @@ const FeatureList = () => {
           </div>
           <Fade right>
             <div className='ml-4'>
-              <div className='text-4xl font-extrabold font-gilroybold'>
+              <div className='text-4xl font-gilroybold'>
                 AI-powered personalization
               </div>
-              <div className='text-base font-semibold py-5'>
+              <div className='font-semibold py-5'>
                 AI that writes highly personalized icebreaker lines
                 <br />
                 Patent-pending personality analyzer AI for highly relevant
@@ -193,9 +193,9 @@ const FeatureList = () => {
               </div>
 
               <div className='mt-4 h-7 w-3/6'>
-                <button className='bg-black p-3 px-8 text-base font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
+                <button className='bg-black p-3 px-8 font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
                   Learn more
-                  <button className='bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-2 right-2 whitespace-nowrap'>
+                  <button className='bg-yellow-500 p-3 px-8 font-bold absolute bottom-2 right-2 whitespace-nowrap'>
                     Learn more
                   </button>
                 </button>

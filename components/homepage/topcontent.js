@@ -23,12 +23,12 @@ const TopContent = () => {
         <div className='font-extrabold font-gilroybold'>More than just accurate,</div>
         <div className='py-1 font-gilroylight'>verified contact data </div>
       </div>
-      <div className='text-2xl font-normal text-center p-6'>
-        <div className=''>
+      <div className='text-2xl text-center p-6'>
+        <div>
           Leadzilla gives you 95%+ accurate contact data and uses AI to write
           highly
         </div>
-        <div className=''>
+        <div>
           personalized emails for them. Sit back and enjoy warm leads in your
           inbox.
         </div>
@@ -43,7 +43,7 @@ const TopContent = () => {
         </button>
       </div>
       <span className='absolute top-1/2 left-3/4 animate-bounce'><Image src="/assets/eye.svg" alt="eye" height="50" width="60" /></span>
-      <div className='flex justify-center' style={{ marginTop: '-63px'}}>
+      <div className='flex justify-center' style={{ marginTop: '-80px'}}>
         <Image src='/assets/updatecooler.svg' alt='' height='800px' width='1100px' />
       </div>
     </div>
