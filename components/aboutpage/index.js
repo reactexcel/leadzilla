@@ -17,9 +17,9 @@ const AboutUs=()=> {
           </div>
           <div className="text-2xl text-center p-6 font-normal">
             <div>
-              A team of data-enthusiasts who make the go-to-market smarter
+              A team of veteran salespeople who want to be of help. 
             </div>
-            <div>by commoditizing simple, self-service B2B SaaS products.</div>
+            <div>If you're thinking about or struggling with cold emailing or cold calling, we can help.</div>
           </div>
           <div className="text-center p-6 " >
             <button className="bg-black p-3 px-6 text-2xl font-bold relative transform  hover: transition duration-500 hover:scale-125">
@@ -143,21 +143,21 @@ const AboutUs=()=> {
               What is Leadzilla?
             </div>
             <div className="font-normal pt-4 pb-6 text-aboutustextcolor-200 text-xl">
-              Leadzilla was founded by Assaf Eisenstein and Yoni Tserruya in
+              Leadzilla was founded by Saurav Gupta in 2020 
               <br />
-              2016 with the aim of creating the world’s largest crowdsourced
+              with the aim of creating the world’s best data source for 
               <br />
-              data community for B2B salespeople or a “Waze for <br />
-              salespeople”. Leadzilla offers B2B salespeople of every <br />
-              company size accurate and accessible data through its simple,
-              <br /> self-service products.{" "}
+              work emails, phone numbers and personalized <br />
+              email copy for every salesperson, new or experienced. <br />
+              Think of Leadzilla as an AI assistant for cold outreach on email, phone or LinkedIn.
+              <br /> {" "}
             </div>
             <div className="font-normal text-aboutustextcolor-200 text-xl">
               With Leadzilla, sales professionals can identify, engage and{" "}
-              <br /> close prospects, thanks to Lusha’s prospecting platform,
-              web <br /> extension and API. Leadzilla community has expanded to
-              over <br /> 670,000 sales professionals and 223,000 sales
-              organizations <br /> including Zendesk, Google, Dropbox and Uber.
+              <br /> close prospects, thanks to our prospecting platform,
+              web <br /> extension. Leadzilla is used by 
+              over <br /> 2000 sales professionals and 300 businesses
+               <br />
             </div>
           </div>
           </Fade>
@@ -187,17 +187,17 @@ const AboutUs=()=> {
                 Meet Saurav?
               </div>
               <div className="text-left pb-4 pt-2 text-2xl text-aboutustextcolor-200">
-                The Founders of Leadzilla
+                The Founder of Leadzilla
               </div>
               <div className="text-left text-aboutustextcolor-200"  style={{fontSize: "20px"}}>
-                What started off as one developer's passion project <br /> has
-                quickly evolved into one of B2Bs largest and <br />
-                most respected contact data solutions. In 2016 Yoni,
-                <br /> a young developer, and Assaf, an HR tech creator,
-                <br /> met. Together, they created Lusha, a better way for{" "}
+                What started off as one founder's <br /> idea
+                has become one of the best AI-assisted  <br />
+                data platforms for salespeople, 
+                small business owners and anyone who's just looking to get meetings<br /> 
+                <br /> It's simply a much better way to{" "}
                 <br />
-                B2B salespeople to prospect based on community <br />
-                sharing, simplicity, accuracy and accessibility.
+                send cold emails and do cold calls without <br />
+                going through the hassle of dealing with bad data or spamming people.
               </div>
             </div>
           </div>
