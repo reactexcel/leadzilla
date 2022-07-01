@@ -187,7 +187,7 @@ const AboutUs=()=> {
 
             <div className="absolute right-24 top-36 text-xl">
               <div className="text-5xl font-gilroybold">
-                Meet Saurav?
+                Meet Saurav
               </div>
               <div className="py-2 text-2xl text-aboutustextcolor-200">
                 The Founder of Leadzilla
