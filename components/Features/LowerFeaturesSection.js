@@ -36,58 +36,58 @@ const LowerFeaturesSection = () => {
           <div className='flex  flex-col justify-between text-left mx-auto ml-10 py-3'>
               <div className='my-2 font-medium text-xl flex mt-8'>
                 <div className='flex items-start pt-3'><Image src="/assets/arrowfeature.png" alt='' width="10" height="3"/></div>
-               <div className='ml-2 text-pricingtextcolor-200'> “Product is very easy to use. Just one click and our customers
-                find emails and phone numbers”</div>
+               <div className='ml-2 text-pricingtextcolor-200'> The product is very easy to use. Just one click and our customers
+                find emails and phone numbers</div>
               </div>
               <div className='my-2 font-medium text-xl flex mt-4'>
               <div className='flex items-start pt-3'><Image src="/assets/arrowfeature.png" alt='' width="10" height="3"/></div>
-                <div className='ml-2 text-pricingtextcolor-200'>“We understand that most of our customers are SMBs and we don’t
-                tie them up in long term contracts”</div>
+                <div className='ml-2 text-pricingtextcolor-200'>We understand that most of our customers are SMBs and we don’t
+                tie them up in long term contracts</div>
               </div>
               <div className='my-2 font-medium text-xl flex mt-4'>
               <div className='flex items-start pt-3'><Image src="/assets/arrowfeature.png" alt='' width="10" height="3"/></div>
-              <div className='ml-2 text-pricingtextcolor-200'>“A lot of our customers are busy salespeople who struggle with
+              <div className='ml-2 text-pricingtextcolor-200'>A lot of our customers are busy salespeople who struggle with
                 writing personalized emails. Our AI helps them get leads on
-                autopilot”</div>
+                autopilot</div>
               </div>
               <div className='my-2 font-medium text-xl flex mt-4'>
               <div className='flex items-start pt-3'><Image src="/assets/arrowfeature.png" alt='' width="10" height="3"/></div>
-              <div className='ml-2 text-pricingtextcolor-200'>“The data is very accurate and there’s an email verification
-                tool inbuilt into the product at no added cost”</div>
+              <div className='ml-2 text-pricingtextcolor-200'>The data is very accurate and there’s an email verification
+                tool inbuilt into the product at no added cost</div>
               </div>
               <div className='my-2 font-medium text-xl flex mt-4'>
               <div className='flex items-start pt-3'><Image src="/assets/arrowfeature.png" alt='' width="10" height="3"/></div>
-              <div className='ml-2 text-pricingtextcolor-200'>“Our support team is always there to help each and every
-                customer get the most of out of the product”</div>
+              <div className='ml-2 text-pricingtextcolor-200'>Our support team is always there to help each and every
+                customer get the most of out of the product</div>
               </div>
               </div>
             <div className='bg-whitebagfeature-100 border-2 border-darkcolor-200 p-3 absolute py-4 text-xl bottom-2 right-2 w-full'>
               <div className='flex  flex-col justify-between text-left mx-auto ml-10 py-3'>
               <div className='my-2 font-medium text-xl flex mt-8'>
                 <div className='flex items-start pt-3'><Image src="/assets/arrowfeature.png" alt='' width="10" height="3"/></div>
-               <div className='ml-2 text-pricingtextcolor-200'> “Product is very easy to use. Just one click and our customers
-                find emails and phone numbers”</div>
+               <div className='ml-2 text-pricingtextcolor-200'> The product is very easy to use. Just one click and our customers
+                find emails and phone numbers</div>
               </div>
               <div className='my-2 font-medium text-xl flex mt-4'>
               <div className='flex items-start pt-3'><Image src="/assets/arrowfeature.png" alt='' width="10" height="3"/></div>
-                <div className='ml-2 text-pricingtextcolor-200'>“We understand that most of our customers are SMBs and we don’t
-                tie them up in long term contracts”</div>
+                <div className='ml-2 text-pricingtextcolor-200'>We understand that most of our customers are SMBs and we don’t
+                tie them up in long term contracts</div>
               </div>
               <div className='my-2 font-medium text-xl flex mt-4'>
               <div className='flex items-start pt-3'><Image src="/assets/arrowfeature.png" alt='' width="10" height="3"/></div>
-              <div className='ml-2 text-pricingtextcolor-200'>“A lot of our customers are busy salespeople who struggle with
+              <div className='ml-2 text-pricingtextcolor-200'>A lot of our customers are busy salespeople who struggle with
                 writing personalized emails. Our AI helps them get leads on
-                autopilot”</div>
+                autopilot</div>
               </div>
               <div className='my-2 font-medium text-xl flex mt-4'>
               <div className='flex items-start pt-3'><Image src="/assets/arrowfeature.png" alt='' width="10" height="3"/></div>
-              <div className='ml-2 text-pricingtextcolor-200'>“The data is very accurate and there’s an email verification
-                tool inbuilt into the product at no added cost”</div>
+              <div className='ml-2 text-pricingtextcolor-200'>The data is very accurate and there’s an email verification
+                tool inbuilt into the product at no added cost</div>
               </div>
               <div className='my-2 font-medium text-xl flex mt-4'>
               <div className='flex items-start pt-3'><Image src="/assets/arrowfeature.png" alt='' width="10" height="3"/></div>
-              <div className='ml-2 text-pricingtextcolor-200'>“Our support team is always there to help each and every
-                customer get the most of out of the product”</div>
+              <div className='ml-2 text-pricingtextcolor-200'>Our support team is always there to help each and every
+                customer get the most of out of the product</div>
               </div>
               </div>
             </div>

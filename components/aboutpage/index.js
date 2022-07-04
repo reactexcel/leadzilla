@@ -18,9 +18,9 @@ const AboutUs=()=> {
           </div>
           <div className="text-2xl p-6">
             <div>
-              A team of data-enthusiasts who make the go-to-market smarter
+              A team of veteran salespeople who want to be of help. 
             </div>
-            <div>by commoditizing simple, self-service B2B SaaS products.</div>
+            <div>If you're thinking about or struggling with cold emailing or cold calling, we can help.</div>
           </div>
           <div className="text-center p-6 " >
           <Link href="https://app.leadzilla.ai/login">
@@ -146,21 +146,21 @@ const AboutUs=()=> {
               What is Leadzilla?
             </div>
             <div className="pt-4 pb-6 text-aboutustextcolor-200 text-xl">
-              Leadzilla was founded by Assaf Eisenstein and Yoni Tserruya in
+              Leadzilla was founded by Saurav Gupta in 2020 
               <br />
-              2016 with the aim of creating the world’s largest crowdsourced
+              with the aim of creating the world’s best data source for 
               <br />
-              data community for B2B salespeople or a “Waze for <br />
-              salespeople”. Leadzilla offers B2B salespeople of every <br />
-              company size accurate and accessible data through its simple,
-              <br /> self-service products.{" "}
+              work emails, phone numbers and personalized <br />
+              email copy for every salesperson, new or experienced. <br />
+              Think of Leadzilla as an AI assistant for cold outreach on email, phone or LinkedIn.
+              <br /> {" "}
             </div>
             <div className="text-aboutustextcolor-200 text-xl">
               With Leadzilla, sales professionals can identify, engage and{" "}
-              <br /> close prospects, thanks to Lusha’s prospecting platform,
-              web <br /> extension and API. Leadzilla community has expanded to
-              over <br /> 670,000 sales professionals and 223,000 sales
-              organizations <br /> including Zendesk, Google, Dropbox and Uber.
+              <br /> close prospects, thanks to our prospecting platform,
+              web <br /> extension. Leadzilla is used by 
+              over <br /> 2000 sales professionals and 300 businesses
+               <br />
             </div>
           </div>
           </Fade>

@@ -28,7 +28,7 @@ const LowerMiddlesection = () => {
                   style={{ height: '486px', width: '542px' }}
                 >
                   <div className='flex  flex-col justify-between text-left mx-auto ml-32'>
-                    <div className='font-gilroybold text-2xl'> Who uses Putler?</div>
+                    <div className='font-gilroybold text-2xl'> Who uses Leadzilla?</div>
                     <div className='my-2 font-semibold text-base'>Salespeople</div>
                     <div className='my-2 font-semibold text-base'>Internet / digital marketers</div>
                     <div className='my-2 font-semibold text-base'>Growth hackers</div>
@@ -63,24 +63,24 @@ const LowerMiddlesection = () => {
               >
                 <div className='text-left ml-3'>
                    <div className='font-gilroybold text-yellow-500 text-2xl'>Result</div> 
-                  <div className="text-white my-2 font-semibold text-base">I’m at 130% of quota for this quarter and a large </div>
-                  <div className="text-white my-2 font-semibold text-base">part of it is because of Leadzilla”S</div>
-                  <div className="text-white my-2 font-semibold text-base"> I used to struggle to find the email </div>
-                  <div className="text-white my-2 font-semibold text-base">addresses of company directors but not anymore!”</div>
-                  <div className="text-white my-2 font-semibold text-base">“the data leadzilla finds is our secret sauce”</div>
+                  <div className="text-white my-2 font-semibold text-base">"I’m at 130% of quota for this quarter and a large </div>
+                  <div className="text-white my-2 font-semibold text-base">part of it is because of Leadzilla"</div>
+                  <div className="text-white my-2 font-semibold text-base">"I used to struggle to find the email </div>
+                  <div className="text-white my-2 font-semibold text-base">addresses of company directors but not anymore!"</div>
+                  <div className="text-white my-2 font-semibold text-base">"the data leadzilla finds is our secret sauce"</div>
                   <div className="text-white my-2 font-semibold text-base">
                     {' '}
-                    I love how you can press one button and have an email!
+                    "I love how you can press one button and have an email!"
                   </div>
                   <div className="text-white my-2 font-semibold text-base">
-                    “Really clever, quick and intuitive. Very easy to use”
+                    "Really clever, quick and intuitive. Very easy to use"
                   </div>
                   <div className="text-white my-2 font-semibold text-base">
-                    “Surprised at how much work gets done using leadzilla”
+                    "Surprised at how much work gets done using Leadzilla"
                   </div>
-                  <div className="text-white my-2 font-semibold text-base">“I’m finding emails and contact information </div>
-                  <div className="text-white my-2 font-semibold text-base"> without a lot of research and expense.”</div>
-                  <div className="text-white my-2 font-semibold text-base"> “other tools do not have great accuracy”</div>
+                  <div className="text-white my-2 font-semibold text-base">"I’m finding emails and contact information </div>
+                  <div className="text-white my-2 font-semibold text-base"> without a lot of research and expense."</div>
+                  <div className="text-white my-2 font-semibold text-base"> "other tools do not have great accuracy"</div>
                 </div>
               </button>
             </button>
