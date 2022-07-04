@@ -29,27 +29,29 @@ function Footer() {
            </div>
           </div>
 
-          <div className='flex flex-row justify-between mt-16'>
-            <div className='flex flex-col'>
-              <p className='font-gilroybold text-white text-lg mb-5'><Link href="/features">Features</Link></p>
+          {/* <div className='flex flex-row justify-between mt-16'> */}
+            <div className='flex justify-between mt-16'>
+              <div className='font-gilroybold text-white text-lg mb-5'><Link href="/features">Features</Link></div>
               {/* <p className='text-gray-500 my-2 cursor-pointer'><Link href="/features">Features</Link></p>
               <p className='text-gray-500 my-2 cursor-pointer'> <Link href="https://blog.leadzilla.ai"> Blogs</Link></p>
               <p className='text-gray-500 my-2 cursor-pointer'><Link href="/faq">FAQ</Link></p>
               <p className='text-gray-500 my-2 cursor-pointer'><Link href="/contactus">Contacts</Link></p> */}
+              <div className='font-gilroybold text-white text-lg mb-5'><Link href="https://blog.leadzilla.ai">
+                    Blogs
+                    </Link></div>
+              <div className='font-gilroybold text-white text-lg mb-5'><Link href="/faq">FAQ</Link></div>
+              <div className='font-gilroybold text-white text-lg mb-5'><Link href="/contactus">Contact Us</Link></div>
+            </div>
+            {/* <div className='flex flex-col'>
             </div>
             <div className='flex flex-col'>
-              <p className='font-gilroybold text-white text-lg mb-5'> <Link href="https://blog.leadzilla.ai"> Blogs</Link></p>
             </div>
             <div className='flex flex-col'>
-              <p className='font-gilroybold text-white text-lg mb-5'><Link href="/faq">FAQ</Link></p>
-            </div>
-            <div className='flex flex-col'>
-              <p className='font-gilroybold text-white text-lg mb-5'><Link href="/contactus">Contact Us</Link></p>
-            </div>
+            </div> */}
             <div className='flex flex-col'>
               {/* <p className='font-gilroybold text-white text-lg mb-5'>Legal</p> */}
             </div>
-          </div>
+          {/* </div> */}
           <div className='flex justify-between items-center mt-20'>
             <p className='text-gray-400'>©Copyright 2022 Leadzilla</p>
             <div className='flex flex-row'>

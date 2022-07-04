@@ -24,6 +24,20 @@ function CutomerReviews() {
     }
   };
 
+  const customerReviews=[
+    {
+      description: "After checking all the alternatives, Leadzilla was the only solution to provide so much more than that. On top of that, it was also the only solution that didn’t involve so much pain during integration, so quick and easy, my team loves it.",
+      img: "/assets/personleadzilla.svg",
+      name: "James Smith",
+      designation: "Sales Manager @Company name",
+    },
+    {
+      description: "We checked out a number of data products and we just loved the simplicity of Leadzilla. The data is second to none and the AI module works like magic.",
+      img: "/assets/secondreview.jpeg",
+      name: "Patricia Christensen ",
+      designation: "Sales Manager @ Goperspecta",
+    }
+  ]
   const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
     const {
       carouselState: { currentSlide },
@@ -89,8 +103,11 @@ function CutomerReviews() {
             customButtonGroup={<ButtonGroup />}
             customDot={<CustomDot />}
           >
-            <CarouselContent />
-            <CarouselContent />
+            {customerReviews.map((val)=>{
+              return(
+                <CarouselContent val={val}/>
+              )
+            })}
           </Carousel>;
         </div>
       </div>

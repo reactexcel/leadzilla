@@ -176,33 +176,28 @@ const AboutUs=()=> {
           </Fade>
         </div>
         <Fade left>
-        <div className="flex items-center justify-around  mt-24 w-10/12 py-2 mx-auto">
-          <div className="relative ">
-            <Image
-              src="/assets/aboutus/groupspic.svg"
-              alt="aboutourteam"
-              width="1350px"
-              height="600px"
-            />
-
-            <div className="absolute right-24 top-36 text-xl">
-              <div className="text-5xl font-gilroybold">
+        <div className="flex items-center justify-center mt-24 w-10/12 mx-auto pb-2" style={{height:"446px"}}>
+          <div>
+            <Image src="/assets/aboutus/aboutusguys.svg" alt="" width="570" height="448"/>
+          </div>
+          <div className="bg-meetsauravbg-200" style={{width:"800px", height:"446px"}}>
+            <div className="px-16 pt-16">
+             <div className="text-5xl font-gilroybold">
                 Meet Saurav?
               </div>
-              <div className="py-2 text-2xl text-aboutustextcolor-200">
+              <div className="py-6 text-2xl text-aboutustextcolor-200">
                 The Founders of Leadzilla
               </div>
-              <div className="text-aboutustextcolor-200">
-                What started off as one developer's passion project <br /> has
-                quickly evolved into one of B2Bs largest and <br />
+              <div className="text-aboutustextcolor-200 text-justify text-xl">
+                What started off as one developer's passion project  has
+                quickly evolved into one of B2Bs largest and 
                 most respected contact data solutions. In 2016 Yoni,
-                <br /> a young developer, and Assaf, an HR tech creator,
-                <br /> met. Together, they created Lusha, a better way for{" "}
-                <br />
-                B2B salespeople to prospect based on community <br />
+                 a young developer, and Assaf, an HR tech creator,
+                 met. Together, they created Lusha, a better way for{" "}
+                B2B salespeople to prospect based on community 
                 sharing, simplicity, accuracy and accessibility.
               </div>
-            </div>
+              </div>
           </div>
         </div>
         </Fade>
