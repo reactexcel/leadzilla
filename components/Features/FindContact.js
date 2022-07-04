@@ -25,7 +25,7 @@ const FindContact = () => {
           </div>
           <div className="flex mt-4">
             <div style={{marginTop:"-4px"}}>
-              <Image src="/assets/arrowfeature.png" width="15" height="2"/>
+              <Image src="/assets/arrowfeature.png" width="15" height="2" alt=""/>
             </div>
             <div className="text-base font-normal ml-2">
               Find contacts using typical filters like industry, geography,
@@ -34,7 +34,7 @@ const FindContact = () => {
           </div>
           <div className="flex mt-4">
             <div style={{marginTop:"-4px"}}>
-              <Image src="/assets/arrowfeature.png" width="15" height="2"/>
+              <Image src="/assets/arrowfeature.png" width="15" height="2" alt=""/>
             </div>
             <div className="text-base font-normal ml-2">
               If that doesn’t work, you have advanced filters like funding,
@@ -44,7 +44,7 @@ const FindContact = () => {
           </div>
           <div className="flex mt-4">
             <div style={{marginTop:"-4px"}}>
-              <Image src="/assets/arrowfeature.png" width="15" height="2"/>
+              <Image src="/assets/arrowfeature.png" width="15" height="2" alt=""/>
             </div>
             <p className="text-base font-normal ml-2">
             Reveal their verified emails and phone numbers

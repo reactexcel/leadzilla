@@ -204,9 +204,9 @@ const Contents = () => {
 
         <div className="w-auto mx-auto grid-flow-col mt-20">
           <div className="grid grid-cols-3  mx-auto  my-auto  mt-20 ">
-            {detail.map((item) => {
+            {detail.map((item, key) => {
               return (
-                <div className="mr-4 h-auto ">
+                <div className="mr-4 h-auto " key={key}>
                   <Image
                     src={item.imgsrc}
                     alt=""
@@ -298,9 +298,9 @@ const Contents = () => {
 
         <div style={{ height: "auto" }}>
           <div className="grid grid-cols-3  mt-20">
-            {detailmain.map((item) => {
+            {detailmain.map((item, key) => {
               return (
-                <div className="mr-4 h-auto mb-10">
+                <div className="mr-4 h-auto mb-10" key={key}>
                   <Image
                     src={item.imgsrc}
                     alt=""
