@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
      <Head>
-      <link rel="shortcut icon" href="/favicon.svg" />
+      <link rel="shortcut icon" href="/assets/favicon.svg" />
     </Head>
       <Meta />
       <Component {...pageProps} />
