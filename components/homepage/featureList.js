@@ -172,7 +172,7 @@ const FeatureList = () => {
             </Fade>
           </div>
         </div>
-        <div className='w-10/12 mx-auto flex justify-around items-center pt-10'>
+        <div className='w-10/12 mx-auto flex justify-around items-center'>
           <div className='pt-24'>
             <Fade left>
               <Image
