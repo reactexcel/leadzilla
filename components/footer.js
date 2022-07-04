@@ -45,6 +45,10 @@ function Footer() {
             <div className="font-gilroybold text-white text-lg mb-5">
               <Link href="/features">Features</Link>
             </div>
+            <div className="font-gilroybold text-white text-lg mb-5">
+              <Link href="/pricing">Pricing</Link>
+            </div>
+
             {/* <p className='text-gray-500 my-2 cursor-pointer'><Link href="/features">Features</Link></p>
               <p className='text-gray-500 my-2 cursor-pointer'> <Link href="https://blog.leadzilla.ai"> Blogs</Link></p>
               <p className='text-gray-500 my-2 cursor-pointer'><Link href="/faq">FAQ</Link></p>
