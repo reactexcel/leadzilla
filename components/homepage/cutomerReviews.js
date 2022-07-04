@@ -95,7 +95,7 @@ function CutomerReviews() {
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center py-8">
+      <div className="flex flex-col justify-center items-center py-8 pt-20">
         <p className="text-5xl font-gilroybold">See what our customers</p>
         <p className="font-light text-5xl font-gilroylight pb-2">
           have to say for us
