@@ -39,9 +39,9 @@ const TopContent = () => {
       <Link href="https://app.leadzilla.ai/login"> 
         <button className='bg-black p-3 px-5 text-2xl font-bold relative cursor-pointer transform hover: transition duration-500 hover:scale-125'>
           Sign up and get 20 free leads now
-          <button className='bg-yellow-500 p-3 px-4 text-2xl font-bold absolute bottom-2 left-2 whitespace-nowrap cursor-pointer'>
+          <div className='bg-yellow-500 p-3 px-4 text-2xl font-bold absolute bottom-2 left-2 whitespace-nowrap cursor-pointer'>
             Sign up and get 20 free leads now!
-          </button>
+          </div>
         </button>
         </Link>
       </div>

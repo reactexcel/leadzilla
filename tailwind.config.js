@@ -3,6 +3,9 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      'mobile': {'max': '375px'},
+    },
     extend: {
       fontFamily: {
         sans: ["Manrope", ...defaultTheme.fontFamily.sans],

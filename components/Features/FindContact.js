@@ -54,9 +54,9 @@ const FindContact = () => {
           <Link href="https://app.leadzilla.ai/login">
               <button className='bg-black p-3 px-8 text-base font-bold relative transform  hover: transition duration-500 hover:scale-125'>
                 Learn more
-                <button className='bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-1 right-1 whitespace-nowrap'>
+                <div className='bg-yellow-500 p-3 px-8 text-base font-bold absolute bottom-1 right-1 whitespace-nowrap'>
                   Learn more
-                </button>
+                </div>
               </button>
               </Link>
             </div>
