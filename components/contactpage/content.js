@@ -6,8 +6,8 @@ const Contents = () => {
       <div className='bg-blue-300' style={{ height: '380px' }}>
         <div className='grid grid-cols-2 w-10/12 py-2 mx-auto  px-2 sm:px-6 lg:px-8'>
           <div className='mt-36 sm:mt-20'>
-            <h1 className='text-6xl sm:text-3xl font-extrabold leading-10 font-gilroybold'>Contact us</h1>
-            <p className='mt-3 pt-4 mb-11 text-xl sm:text-sm text-voilet-100 w-2/3 sm:w-64'>
+            <h1 className='text-6xl lg:text-5xl sm:text-3xl font-extrabold leading-10 font-gilroybold'>Contact us</h1>
+            <p className='mt-3 pt-4 mb-11 text-xl lg:text-md sm:text-sm text-voilet-100 w-2/3 sm:w-64'>
               Don't be a stranger. Feel free to contact us about anything, anytime.
             </p>
             <div className='sm:flex'>
@@ -27,7 +27,7 @@ const Contents = () => {
           </div>
 
           <div
-            className='mt-40 bg-white sm:mt-96 px-5 flex flex-col rounded-xl sm:rounded-none absolute right-20 mr-7 mx-auto shadow-md sm:shadow-none mr-[5%]'
+            className='mt-40 bg-white sm:mt-96 px-5 flex flex-col rounded-xl sm:rounded-none absolute right-20 sm:-right-14 mr-7 mx-auto shadow-md sm:shadow-none mr-[5%]'
             style={{
               // backgroundColor: 'white',
               // width: '40%',

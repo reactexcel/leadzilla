@@ -10,7 +10,7 @@ const FeatureList = () => {
         <div style={{ marginBottom: '-18px', marginLeft: '-101px' }}>
           <Image src='/assets/feature.png' alt='' width='20px' height='20px' />
         </div>
-        <div className='text-5xl' style={{ letterSpacing: '-0.6px' }}>
+        <div className='text-5xl sm:text-3xl' style={{ letterSpacing: '-0.6px' }}>
           <span className='font-gilroylight'> Now </span>
           <br />
           <div className='font-gilroybold py-3'>
@@ -21,7 +21,7 @@ const FeatureList = () => {
       </div>
 
       <div>
-        <div className='w-10/12 mx-auto flex justify-around items-center py-10'>
+        <div className='w-10/12 mx-auto flex justify-around items-center py-10  sm:block'>
           <Fade left>
             <div>
               <div className='text-4xl font-gilroybold'>

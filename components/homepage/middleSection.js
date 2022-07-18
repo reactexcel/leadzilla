@@ -5,16 +5,16 @@ const MiddleTopSection = () => {
   return (
     <>
       <div
-        className='mt-80 text-5xl text-center'
+        className='mt-80 sm:mt-20 text-5xl text-center sm:text-2xl sm:text-left sm:pl-3'
       >
         <div className='py-1 font-gilroylight'>Let’s get real</div>
-        <div className='p-2.5 font-gilroylight'>You don’t need contact data.</div>
+        <div className='py-2.5 font-gilroylight'>You don’t need contact data.</div>
         <div className='font-gilroybold'>
           You need meetings with good fit buyers.
         </div>
       </div>
-      <div className='my-12 flex justify-center'>
-        <div className='mr-2'>
+      <div className='my-12 flex justify-center sm:block sm:p-3'>
+        <div className='mr-2 sm:mb-3'>
           <Image
             src='/assets/current.svg'
             alt=''
@@ -33,8 +33,8 @@ const MiddleTopSection = () => {
         </div>
       </div>
 
-      <div className='flex justify-center items-center py-20'>
-        <div className='px-3'>
+      <div className='flex justify-center items-center py-20 sm:block'>
+        <div className='px-3 sm:hidden'>
           <Image
             src='/assets/whychoosethis.svg'
             alt=''
@@ -42,12 +42,12 @@ const MiddleTopSection = () => {
             height='490px'
           />
         </div>
-        <div className='px-10'>
-          <div className='text-5xl'>
+        <div className='px-10 sm:px-6'>
+          <div className='text-5xl sm:text-3xl'>
             <span className='font-gilroybold'>Why choose us </span> over
             <div className='font-gilroylight'>hundreds of other options?</div>
           </div>
-          <div className='text-base'>
+          <div className='text-base '>
             <div className='mt-7'>
               Look, we get it. We’re a team of outbound sales professionals and
               <div>we have struggled with getting meetings as well.</div>
