@@ -4,7 +4,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
-      'mobile': {'max': '375px'},
+      'sm': {'max': '540px'},
+      'md': {'min': '540px', 'max': '700px'},
+      'lg': {'min': '700px', 'max': '1024px'},
+
     },
     extend: {
       fontFamily: {
