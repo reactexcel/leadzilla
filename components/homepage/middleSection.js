@@ -5,7 +5,7 @@ const MiddleTopSection = () => {
   return (
     <>
       <div
-        className='mt-80 sm:mt-20 text-5xl text-center sm:text-2xl sm:text-left sm:pl-3'
+        className='mt-80 sm:mt-20 md:mt-48 md:px-3 text-5xl text-center sm:text-2xl md:text-4xl sm:text-left sm:pl-3'
       >
         <div className='py-1 font-gilroylight'>Let’s get real</div>
         <div className='py-2.5 font-gilroylight'>You don’t need contact data.</div>

@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Fade from 'react-reveal/Fade';
 import Link from 'next/link';
+import CommonButton from '../common/commonButton';
 
 const FeatureList = () => {
   return (
@@ -33,22 +34,15 @@ const FeatureList = () => {
                 <span className='text-blue-600'>20 search filters</span>
               </div>
 
-             
-                <div className='mt-4 h-7 w-3/6'>
-                <Link href="https://app.leadzilla.ai/login">
-                  <button className='bg-black p-3 px-8 font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
-                    Learn more
-                    <div className=' bg-yellow-500 p-3 px-8 font-bold absolute bottom-2 right-2 whitespace-nowrap'>
-                      Learn more
 
-                    </div>
-                  </button>
-                  </Link>
-                </div>
-              
+              <div className='mt-4 h-7 w-3/6'>
+                <Link href="https://app.leadzilla.ai/login">
+                  <CommonButton />
+                </Link>
+              </div>
             </div>
           </Fade>
-          <div>
+          <div className='sm:mt-12'>
             <Fade right>
               <Image
                 src='/assets/platform.svg'
@@ -59,8 +53,8 @@ const FeatureList = () => {
             </Fade>
           </div>
         </div>
-        <div className='w-10/12 mx-auto flex justify-around items-center py-20'>
-          <div>
+        <div className='w-10/12 mx-auto flex justify-around items-center py-20 sm:block'>
+          <div className='sm:hidden'>
             <Fade left>
               <Image
                 src='/assets/extansionleadzilla.svg'
@@ -79,25 +73,29 @@ const FeatureList = () => {
                 <span className='text-blue-600'> Find, target and connect</span>{' '}
                 with ideal prospects on LinkedIn
               </div>
-
               <div className='mt-4 h-7 w-3/6'>
-              <Link href="https://chrome.google.com/webstore/detail/leadzilla/mlknnmdepgmefemphhdombdflfgceejg">
-                <button className='bg-black p-3 px-8 font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
-                  Learn more
-                  <div className='bg-yellow-500 p-3 px-8 font-bold absolute bottom-2 right-2 whitespace-nowrap'>
-                    Learn more
-                  </div>
-                </button>
+                <Link href="https://chrome.google.com/webstore/detail/leadzilla/mlknnmdepgmefemphhdombdflfgceejg">
+                  <CommonButton />
                 </Link>
               </div>
             </div>
           </Fade>
+          <div className='sm:block hidden sm:mt-10'>
+            <Fade left>
+              <Image
+                src='/assets/extansionleadzilla.svg'
+                alt=''
+                width='516px'
+                height='417px'
+              />
+            </Fade>
+          </div>
         </div>
 
-        <div className='w-10/12 mx-auto flex justify-around items-center py-10'>
+        <div className='w-10/12 mx-auto flex justify-around items-center py-10 sm:py-4 sm:block'>
           <Fade left>
             <div>
-              <div className='text-4xl font-gilroybold'>
+              <div className='text-4xl font-gilroybold sm:text-3xl'>
                 Contact search
               </div>
               <div className='font-semibold py-5'>
@@ -150,18 +148,19 @@ const FeatureList = () => {
               </div>
 
               <div className='mt-4 h-7 w-3/6'>
-              <Link href="https://app.leadzilla.ai/login">
-                <button className='bg-black p-3 px-8 font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
+                <Link href="https://app.leadzilla.ai/login">
+                  {/* <button className='bg-black p-3 px-8 font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125 md:py-0'>
                   Learn more
-                  <div className='bg-yellow-500 p-3 px-8 font-bold absolute bottom-2 right-2 whitespace-nowrap'>
+                  <div className='bg-yellow-500 p-3 px-8 font-bold absolute bottom-2 right-2 whitespace-nowrap md:-right-6'>
                     Learn more
                   </div>
-                </button>
+                </button> */}
+                  <CommonButton />
                 </Link>
               </div>
             </div>
           </Fade>
-          <div>
+          <div className='sm:mt-10'>
             <Fade right>
               <Image
                 src='/assets/rectangleleadzilla.svg'
@@ -172,8 +171,8 @@ const FeatureList = () => {
             </Fade>
           </div>
         </div>
-        <div className='w-10/12 mx-auto flex justify-around items-center'>
-          <div className='pt-24'>
+        <div className='w-10/12 mx-auto flex justify-around items-center sm:block'>
+          <div className='pt-24 sm:hidden'>
             <Fade left>
               <Image
                 src='/assets/aipowerleadzilla.svg'
@@ -199,19 +198,23 @@ const FeatureList = () => {
                 web
                 {/* <span className='text-blue-600'> Find, target and connect</span> with ideal prospects on LinkedIn  */}
               </div>
-
               <div className='mt-4 h-7 w-3/6'>
-              <Link href="https://app.leadzilla.ai/login">
-                <button className='bg-black p-3 px-8 font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
-                  Learn more
-                  <div className='bg-yellow-500 p-3 px-8 font-bold absolute bottom-2 right-2 whitespace-nowrap'>
-                    Learn more
-                  </div>
-                </button>
+                <Link href="https://app.leadzilla.ai/login">
+                  <CommonButton />
                 </Link>
               </div>
             </div>
           </Fade>
+          <div className='pt-24 hidden sm:block'>
+            <Fade left>
+              <Image
+                src='/assets/aipowerleadzilla.svg'
+                alt=''
+                width='578px'
+                height='416px'
+              />
+            </Fade>
+          </div>
         </div>
       </div>
     </>

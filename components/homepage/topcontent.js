@@ -15,7 +15,7 @@ const TopContent = () => {
       className='bg-pink-bg w-full h-[871px] sm:h-[260px] md:h-auto bg-cover relative'
       // style={{height: '871px' }}
     >
-      <div className='pt-16 text-center text-7xl sm:text-3xl sm:text-left sm:pl-4'>
+      <div className='pt-16 text-center text-7xl sm:text-3xl md:text-5xl sm:text-left sm:pl-4'>
         {starImage.map((val, key) => {
           return (
             <Image src='/assets/starlandingpage.svg' alt='' width='40' height='40' className='py-3 p-2' key={key}/>
@@ -24,7 +24,7 @@ const TopContent = () => {
         <div className='font-extrabold font-gilroybold'>More than just accurate,</div>
         <div className='py-1 font-gilroylight'>verified contact data </div>
       </div>
-      <div className='text-2xl sm:text-lg text-center p-6'>
+      <div className='text-2xl sm:text-lg md:text-xl text-center p-6 sm:text-left'>
         <div>
           Leadzilla gives you 95%+ accurate contact data and uses AI to write
           highly

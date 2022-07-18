@@ -33,7 +33,7 @@ const PricingPage = () => {
               </div>{" "}
             </Fade>
             <Fade right>
-              <div className="mb-4 flex ml-16">
+              <div className="mb-4 flex ml-16  sm:block">
                 <div className="mr-36 text-xl text-pricingtextcolor-200">
                   <div className="">
                     I’m a lot like you! I see a lot of interesting software. But
@@ -76,7 +76,7 @@ const PricingPage = () => {
         </div>
       </div>
 
-      <div className="text-center mt-16 relative">
+      <div className="text-center mt-16 relative sm:text-left sm:pl-2">
         <div className="font-light text-3xl font-gilroylight">
           Your time and efforts are not cheap.
         </div>
@@ -145,7 +145,7 @@ const PricingPage = () => {
           </tbody>
         </table>
 
-        <span className="ml-2 absolute top-32 right-48 ">
+        <span className="ml-2 absolute top-32 right-48 sm:hidden">
           <Image
             src="/assets/righteyeimg.svg"
             alt="eyesImg"
@@ -155,7 +155,7 @@ const PricingPage = () => {
           />
         </span>
 
-        <span className="ml-2 absolute top-32 right-3/4 ">
+        <span className="ml-2 absolute top-32 right-3/4 sm:hidden">
           <Image
             src="/assets/arrow.svg"
             alt="arrow"
@@ -166,7 +166,7 @@ const PricingPage = () => {
       </div>
       <Fade right>
         <div className="mt-48 relative px-9">
-          <div className="flex justify-center">
+          <div className="flex justify-center ">
             <div className="xl:mr-96 lg:mr-auto">
               {" "}
               <div className="font-extrabold text-4xl font-gilroybold">

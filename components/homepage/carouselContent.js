@@ -11,7 +11,7 @@ const CarouselContent = ({val}) => {
           alt='image'
         />
       </div>
-      <div className='flex flex-row items-center pt-10'>
+      <div className='flex flex-row items-center pt-10 sm:block'>
         <div className='ml-3 w-1/4'>
           <Image src={val.img} width='650' height='650' alt='profile picture' />
         </div>
