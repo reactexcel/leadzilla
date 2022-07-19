@@ -31,41 +31,47 @@ function Footer() {
                 </button>
               </Link>
               <Link href="https://chrome.google.com/webstore/detail/leadzilla/mlknnmdepgmefemphhdombdflfgceejg">
-                <button className="text-white text-sm font-bold border-2 hover:bg-yellow-300 hover:text-black  py-4 px-8 rounded-full">
-                  Add Chrome Extansion
+                <button className="hover:text-white text-sm font-bold  bg-yellow-300 text-black  py-4 px-8 rounded-full">
+                  Add Chrome Extension
                 </button>
               </Link>
             </div>
           </div>
 
-          <div className="flex flex-row justify-between mt-16">
-            <div className="flex flex-col">
-              <p className="font-gilroybold text-white text-lg mb-5">
-                <Link href="/features">Features</Link>
-              </p>
-              {/* <p className='text-gray-500 my-2 cursor-pointer'><Link href="/features">Features</Link></p>
+          {/* Disabling link while FAQ page is under development
+           <div className='flex flex-row justify-between mt-16'> */}
+
+          <div className="flex justify-between mt-16">
+            <div className="font-gilroybold text-white text-lg mb-5">
+              <Link href="/features">Features</Link>
+            </div>
+            <div className="font-gilroybold text-white text-lg mb-5">
+              <Link href="/pricing">Pricing</Link>
+            </div>
+
+            {/* <p className='text-gray-500 my-2 cursor-pointer'><Link href="/features">Features</Link></p>
               <p className='text-gray-500 my-2 cursor-pointer'> <Link href="https://blog.leadzilla.ai"> Blogs</Link></p>
               <p className='text-gray-500 my-2 cursor-pointer'><Link href="/faq">FAQ</Link></p>
               <p className='text-gray-500 my-2 cursor-pointer'><Link href="/contactus">Contacts</Link></p> */}
+            <div className="font-gilroybold text-white text-lg mb-5">
+              <Link href="https://blog.leadzilla.ai">Blogs</Link>
             </div>
-            <div className="flex flex-col">
-              <p className="font-gilroybold text-white text-lg mb-5">
-                <Link href="https://blog.leadzilla.ai"> Blogs</Link>
-              </p>
-            </div>
-            {/* Disabling FAQ page until finalized          
-            <div className='flex flex-col'>
-              <p className='font-gilroybold text-white text-lg mb-5'><Link href="/faq">FAQ</Link></p>
-            </div> */}
-            <div className="flex flex-col">
-              <p className="font-gilroybold text-white text-lg mb-5">
-                <Link href="/contactus">Contact Us</Link>
-              </p>
-            </div>
-            <div className="flex flex-col">
-              {/* <p className='font-gilroybold text-white text-lg mb-5'>Legal</p> */}
+
+            {/* <div className='font-gilroybold text-white text-lg mb-5'><Link href="/faq">FAQ</Link></div> */}
+            <div className="font-gilroybold text-white text-lg mb-5">
+              <Link href="/contactus">Contact Us</Link>
             </div>
           </div>
+          {/* <div className='flex flex-col'>
+            </div>
+            <div className='flex flex-col'>
+            </div>
+            <div className='flex flex-col'>
+            </div> */}
+          <div className="flex flex-col">
+            {/* <p className='font-gilroybold text-white text-lg mb-5'>Legal</p> */}
+          </div>
+          {/* </div> */}
           <div className="flex justify-between items-center mt-20">
             <p className="text-gray-400">©Copyright 2022 Leadzilla</p>
             <div className="flex flex-row">

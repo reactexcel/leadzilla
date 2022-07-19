@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Fade } from "react-reveal";
 import Link from "next/link";
-const AboutUs=()=> {
+const AboutUs = () => {
   return (
     <>
       {" "}
@@ -17,26 +17,16 @@ const AboutUs=()=> {
             Hi! We’re Leadzilla
           </div>
           <div className="text-2xl p-6">
+            <div>A team of veteran salespeople who want to be of help.</div>
             <div>
-              A team of veteran salespeople who want to be of help. 
+              If you're thinking about or struggling with cold emailing or cold
+              calling, we can help.
             </div>
-            <div>If you're thinking about or struggling with cold emailing or cold calling, we can help.</div>
           </div>
-          <div className="text-center p-6 " >
-          <Link href="https://app.leadzilla.ai/login">
-            <button className="bg-black p-3 px-6 text-2xl font-bold relative transform  hover: transition duration-500 hover:scale-125">
-              Join Us
-              <span className="ml-2">
-                <Image
-                  src="/assets/aboutus/thumbsups.svg"
-                  alt="thumbimg"
-                  width="20px"
-                  className="m-6 ml-4"
-                  height="20px"
-                />
-              </span>
-              <button className="bg-yellow-500 p-3 px-8 text-2xl font-bold absolute bottom-2 left-2 whitespace-nowrap">
-                Join Us{" "}
+          <div className="text-center p-6 ">
+            <Link href="https://app.leadzilla.ai/login">
+              <button className="bg-black p-3 px-6 text-2xl font-bold relative transform  hover: transition duration-500 hover:scale-125">
+                Join Us
                 <span className="ml-2">
                   <Image
                     src="/assets/aboutus/thumbsups.svg"
@@ -46,14 +36,21 @@ const AboutUs=()=> {
                     height="20px"
                   />
                 </span>
+                <button className="bg-yellow-500 p-3 px-8 text-2xl font-bold absolute bottom-2 left-2 whitespace-nowrap">
+                  Join Us{" "}
+                  <span className="ml-2">
+                    <Image
+                      src="/assets/aboutus/thumbsups.svg"
+                      alt="thumbimg"
+                      width="20px"
+                      className="m-6 ml-4"
+                      height="20px"
+                    />
+                  </span>
+                </button>
               </button>
-            </button>
             </Link>
           </div>
-        
-
-
-
           <div className="flex justify-center relative">
             <div>
               {" "}
@@ -95,7 +92,7 @@ const AboutUs=()=> {
                   alt="freepikcursor"
                   width="50px"
                   height="50px"
-                  className="animate-ping"  
+                  className="animate-ping"
                 />
               </div>{" "}
               <Image
@@ -141,85 +138,86 @@ const AboutUs=()=> {
       <div>
         <div className="flex items-center justify-around  mt-40 w-10/12 py-2 mx-auto">
           <Fade left>
-          <div className="text-left ">
-            <div className="text-6xl font-gilroybold">
-              What is Leadzilla?
+            <div className="text-left ">
+              <div className="text-6xl font-gilroybold">What is Leadzilla?</div>
+              <div className="pt-4 pb-6 text-aboutustextcolor-200 text-xl">
+                Leadzilla was founded by Saurav Gupta in 2020
+                <br />
+                with the aim of creating the world’s best data source for
+                <br />
+                work emails, phone numbers and personalized <br />
+                email copy for every salesperson, new or experienced. <br />
+                Think of Leadzilla as an AI assistant for cold outreach on
+                email, phone or LinkedIn.
+                <br />{" "}
+              </div>
+              <div className="text-aboutustextcolor-200 text-xl">
+                With Leadzilla, sales professionals can identify, engage and{" "}
+                <br /> close prospects, thanks to our prospecting platform, web{" "}
+                <br /> extension. Leadzilla is used by over <br /> 2000 sales
+                professionals and 300 businesses
+                <br />
+              </div>
             </div>
-            <div className="pt-4 pb-6 text-aboutustextcolor-200 text-xl">
-              Leadzilla was founded by Saurav Gupta in 2020 
-              <br />
-              with the aim of creating the world’s best data source for 
-              <br />
-              work emails, phone numbers and personalized <br />
-              email copy for every salesperson, new or experienced. <br />
-              Think of Leadzilla as an AI assistant for cold outreach on email, phone or LinkedIn.
-              <br /> {" "}
-            </div>
-            <div className="text-aboutustextcolor-200 text-xl">
-              With Leadzilla, sales professionals can identify, engage and{" "}
-              <br /> close prospects, thanks to our prospecting platform,
-              web <br /> extension. Leadzilla is used by 
-              over <br /> 2000 sales professionals and 300 businesses
-               <br />
-            </div>
-          </div>
           </Fade>
           <Fade right>
-          <div>
-            <Image
-              src="/assets/aboutus/whatsleadzilla.svg"
-              alt="whatsleadzilla"
-              height="400"
-              width="614"
-            />
-          </div>
+            <div>
+              <Image
+                src="/assets/aboutus/whatsleadzilla.svg"
+                alt="whatsleadzilla"
+                height="400"
+                width="614"
+              />
+            </div>
           </Fade>
         </div>
         <Fade left>
-        <div className="flex items-center justify-around  mt-24 w-10/12 py-2 mx-auto">
-          <div className="relative ">
-            <Image
-              src="/assets/aboutus/groupspic.svg"
-              alt="aboutourteam"
-              width="1350px"
-              height="600px"
-            />
-
-            <div className="absolute right-24 top-36 text-xl">
-              <div className="text-5xl font-gilroybold">
-                Meet Saurav
-              </div>
-              <div className="py-2 text-2xl text-aboutustextcolor-200">
-                The Founder of Leadzilla
-              </div>
-              <div className="text-left text-aboutustextcolor-200"  style={{fontSize: "20px"}}>
-                What started off as one founder's <br /> idea
-                has become one of the best AI-assisted  <br />
-                data platforms for salespeople, 
-                small business owners and anyone who's just looking to get meetings<br /> 
-                <br /> It's simply a much better way to{" "}
-                <br />
-                send cold emails and do cold calls without <br />
-                going through the hassle of dealing with bad data or spamming people.
+          <div
+            className="flex items-center justify-center mt-24 w-10/12 mx-auto pb-2"
+            style={{ height: "446px" }}
+          >
+            <div>
+              <Image
+                src="/assets/pricing/founderceo.svg"
+                alt=""
+                width="570"
+                height="448"
+              />
+            </div>
+            <div
+              className="bg-meetsauravbg-200"
+              style={{ width: "800px", height: "446px" }}
+            >
+              <div className="px-16 pt-16">
+                <div className="text-5xl font-gilroybold">Meet Saurav?</div>
+                <div className="py-6 text-2xl text-aboutustextcolor-200">
+                  The Founder of Leadzilla
+                </div>
+                <div className="text-aboutustextcolor-200 text-justify text-xl">
+                  What started off as one sales dude's idea has become one of
+                  the best AI-assisted data platforms for salespeople, small
+                  business owners and anyone who's just looking to get meetings.
+                  It's simply a much better way to send cold emails and do cold
+                  calls without going through the hassle of dealing with bad
+                  data or spamming people
+                </div>
               </div>
             </div>
           </div>
-        </div>
         </Fade>
-        <Fade bottom>        
-        <div className="flex justify-center">
-          <Image
-            src="/assets/aboutus/aboutourteam.svg"
-            alt="aboutourteam"
-            width="448"
-            height="296"
-          />
-        </div>
+        <Fade bottom>
+          <div className="flex justify-center">
+            <Image
+              src="/assets/aboutus/aboutourteam.svg"
+              alt="aboutourteam"
+              width="448"
+              height="296"
+            />
+          </div>
         </Fade>
-
       </div>
     </>
   );
-}
+};
 
 export default AboutUs;

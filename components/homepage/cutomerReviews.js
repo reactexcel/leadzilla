@@ -23,6 +23,22 @@ function CutomerReviews() {
     },
   };
 
+  const customerReviews = [
+    {
+      description:
+        "After checking all the alternatives, Leadzilla was the only solution to provide so much more than that. On top of that, it was also the only solution that didn’t involve so much pain during integration, so quick and easy, my team loves it.",
+      img: "/assets/customers/connor-hevingham-alphaletz.jpeg",
+      name: "Connor Hevingham",
+      designation: "Head of Marketing @ Alphaletz",
+    },
+    {
+      description:
+        "We checked out a number of data products and we just loved the simplicity of Leadzilla. The data is second to none and the AI module works like magic.",
+      img: "/assets/customers/patricia-christensen-goperspecta.jpeg",
+      name: "Patricia Christensen ",
+      designation: "Sales Manager @ Goperspecta",
+    },
+  ];
   const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
     const {
       carouselState: { currentSlide },
@@ -79,7 +95,7 @@ function CutomerReviews() {
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center py-8">
+      <div className="flex flex-col justify-center items-center py-8 pt-20">
         <p className="text-5xl font-gilroybold">See what our customers</p>
         <p className="font-light text-5xl font-gilroylight pb-2">
           have to say for us
@@ -100,26 +116,9 @@ function CutomerReviews() {
             customButtonGroup={<ButtonGroup />}
             customDot={<CustomDot />}
           >
-            <CarouselContent
-              customerImage={
-                "/assets/customers/connor-hevingham-alphaletz.jpeg"
-              }
-              customerName={"Connor Hevingham"}
-              customerCompany={"Sales Manager @ Alphaletz"}
-              customerReview={
-                "After checking out a number of contact data products, Leadzilla was the only solution that gave us the accuracy that we needed. On top of that, it was also the only solution with the personalized AI-written emails that I've seen so far. My team loves it."
-              }
-            />
-            <CarouselContent
-              customerImage={
-                "/assets/customers/patricia-christensen-goperspecta.jpeg"
-              }
-              customerName={"Patricia Christensen"}
-              customerCompany={"GoPerspecta"}
-              customerReview={
-                "We checked out a number of data products and we just loved the simplicity of Leadzilla. The data is second to none and the AI module works like magic."
-              }
-            />
+            {customerReviews.map((val, index) => {
+              return <CarouselContent val={val} key={index} />;
+            })}
           </Carousel>
         </div>
       </div>

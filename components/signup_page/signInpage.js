@@ -24,7 +24,7 @@ const SignInPage = () => {
             </div>
 
             <div className="flex items-center justify-center border-2 mt-8 px-2">
-              <Image src="/assets/Profile.png" width="18px" height="18px" />
+              <Image src="/assets/Profile.png" width="18px" height="18px" alt=""/>
               <input
                 className="w-full h-12 text-black px-2 focus:outline-none"
                 placeholder="Sanjay Patel"
@@ -32,7 +32,7 @@ const SignInPage = () => {
             </div>
 
             <div className="flex items-center justify-center border-2 px-2 my-6">
-              <Image src="/assets/Message.png" width="18px" height="18px" />
+              <Image src="/assets/Message.png" width="18px" height="18px" alt=""/>
               <input
                 className="w-full h-12 text-black px-2 focus:outline-none"
                 placeholder="sanjaypatel@gmail"
@@ -62,12 +62,13 @@ const SignInPage = () => {
                 src="/assets/Google-icon.png"
                 width="15px"
                 height="15px"
+                alt=""
               />
               <div className="mx-2">Sign in with Google</div>
             </div>
 
             <div className="w-full h-12 border-2 border-gray-200 items-center flex justify-center my-6">
-              <Image src="/assets/Subtract.png" width="18px" height="18px" />
+              <Image src="/assets/Subtract.png" width="18px" height="18px" alt=""/>
               <div className="mx-2">Login with facebook</div>
             </div>
 
@@ -90,6 +91,7 @@ const SignInPage = () => {
               layout="fixed"
               height="800"
               width="497"
+              alt=""
             />
           </div>
           <div className="absolute font-extrabold font-gilroybold right-1/4 text-3xl text-left top-24">
