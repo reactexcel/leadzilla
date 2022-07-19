@@ -43,10 +43,11 @@ function Footer() {
 
           <div className="flex justify-between mt-16">
             <div className="font-gilroybold text-white text-lg mb-5">
-              <Link href="/features">Features</Link>
-            </div>
-            <div className="font-gilroybold text-white text-lg mb-5">
               <Link href="/pricing">Pricing</Link>
+            </div>
+
+            <div className="font-gilroybold text-white text-lg mb-5">
+              <Link href="/features">Features</Link>
             </div>
 
             {/* <p className='text-gray-500 my-2 cursor-pointer'><Link href="/features">Features</Link></p>
@@ -57,10 +58,21 @@ function Footer() {
               <Link href="https://blog.leadzilla.ai">Blogs</Link>
             </div>
 
+            <div className="font-gilroybold text-white text-lg mb-5">
+              <Link href="/about">About</Link>
+            </div>
+
+            <div className="font-gilroybold text-white text-lg mb-5">
+              <Link href="/privacypolicy">Privacy Policy</Link>
+            </div>
+
             {/* <div className='font-gilroybold text-white text-lg mb-5'><Link href="/faq">FAQ</Link></div> */}
+            {/* 
+            Disable link contact us
+          
             <div className="font-gilroybold text-white text-lg mb-5">
               <Link href="/contactus">Contact Us</Link>
-            </div>
+            </div> */}
           </div>
           {/* <div className='flex flex-col'>
             </div>
