@@ -21,8 +21,8 @@ const FeatureList = () => {
         </div>
       </div>
 
-      <div>
-        <div className='w-10/12 mx-auto flex justify-around items-center py-10  sm:block'>
+      <div className=''>
+        <div className='w-10/12 mx-auto md:px-6 md:w-screen flex justify-around items-center py-10  sm:block md:block'>
           <Fade left>
             <div>
               <div className='text-4xl font-gilroybold'>
@@ -42,7 +42,7 @@ const FeatureList = () => {
               </div>
             </div>
           </Fade>
-          <div className='sm:mt-12'>
+          <div className='sm:mt-12 md:mt-12 '>
             <Fade right>
               <Image
                 src='/assets/platform.svg'
@@ -53,8 +53,8 @@ const FeatureList = () => {
             </Fade>
           </div>
         </div>
-        <div className='w-10/12 mx-auto flex justify-around items-center py-20 sm:block'>
-          <div className='sm:hidden'>
+        <div className='w-10/12 mx-auto md:px-6 md:w-screen flex justify-around items-center py-20 sm:block md:block'>
+          <div className='sm:hidden md:hidden'>
             <Fade left>
               <Image
                 src='/assets/extansionleadzilla.svg'
@@ -80,7 +80,7 @@ const FeatureList = () => {
               </div>
             </div>
           </Fade>
-          <div className='sm:block hidden sm:mt-10'>
+          <div className='sm:block md:block hidden sm:mt-10 md:mt-10'>
             <Fade left>
               <Image
                 src='/assets/extansionleadzilla.svg'
@@ -92,7 +92,7 @@ const FeatureList = () => {
           </div>
         </div>
 
-        <div className='w-10/12 mx-auto flex justify-around items-center py-10 sm:py-4 sm:block'>
+        <div className='w-10/12 mx-auto md:px-6 md:w-screen flex justify-around items-center py-10 sm:py-4 sm:block md:block'>
           <Fade left>
             <div>
               <div className='text-4xl font-gilroybold sm:text-3xl'>
@@ -160,7 +160,7 @@ const FeatureList = () => {
               </div>
             </div>
           </Fade>
-          <div className='sm:mt-10'>
+          <div className='sm:mt-10 md:mt-10'>
             <Fade right>
               <Image
                 src='/assets/rectangleleadzilla.svg'
@@ -171,8 +171,8 @@ const FeatureList = () => {
             </Fade>
           </div>
         </div>
-        <div className='w-10/12 mx-auto flex justify-around items-center sm:block'>
-          <div className='pt-24 sm:hidden'>
+        <div className='w-10/12 md:px-6 md:w-screen mx-auto flex justify-around items-center sm:block md:block'>
+          <div className='pt-24 sm:hidden md:hidden'>
             <Fade left>
               <Image
                 src='/assets/aipowerleadzilla.svg'
@@ -205,7 +205,7 @@ const FeatureList = () => {
               </div>
             </div>
           </Fade>
-          <div className='pt-24 hidden sm:block'>
+          <div className='pt-24 hidden sm:block md:block'>
             <Fade left>
               <Image
                 src='/assets/aipowerleadzilla.svg'

@@ -101,7 +101,7 @@ const AboutUs = () => {
                 width="200"
                 height="200"
                 className="animate-pulse"
-             
+
               />
             </div>
           </div>
@@ -115,7 +115,7 @@ const AboutUs = () => {
             />
           </span>
         </div>
-/
+        
         <span className="ml-2 absolute top-32 left-48 sm:hidden  md:hidden">
           <Image
             src="/assets/lefteyesImg.svg"
@@ -186,8 +186,8 @@ const AboutUs = () => {
               />
             </div>
             <div
-              className="bg-meetsauravbg-200 h-[446px] w-[800px]"
-              // style={{ width: "800px", height: "446px" }}
+              className="bg-meetsauravbg-200 h-446 w-800"
+            // style={{ width: "800px", height: "446px" }}
             >
               <div className="px-16 pt-16 sm:pt-10 sm:px-3">
                 <div className="text-5xl sm:text-3xl font-gilroybold">Meet Saurav?</div>
