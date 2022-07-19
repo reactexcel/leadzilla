@@ -10,7 +10,7 @@ const AccordianLayout = ({ title,index, activeIndex, setActiveIndex, answer }) =
   return (
     <div className={`w-full ${toggle && index===activeIndex?'bg-backgray-200 my-3 rounded':'' }`}>
       <div
-        className={`flex justify-between p-2 mt-2 border border-bordergray-200 rounded w-full ${toggle && index===activeIndex?'mb-1':'mb-7'}`}
+        className={`flex justify-between p-2 mt-2 border border-bordergray-200 rounded w-full ${toggle && index===activeIndex?'mb-1 sm:mx-0':'mb-7 sm:ml-5  sm:w-11/12'}`}
         style={{ alignItems: 'center' }}
       >
         <div className='text-base font-bold'>{title}</div>

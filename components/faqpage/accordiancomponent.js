@@ -75,7 +75,7 @@ const AccordianComponent = () => {
         </Fade>
         <Fade bottom>
           <div className={`w-3/4 sm:w-screen md:w-screen `}>
-            <div className="sm:mx-3 md:mx-0">
+            <div className=" md:mx-0">
               <div className={`flex flex-col justify-center items-center sm:-mt-10`}>
                 {accrodianData.map((val, index) => {
                   return (
