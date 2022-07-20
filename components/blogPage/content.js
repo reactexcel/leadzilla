@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Header from "../header";
 
 const Contents = () => {
   const add = [
@@ -109,6 +110,7 @@ const Contents = () => {
   return (
     <>
       <div className="w-full bg-glad-100">
+        <Header/>
         <div className="w-10/12 py-2 mx-auto px-2 sm:px-6 lg:px-8 ">
           <div className="mt-16 mb-16">
             <div className="flex items-center text-center justify-center flex-col">

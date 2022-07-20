@@ -1,9 +1,10 @@
 import React from 'react';
-
+import Header from '../header';
 const Contents = () => {
   return (
     <div style={{ height: '800px' }}>
       <div className='bg-blue-300' style={{ height: '380px' }}>
+        <Header />
         <div className='grid grid-cols-2 w-10/12 py-2 mx-auto  px-2 sm:px-6 lg:px-8'>
           <div className='mt-36'>
             <h1 className='text-6xl font-extrabold leading-10 font-gilroybold'>Contact us</h1>

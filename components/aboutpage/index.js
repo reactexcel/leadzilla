@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Fade } from "react-reveal";
 import { height } from "tailwindcss/defaultTheme";
 import Link from "next/link";
+import Header from "../header";
 const AboutUs = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const AboutUs = () => {
         className="bg-pink-bg w-full md:h-auto bg-no-repeat bg-cover"
         style={{ height: "871px" }}
       >
+        <Header/>
         <div className="text-center pt-16 relative">
           {" "}
           <div className="font-medium text-xl">ABOUT Leadzilla</div>

@@ -2,11 +2,13 @@ import React from "react";
 import Image from "next/image";
 import { TableData } from "../../hardcodedData";
 import { Fade } from "react-reveal";
+import Header from "../header";
 
 const PricingPage = () => {
   return (
     <>
-      <div className="bg-regal-green py-16">
+      <div className="bg-regal-green py-16 sm:py-6">
+        <Header/>
         <div className="flex items-center flex-col">
           <div className="">
             <Fade left>
