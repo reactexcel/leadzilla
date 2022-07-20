@@ -10,7 +10,7 @@ const FeatureList = () => {
         <div style={{ marginBottom: '-18px', marginLeft: '-101px' }}>
           <Image src='/assets/feature.png' alt='' width='20px' height='20px' />
         </div>
-        <div className='text-5xl' style={{ letterSpacing: '-0.6px' }}>
+        <div className='text-5xl sm:text-3xl' style={{ letterSpacing: '-0.6px' }}>
           <span className='font-gilroylight'> Now </span>
           <br />
           <div className='font-gilroybold py-3'>
@@ -20,14 +20,14 @@ const FeatureList = () => {
         </div>
       </div>
 
-      <div>
-        <div className='w-10/12 mx-auto flex justify-around items-center py-10'>
+      <div className='sm:-px-10'>
+        <div className='w-10/12 mx-auto flex sm:block justify-around items-center py-10'>
           <Fade left>
             <div>
-              <div className='text-4xl font-gilroybold'>
+              <div className='text-4xl sm:text-2xl font-gilroybold'>
                 Leadzilla prospecting <br /> platform
               </div>
-              <div className='text-base font-semibold py-5'>
+              <div className='text-base font-semibold sm:font-normal py-5'>
                 Convert more prospects into customers with targeted search
                 <br /> on over{' '}
                 <span className='text-blue-600'>20 search filters</span>
@@ -48,7 +48,7 @@ const FeatureList = () => {
               
             </div>
           </Fade>
-          <div>
+          <div className='sm:mt-6'>
             <Fade right>
               <Image
                 src='/assets/platform.svg'
@@ -59,8 +59,8 @@ const FeatureList = () => {
             </Fade>
           </div>
         </div>
-        <div className='w-10/12 mx-auto flex justify-around items-center py-20'>
-          <div>
+        <div className='w-10/12 mx-auto flex sm:block justify-around items-center py-20'>
+          <div className='sm:hidden'>
             <Fade left>
               <Image
                 src='/assets/extansionleadzilla.svg'
@@ -92,9 +92,19 @@ const FeatureList = () => {
               </div>
             </div>
           </Fade>
+          <div className='hidden sm:block sm:mt-6'>
+            <Fade left>
+              <Image
+                src='/assets/extansionleadzilla.svg'
+                alt=''
+                width='516px'
+                height='417px'
+              />
+            </Fade>
+          </div>
         </div>
 
-        <div className='w-10/12 mx-auto flex justify-around items-center py-10'>
+        <div className='w-10/12 mx-auto flex sm:block justify-around items-center py-10'>
           <Fade left>
             <div>
               <div className='text-4xl font-gilroybold'>
@@ -161,7 +171,7 @@ const FeatureList = () => {
               </div>
             </div>
           </Fade>
-          <div>
+          <div className='sm:mt-6'>
             <Fade right>
               <Image
                 src='/assets/rectangleleadzilla.svg'
@@ -172,8 +182,8 @@ const FeatureList = () => {
             </Fade>
           </div>
         </div>
-        <div className='w-10/12 mx-auto flex justify-around items-center'>
-          <div className='pt-24'>
+        <div className='w-10/12 mx-auto flex sm:block justify-around items-center'>
+          <div className='pt-24 sm:hidden'>
             <Fade left>
               <Image
                 src='/assets/aipowerleadzilla.svg'
@@ -212,6 +222,16 @@ const FeatureList = () => {
               </div>
             </div>
           </Fade>
+          <div className='pt-24 hidden sm:block'>
+            <Fade left>
+              <Image
+                src='/assets/aipowerleadzilla.svg'
+                alt=''
+                width='578px'
+                height='416px'
+              />
+            </Fade>
+          </div>
         </div>
       </div>
     </>
