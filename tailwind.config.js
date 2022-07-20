@@ -3,7 +3,11 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      'sm': {'max': '540px'},
+    },
     extend: {
+      
       fontFamily: {
         sans: ["Manrope", ...defaultTheme.fontFamily.sans],
         gilroybold: ["Gilroy Bold"],
