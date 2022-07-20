@@ -103,21 +103,22 @@ module.exports = {
         graytextcol: {
           200: "#8891B6",
         },
+        200: "#8891B6",
       },
-      backgroundImage: {
-        "pink-bg": "url('/assets/rectanglelanding.svg')",
-        "signup-bg": "url('/assets/signup/backgroundimg.svg')",
-        "purples-bg": "url('/assets/signup/reactangle.svg')",
-        "pinkbg-bg": "url('/assets/aboutus/pinkbg.svg')",
-
-        // "slide-2": "url('/images/slider-2.jpg')",
-        // "more-services": "url('/images/bgimage-4.jpg')",
-        // "footer-img": "url('/images/footer-img.jpg')",
+      meetsauravbg: {
+        200: "#FFF3FB",
       },
     },
+    backgroundImage: {
+      "pink-bg": "url('/assets/rectanglelanding.svg')",
+      "signup-bg": "url('/assets/signup/backgroundimg.svg')",
+      "purples-bg": "url('/assets/signup/reactangle.svg')",
+      "pinkbg-bg": "url('/assets/aboutus/pinkbg.svg')",
+
+      "aboutus-bg": "url('/assets/aboutus/aboutusbg.svg')",
+      // "slide-2": "url('/images/slider-2.jpg')",
+      // "more-services": "url('/images/bgimage-4.jpg')",
+      // "footer-img": "url('/images/footer-img.jpg')",
+    },
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
 };

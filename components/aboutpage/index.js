@@ -2,40 +2,32 @@ import React from "react";
 import Image from "next/image";
 import { Fade } from "react-reveal";
 import { height } from "tailwindcss/defaultTheme";
+import Link from "next/link";
 const AboutUs = () => {
   return (
     <>
       {" "}
       <div
-        className="bg-pink-bg w-full h-240px md:h-auto bg-center bg-no-repeat bg-cover  mb-100"
+        className="bg-pink-bg w-full md:h-auto bg-no-repeat bg-cover"
         style={{ height: "871px" }}
       >
         <div className="text-center pt-16 relative">
           {" "}
           <div className="font-medium text-xl">ABOUT Leadzilla</div>
-          <div className="font-extrabold text-6xl pt-5 font-gilroybold">
+          <div className="text-6xl pt-5 font-gilroybold">
             Hi! We’re Leadzilla
           </div>
-          <div className="text-2xl text-center p-6 font-normal">
+          <div className="text-2xl p-6">
+            <div>A team of veteran salespeople who want to be of help.</div>
             <div>
-              A team of data-enthusiasts who make the go-to-market smarter
+              If you're thinking about or struggling with cold emailing or cold
+              calling, we can help.
             </div>
-            <div>by commoditizing simple, self-service B2B SaaS products.</div>
           </div>
           <div className="text-center p-6 ">
-            <button className="bg-black p-3 px-6 text-2xl font-bold relative transform  hover: transition duration-500 hover:scale-125">
-              Join Us
-              <span className="ml-2">
-                <Image
-                  src="/assets/aboutus/thumbsups.svg"
-                  alt="thumbimg"
-                  width="20px"
-                  className="m-6 ml-4"
-                  height="20px"
-                />
-              </span>
-              <button className="bg-yellow-500 p-3 px-8 text-2xl font-bold absolute bottom-2 left-2 whitespace-nowrap">
-                Join Us{" "}
+            <Link href="https://app.leadzilla.ai/login">
+              <button className="bg-black p-3 px-6 text-2xl font-bold relative transform  hover: transition duration-500 hover:scale-125">
+                Join Us
                 <span className="ml-2">
                   <Image
                     src="/assets/aboutus/thumbsups.svg"
@@ -45,8 +37,20 @@ const AboutUs = () => {
                     height="20px"
                   />
                 </span>
+                <button className="bg-yellow-500 p-3 px-8 text-2xl font-bold absolute bottom-2 left-2 whitespace-nowrap">
+                  Join Us{" "}
+                  <span className="ml-2">
+                    <Image
+                      src="/assets/aboutus/thumbsups.svg"
+                      alt="thumbimg"
+                      width="20px"
+                      className="m-6 ml-4"
+                      height="20px"
+                    />
+                  </span>
+                </button>
               </button>
-            </button>
+            </Link>
           </div>
           <div className="flex justify-center relative">
             <div>
@@ -106,7 +110,7 @@ const AboutUs = () => {
               src="/assets/aboutus/smiley.svg"
               alt="eyesImg"
               width="50px"
-              className="m-6 ml-4"
+              // className="m-6 ml-4"
               height="50px"
             />
           </span>
@@ -132,82 +136,78 @@ const AboutUs = () => {
           />
         </span>
       </div>
-      <div className="text-center">
-        <div className="flex items-center  mt-40 w-10/12 py-2 mx-auto">
+      <div>
+        <div className="flex items-center justify-around  mt-40 w-10/12 py-2 mx-auto">
           <Fade left>
-            <div className="text-left w-2/3">
-              <div className="font-extrabold text-6xl font-gilroybold">
-                What is Leadzilla?
-              </div>
-              <div className="font-normal pt-4 pb-6 text-aboutustextcolor-200 text-xl">
-                Leadzilla was founded by Assaf Eisenstein and Yoni Tserruya in
+            <div className="text-left ">
+              <div className="text-6xl font-gilroybold">What is Leadzilla?</div>
+              <div className="pt-4 pb-6 text-aboutustextcolor-200 text-xl">
+                Leadzilla was founded by Saurav Gupta in 2020
                 <br />
-                2016 with the aim of creating the world’s largest crowdsourced
+                with the aim of creating the world’s best data source for
                 <br />
-                data community for B2B salespeople or a “Waze for <br />
-                salespeople”. Leadzilla offers B2B salespeople of every <br />
-                company size accurate and accessible data through its simple,
-                <br /> self-service products.{" "}
+                work emails, phone numbers and personalized <br />
+                email copy for every salesperson, new or experienced. <br />
+                Think of Leadzilla as an AI assistant for cold outreach on
+                email, phone or LinkedIn.
+                <br />{" "}
               </div>
-              <div className="font-normal text-aboutustextcolor-200 text-xl">
+              <div className="text-aboutustextcolor-200 text-xl">
                 With Leadzilla, sales professionals can identify, engage and{" "}
-                <br /> close prospects, thanks to Lusha’s prospecting platform,
-                web <br /> extension and API. Leadzilla community has expanded
-                to over <br /> 670,000 sales professionals and 223,000 sales
-                organizations <br /> including Zendesk, Google, Dropbox and
-                Uber.
+                <br /> close prospects, thanks to our prospecting platform, web{" "}
+                <br /> extension. Leadzilla is used by over <br /> 2000 sales
+                professionals and 300 businesses
+                <br />
               </div>
             </div>
           </Fade>
           <Fade right>
-            <div className="w-1/3">
+            <div>
               <Image
                 src="/assets/aboutus/whatsleadzilla.svg"
                 alt="whatsleadzilla"
-                width="570"
-                height="446"
+                height="400"
+                width="614"
               />
             </div>
           </Fade>
         </div>
         <Fade left>
-          <div className="flex items-center justify-center mb-24 mt-24 w-10/12 py-2 mx-auto">
-            <div className="bg-purple-blue w-1/2" style={{ height: "446px" }}>
-              {" "}
+          <div
+            className="flex items-center justify-center mt-24 w-10/12 mx-auto pb-2"
+            style={{ height: "446px" }}
+          >
+            <div>
               <Image
-                src="/assets/aboutus/groupssman.svg"
-                alt="aboutourteam"
+                src="/assets/pricing/founderceo.svg"
+                alt=""
                 width="570"
-                height="446"
+                height="448"
               />
             </div>
             <div
-              className="bg-pinkbg-bg  xl:py-16 xl:px-20 lg:px-8 lg:py-8 w-1/2"
-              style={{ height: "446px" }}
+              className="bg-meetsauravbg-200"
+              style={{ width: "800px", height: "446px" }}
             >
-              <div className="font-extrabold text-5xl text-left font-gilroybold">
-                Meet Saurav?
-              </div>
-              <div className="text-left pb-4 pt-2 text-2xl text-aboutustextcolor-200">
-                The Founders of Leadzilla
-              </div>
-              <div
-                className="text-left text-aboutustextcolor-200"
-                style={{ fontSize: "20px" }}
-              >
-                What started off as one developer's passion project has quickly
-                evolved into one of B2Bs largest and <br />
-                most respected contact data solutions. In 2016 Yoni, a young
-                developer, and Assaf, an HR tech creator, met. Together, they
-                created Lusha, a better way for B2B salespeople to prospect
-                based on community sharing, simplicity, accuracy and
-                accessibility.
+              <div className="px-16 pt-16">
+                <div className="text-5xl font-gilroybold">Meet Saurav?</div>
+                <div className="py-6 text-2xl text-aboutustextcolor-200">
+                  The Founder of Leadzilla
+                </div>
+                <div className="text-aboutustextcolor-200 text-justify text-xl">
+                  What started off as one sales dude's idea has become one of
+                  the best AI-assisted data platforms for salespeople, small
+                  business owners and anyone who's just looking to get meetings.
+                  It's simply a much better way to send cold emails and do cold
+                  calls without going through the hassle of dealing with bad
+                  data or spamming people
+                </div>
               </div>
             </div>
           </div>
         </Fade>
         <Fade bottom>
-          <div>
+          <div className="flex justify-center">
             <Image
               src="/assets/aboutus/aboutourteam.svg"
               alt="aboutourteam"

@@ -8,18 +8,17 @@ const Contents = () => {
           <div className='mt-36'>
             <h1 className='text-6xl font-extrabold leading-10 font-gilroybold'>Contact us</h1>
             <p className='mt-3 pt-4 mb-11 text-xl text-voilet-100 w-2/3'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incid.
+              Don't be a stranger. Feel free to contact us about anything, anytime.
             </p>
             <div className=' mt-32 text-xl absolute mb-7'>
               <p className='text-blur-200 mb-2' text-xl>
-                Product Supply
+                Product queries
               </p>
-              <p>support@leadzilla.so</p>
+              <p>saurav@leadzilla.ai</p>
             </div>
             <div className='mt-60 text-xl absolute '>
-              <p className='text-blur-200 mb-2'>Other queries</p>
-              <p>help@leadzilla.so</p>
+              <p className='text-blur-200 mb-2'>Technical queries</p>
+              <p>vikas@leadzilla.ai</p>
             </div>
           </div>
 
@@ -56,7 +55,7 @@ const Contents = () => {
               />
               <div className='m-4 mt-5'>
                 <p className='text-sm text-gray-400'>
-                  i confirm that i have read and agree to the elevate
+                  I confirm that i have read and agree to the Leadzilla
                 </p>
                 <p className='text-xs text-slate-50'>
                   <spam className='text-sm underline decoration-solid ...'>
