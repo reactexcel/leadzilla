@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import Header from '../header';
 
 const TopContent = () => {
   const starImage = [
@@ -15,6 +16,7 @@ const TopContent = () => {
       className='bg-pink-bg w-full h-240px md:h-auto bg-cover relative'
       style={{height: '871px' }}
     >
+      <Header/>
       <div className='pt-16 text-center text-7xl sm:text-3xl sm:text-left sm:pl-6'>
         {starImage.map((val, key) => {
           return (
