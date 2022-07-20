@@ -120,5 +120,9 @@ module.exports = {
       // "more-services": "url('/images/bgimage-4.jpg')",
       // "footer-img": "url('/images/footer-img.jpg')",
     },
+    screens: {
+      sm: { max: "639px" },
+      md: { max: "767px" },
+    },
   },
 };
