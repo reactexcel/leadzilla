@@ -128,7 +128,10 @@ const Contents = () => {
                 <div className="text-lg text-gray-400">
                   <Link href="">Pricing</Link>
                 </div>
-                <div className="mt-1 bg-white ml-1 mr-7" style={{borderRadius: "5px"}}>
+                <div
+                  className="mt-1 bg-white ml-1 mr-7"
+                  style={{ borderRadius: "5px" }}
+                >
                   <div className="ml-1 mr-1 p-2">
                     <Image
                       src="/assets/search.png"
@@ -144,8 +147,8 @@ const Contents = () => {
         </div>
       </div>
       <div className=" w-10/12 py-2 mx-auto px-2">
-        <div className="grid grid-cols-2   mt-20 ">
-          {add.map((item,key) => {
+        <div className="grid grid-cols-2 md:grid-cols-1 sm:grid-cols-1  mt-20 ">
+          {add.map((item, key) => {
             return (
               <>
                 <div key={key}>
@@ -172,7 +175,9 @@ const Contents = () => {
                     >
                       {item.author}
                     </p>
-                    <p className="ml-2 text-graytextcol-200">{item.createdAt}</p>
+                    <p className="ml-2 text-graytextcol-200">
+                      {item.createdAt}
+                    </p>
                     <p className="ml-2 text-graytextcol-200">{item.minRead}</p>
                   </div>
 
@@ -202,11 +207,11 @@ const Contents = () => {
           })}
         </div>
 
-        <div className="w-auto mx-auto grid-flow-col mt-20">
-          <div className="grid grid-cols-3  mx-auto  my-auto  mt-20 ">
+        <div className="w-auto mx-auto grid-flow-col md:grid-flow-row sm:grid-flow-row mt-20">
+          <div className="grid grid-cols-3 md:grid-cols-1 sm:grid-cols-1 mx-auto  my-auto  mt-20 ">
             {detail.map((item, key) => {
               return (
-                <div className="mr-4 h-auto " key={key}>
+                <div className="mr-4 h-auto md:mr-0 sm:mr-0" key={key}>
                   <Image
                     src={item.imgsrc}
                     alt=""
@@ -229,9 +234,11 @@ const Contents = () => {
                     >
                       {item.author}
                     </p>
-                    <p className="ml-2 text-graytextcol-200">{item.createdAt}</p>
+                    <p className="ml-2 text-graytextcol-200">
+                      {item.createdAt}
+                    </p>
                     <p className="ml-2 text-graytextcol-200">{item.minRead}</p>
-                  </div>  
+                  </div>
                   <p className="text-3xl font-gilroybold mb-1">
                     {item.description}
                   </p>
@@ -265,7 +272,9 @@ const Contents = () => {
                   className="bg-bluedon-300 p-3 py-4 text-xl text-center absolute bottom-2 right-2 whitespace-nowrap w-full  mt-20 border-2 border-darkcolor-200"
                   style={{ height: "500px" }}
                 >
-                  <p className="mt-20 text-base font-gilroybold text-white ">WEEKLY NEWSLETTER</p>
+                  <p className="mt-20 text-base font-gilroybold text-white ">
+                    WEEKLY NEWSLETTER
+                  </p>
                   <p className="text-5xl text-yellow-300 font-gilroybold m-2 mb-7">
                     Join the community
                   </p>
@@ -281,8 +290,7 @@ const Contents = () => {
 
                   <div className="mt-7 mb-20">
                     <input
-                      style={{ width: "506px", maxWidth: "540px" }}
-                      className="p-5 border-2 border-darkcolor-200"
+                      className="p-5 border-2 border-darkcolor-200 inputstyle"
                       placeholder="Enter your email address"
                       type="search"
                     />
@@ -297,10 +305,10 @@ const Contents = () => {
         </div>
 
         <div style={{ height: "auto" }}>
-          <div className="grid grid-cols-3  mt-20">
+          <div className="grid grid-cols-3 md:grid-cols-1 sm:grid-cols-1 mt-20">
             {detailmain.map((item, key) => {
               return (
-                <div className="mr-4 h-auto mb-10" key={key}>
+                <div className="mr-4 h-auto md:mr-0 sm:mr-0 mb-10" key={key}>
                   <Image
                     src={item.imgsrc}
                     alt=""
@@ -323,8 +331,12 @@ const Contents = () => {
                     >
                       {item.author}
                     </p>
-                    <p className="ml-2 text-lightgrayblog-200">{item.createdAt}</p>
-                    <p className="ml-2 text-lightgrayblog-200">{item.minRead}</p>
+                    <p className="ml-2 text-lightgrayblog-200">
+                      {item.createdAt}
+                    </p>
+                    <p className="ml-2 text-lightgrayblog-200">
+                      {item.minRead}
+                    </p>
                   </div>
                   <div className="text-3xl font-gilroybold">
                     {item.description}
@@ -361,7 +373,7 @@ const Contents = () => {
                     Get access to verified profiles.
                   </p>
 
-                  <div>
+                  <div className="md:hidden sm:hidden lg:block">
                     <p className="text-5xl text-black-800 font-extrabold break-all">
                       Leadzilla offers you the best way
                     </p>
@@ -371,10 +383,22 @@ const Contents = () => {
                     </p>
                   </div>
 
+                  <div className="lg:hidden">
+                    <p className="text-5xl text-black-800 font-extrabold break-all">
+                      Leadzilla offers you
+                    </p>
+
+                    <p className="text-5xl text-black-800 font-extrabold break-all">
+                      the best way to reach
+                    </p>
+                    <p className="text-5xl text-black-800 font-extrabold break-all">
+                      your customers.
+                    </p>
+                  </div>
+
                   <div className=" mb-20 mt-12">
                     <input
-                      style={{ width: "506px", maxWidth: "540px" }}
-                      className="p-5 border-2 border-darkcolor-200"
+                      className="p-5 border-2 border-darkcolor-200 inputstyle"
                       placeholder="Enter your email address"
                       type="search"
                     />
