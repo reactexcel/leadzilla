@@ -4,10 +4,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
-      'sm': {'max': '540px'},
+      sm: { max: "639px" },
+      md: { max: "767px" },
+      lg: { min: "768px", max: "1024px" }
     },
     extend: {
-      
+
       fontFamily: {
         sans: ["Manrope", ...defaultTheme.fontFamily.sans],
         gilroybold: ["Gilroy Bold"],
@@ -100,8 +102,8 @@ module.exports = {
         bluefeature: {
           100: "#4659FF",
         },
-        bluefeature:{
-          100:"#4659FF"
+        bluefeature: {
+          100: "#4659FF"
         },
         graytextcol: {
           200: "#8891B6"
@@ -115,7 +117,7 @@ module.exports = {
         "pink-bg": "url('/assets/rectanglelanding.svg')",
         "signup-bg": "url('/assets/signup/backgroundimg.svg')",
         "purples-bg": "url('/assets/signup/reactangle.svg')",
-        "aboutus-bg" : "url('/assets/aboutus/aboutusbg.svg')"
+        "aboutus-bg": "url('/assets/aboutus/aboutusbg.svg')"
         // "slide-2": "url('/images/slider-2.jpg')",
         // "more-services": "url('/images/bgimage-4.jpg')",
         // "footer-img": "url('/images/footer-img.jpg')",
