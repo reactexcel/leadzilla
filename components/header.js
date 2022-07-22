@@ -25,7 +25,7 @@ const Header = () => {
         height="20px"
         />
       </button>
-      <div class={`${toggle ? "" : "hidden"} w-full ml-10`} id="navbar-default">
+      <div class={`${toggle ? "" : "hidden"} w-full ml-6`} id="navbar-default">
         <ul class="flex flex-col ml-3 mt-4 md:mt-2 md:text-md">
          
           <li className="sm:my-2 md:my-2">

@@ -12,9 +12,9 @@ const PricingPage = () => {
         <div className="flex items-center flex-col ">
           <div className="">
             <Fade left>
-              <div className="flex font-extrabold text-6xl sm:text-2xl text-left font-gilroybold">
+              <div className="flex font-extrabold text-6xl sm:text-2xl md:text-4xl text-left font-gilroybold sm:px-3 md:px-4">
                 <div>Looking for the pricing table?</div>
-                <div className="ml-6" style={{ marginTop: "-30px" }}>
+                <div className="ml-6" style={{marginTop:'10px'}}>
                   <Image
                     src="/assets/highlightpricing.png"
                     alt=""
@@ -35,8 +35,8 @@ const PricingPage = () => {
               </div>{" "}
             </Fade>
             <Fade right>
-              <div className="mb-4 flex sm:block ml-16 sm:ml-4">
-                <div className="mr-36 text-xl sm:text-sm sm:text-left text-pricingtextcolor-200">
+              <div className="mb-4 flex sm:block ml-16 sm:ml-4 md:ml-8">
+                <div className="mr-36 sm:mr-24 md:mr-20 text-xl sm:text-sm md:text-lg sm:text-left text-pricingtextcolor-200">
                   <div className="">
                     I’m a lot like you! I see a lot of interesting software. But
                     <br />
@@ -59,7 +59,7 @@ const PricingPage = () => {
                     </span>
                   </div>
                 </div>
-                <div>
+                <div className="md:ml-0 md:mr-3">
                   <Image
                     src="/assets/pricing/founderceo.svg"
                     alt="founderceo"
@@ -79,22 +79,22 @@ const PricingPage = () => {
       </div>
 
       <div className="text-center mt-16 relative sm:text-left sm:ml-3">
-        <div className="font-light text-3xl sm:text-xl font-gilroylight">
+        <div className="font-light text-3xl sm:text-xl md:text-2xl font-gilroylight">
           Your time and efforts are not cheap.
         </div>
-        <div className="font-extrabold text-4xl sm:text-2xl my-5 font-gilroybold">
+        <div className="font-extrabold text-4xl sm:text-2xl md:text-3xl my-5 font-gilroybold">
           You’re probably spending more than $1000 every <br />
           month on getting qualified leads already.
         </div>
-        <div className="text-xl py-2 sm:text-base">
+        <div className="text-xl py-2 sm:text-base md:text-lg">
           There is significant cost and effort to find new customers - you spend
           hours trying to find contact
           <br /> information on Google or their website and then hours trying to
           writing personalized emails
         </div>
 
-        <table className="m-auto mt-16 sm:mt-48 sm:hidden" style={{ borderRadius: "14px" }}>
-          <thead className="bg-skin-bg border border-skin-border rounded-t-lg text-left">
+        <table className="m-auto mt-16  sm:mt-40 md:mt-40" style={{ borderRadius: "14px" }}>
+          <thead className="bg-skin-bg  border border-skin-border rounded-t-lg text-left">
             <th scope="col" className="px-6 py-6">
               Current Activity
             </th>
@@ -147,7 +147,7 @@ const PricingPage = () => {
           </tbody>
         </table>
 
-        <span className="ml-2 absolute top-32 right-48 sm:hidden ">
+        <span className="ml-2 absolute top-32 right-48 sm:hidden md:hidden ">
           <Image
             src="/assets/righteyeimg.svg"
             alt="eyesImg"
@@ -157,7 +157,7 @@ const PricingPage = () => {
           />
         </span>
 
-        <span className="ml-2 absolute top-32 right-3/4 sm:top-48">
+        <span className="ml-2 absolute top-32 right-3/4 sm:top-72 md:top-60 sm:hidden">
           <Image
             src="/assets/arrow.svg"
             alt="arrow"
@@ -171,7 +171,7 @@ const PricingPage = () => {
           <div className="flex justify-center">
             <div className="xl:mr-96 lg:mr-auto">
               {" "}
-              <div className="font-extrabold text-4xl font-gilroybold">
+              <div className="font-extrabold text-4xl sm:text-2xl font-gilroybold">
                 The real cost of alternatives <br />
                 or leaving things as they are…
               </div>
@@ -187,16 +187,16 @@ const PricingPage = () => {
                 expensive.
               </div>
             </div>
-
+              <div className="sm:hidden">
             <Image
               src="/assets/pricing/manstar.svg"
               alt="manstar"
               width="251"
               height="239"
-            />
+            /></div>
           </div>
 
-          <div className="text-center mt-8">
+          <div className="text-center mt-8 sm:hidden md:mt-32">
             <Image
               src="/assets/pricing/realcosts.svg"
               alt="realcost"
@@ -204,8 +204,16 @@ const PricingPage = () => {
               height="341"
             />
           </div>
+          <div className="text-center mt-36 hidden sm:block">
+            <Image
+              src="/assets/pricing/vertical_image.svg"
+              alt="realcost"
+              width="360"
+              height="600"
+            />
+          </div>
 
-          <span className="ml-2 absolute top-24 left-1/2">
+          <span className="ml-2 absolute top-24 sm:top-64 md:top-60 left-1/2">
             <Image
               src="/assets/designerarrow.svg"
               alt="designerarrow"
@@ -216,8 +224,8 @@ const PricingPage = () => {
         </div>
       </Fade>
       <Fade left>
-        <div className="flex justify-center mt-20 mb-20 px-16">
-          <div className="bg-grey-bg text-left text-2xl	text-aboutustextcolor-200 px-40 py-16">
+        <div className="flex justify-center mt-20 mb-20 px-16 sm:px-0 md:px-4">
+          <div className="bg-grey-bg text-left text-2xl	md:text-xl sm:text-base text-aboutustextcolor-200 px-40 sm:px-3 md:px-6 py-16">
             Even if we disregard the opportunity cost and value of using
             AI-powered hyper-
             <br />
@@ -233,14 +241,14 @@ const PricingPage = () => {
       </Fade>
 
       <div className="bg-pink-bg w-full h-240px md:h-auto bg-center bg-no-repeat bg-cover  mb-100">
-        <div className="font-extrabold text-center text-5xl pt-20 font-gilroybold">
+        <div className="font-extrabold text-center text-5xl md:text-4xl md:font-bold sm:text-2xl sm:text-left pt-20 font-gilroybold  sm:px-2">
           Now here’s the pricing table you <br />
           were looking for.
         </div>
         <Fade bottom>
-          <div className="flex justify-center mt-16 mx-10">
-            <div className="bg-white rounded border border-pricing-border p-10 pb-30">
-              <div className="font-bold text-3xl mb-2.5">
+          <div className="flex sm:block md:block justify-center mt-16 mx-10 sm:mx-4 ">
+            <div className="bg-white rounded border border-pricing-border p-10 pb-30 sm:mb-5 md:mb-5">
+              <div className="font-bold text-3xl mb-2.5 sm:text-2xl">
                 Which module is it <br /> a part of?
               </div>
               <div className="flex items-center">
@@ -273,8 +281,8 @@ const PricingPage = () => {
                 <div className="pl-2 text-xl font-normal">LookalikeAI</div>
               </div>
             </div>
-            <div className="bg-white rounded border border-pricing-border p-10 ml-10 pb-30 mr-10 ">
-              <div className="font-bold text-3xl mb-10">What do you get?</div>
+            <div className="bg-white rounded border border-pricing-border p-10 ml-10 pb-30 mr-10 sm:mx-0 md:mx-0 sm:mb-5 md:mb-5">
+              <div className="font-bold text-3xl mb-10 sm:text-2xl">What do you get?</div>
               <div className="text-xl font-normal">
                 1 email or 1 phone number
               </div>
@@ -288,7 +296,7 @@ const PricingPage = () => {
               </div>
             </div>
             <div className="bg-white rounded border border-pricing-border p-10">
-              <div className="font-bold text-3xl mb-3">
+              <div className="font-bold text-3xl mb-3 ">
                 How much does it <br />
                 cost?
               </div>
@@ -298,7 +306,7 @@ const PricingPage = () => {
             </div>
           </div>
         </Fade>
-        <div className="text-center font-light text-3xl py-20 font-gilroylight">
+        <div className="text-center font-light text-3xl  sm:text-2xl sm:text-left sm:ml-3 md:ml-4 py-20 sm:py-12 font-gilroylight">
           Straight forward pricing{" "}
           <span className="font-bold font-gilroybold">
             $49/mo for 600 credits
