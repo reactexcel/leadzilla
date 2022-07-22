@@ -4,6 +4,7 @@ import { Fade } from "react-reveal";
 import { height } from "tailwindcss/defaultTheme";
 import Link from "next/link";
 import Header from "../header";
+import AboutImage from "./aboutImage";
 const AboutUs = () => {
   return (
     <>
@@ -107,6 +108,7 @@ const AboutUs = () => {
               />
             </div>
           </div>
+          <AboutImage/>
           <span className="ml-2 absolute bottom-2 right-48  md:hidden">
             <Image
               src="/assets/aboutus/smiley.svg"
@@ -139,7 +141,7 @@ const AboutUs = () => {
         </span>
       </div>
       <div>
-        <div className="flex sm:block items-center justify-around  mt-40 w-10/12 py-2 mx-auto">
+        <div className="flex sm:block md:block items-center justify-around  mt-40 w-10/12 py-2 mx-auto">
           <Fade left>
             <div className="text-left ">
               <div className="text-6xl font-gilroybold sm:text-2xl">What is Leadzilla?</div>
@@ -164,7 +166,7 @@ const AboutUs = () => {
             </div>
           </Fade>
           <Fade right>
-            <div className="sm:mt-5 ">
+            <div className="sm:mt-5 md:mt-5">
               <Image
                 src="/assets/aboutus/whatsleadzilla.svg"
                 alt="whatsleadzilla"
@@ -176,7 +178,7 @@ const AboutUs = () => {
         </div>
         <Fade left>
           <div
-            className="flex sm:block items-center justify-center mt-24 w-10/12 sm:mb-72 mx-auto pb-2"
+            className="flex sm:block md:block items-center justify-center mt-24 w-10/12 sm:mb-72 md:mb-72 mx-auto pb-2"
             style={{ height: "446px" }}
           >
             <div className="sm:hidden md:hidden">
@@ -206,7 +208,7 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-            <div className="hidden sm:block md:block">
+            <div className="hidden sm:block md:block sm:mt-5 md:mt-5">
               <Image
                 src="/assets/pricing/founderceo.svg"
                 alt=""
@@ -218,7 +220,7 @@ const AboutUs = () => {
           </div>
         </Fade>
         <Fade bottom>
-          <div className="flex justify-center sm:hidden">
+          <div className="flex justify-center sm:hidden md:hidden">
             <Image
               src="/assets/aboutus/aboutourteam.svg"
               alt="aboutourteam"
