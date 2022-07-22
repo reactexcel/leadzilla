@@ -25,15 +25,45 @@ html {
   justify-content: start !important;
   margin-left: 5rem !important;
 }
-
-.inputstyle {
-  width: "506px";
-  max-width: "540px";
+#contact{
+  height: 380px;
+}
+@media only screen and (max-width: 767px) {
+  #contact{
+    height: 535px;
+  }
+}
+#form{
+  width: 40%;
+  margin-right: 5%
+}
+@media only screen and (max-width: 350px) {
+  #form{
+    width: 100%;
+    margin-right: -22%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #form{
+    width: 101%;
+    margin-right: -15%;
+  }
 }
 
-@media only screen and (max-width: 769px) {
-  .inputstyle {
-    width: "300px";
-    max-width: "540px";
+@media only screen and (max-width:639px ) {
+#sendBtn1{
+  width: 95%;
+
+}
+#sendBtn2{
+  padding: 5% 30%;
+}
+}
+#contactPage{
+  height: 550px;
+  }
+@media only screen and (max-width: 767px) {
+  #contactPage{
+  height: 800px;
   }
 }

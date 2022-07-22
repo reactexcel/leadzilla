@@ -13,20 +13,20 @@ const AboutUs = () => {
         style={{ height: "871px" }}
       >
         <Header/>
-        <div className="text-center pt-16 relative">
+        <div className="text-center pt-16 relative md:text-left">
           {" "}
-          <div className="font-medium text-xl">ABOUT Leadzilla</div>
-          <div className="text-6xl pt-5 font-gilroybold">
+          <div className="font-medium text-xl md:px-6">ABOUT Leadzilla</div>
+          <div className="text-6xl md:text-4xl pt-5 font-gilroybold md:px-6">
             Hi! We’re Leadzilla
           </div>
-          <div className="text-2xl p-6">
+          <div className="text-2xl p-6 md:text-lg">
             <div>A team of veteran salespeople who want to be of help.</div>
             <div>
               If you're thinking about or struggling with cold emailing or cold
               calling, we can help.
             </div>
           </div>
-          <div className="text-center p-6 ">
+          <div className="text-center p-6  md:text-left">
             <Link href="https://app.leadzilla.ai/login">
               <button className="bg-black p-3 px-6 text-2xl font-bold relative transform  hover: transition duration-500 hover:scale-125">
                 Join Us
@@ -54,8 +54,8 @@ const AboutUs = () => {
               </button>
             </Link>
           </div>
-          <div className="flex justify-center relative">
-            <div>
+          <div className="flex justify-center relative md:block">
+            <div className="">
               {" "}
               <Image
                 src="/assets/aboutus/freepik--character-1--inject-4.svg"
@@ -87,8 +87,8 @@ const AboutUs = () => {
               />
             </div>
 
-            <div className="flex items-start">
-              <div className="mr-12">
+            <div className="flex items-start ">
+              <div className="mr-12 md:hidden">
                 {" "}
                 <Image
                   src="/assets/aboutus/freepikcursor.svg"
@@ -107,7 +107,7 @@ const AboutUs = () => {
               />
             </div>
           </div>
-          <span className="ml-2 absolute bottom-2 right-48">
+          <span className="ml-2 absolute bottom-2 right-48  md:hidden">
             <Image
               src="/assets/aboutus/smiley.svg"
               alt="eyesImg"
@@ -118,7 +118,7 @@ const AboutUs = () => {
           </span>
         </div>
 
-        <span className="ml-2 absolute top-32 left-48">
+        <span className="ml-2 absolute top-32 left-48 md:hidden">
           <Image
             src="/assets/lefteyesImg.svg"
             alt="eyesImg"
@@ -128,7 +128,7 @@ const AboutUs = () => {
           />
         </span>
 
-        <span className="ml-2 absolute top-32 right-48">
+        <span className="ml-2 absolute top-32 right-48 md:hidden">
           <Image
             src="/assets/righteyeimg.svg"
             alt="eyesImg"

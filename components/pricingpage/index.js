@@ -7,12 +7,12 @@ import Header from "../header";
 const PricingPage = () => {
   return (
     <>
-      <div className="bg-regal-green py-16 sm:py-6">
+      <div className="bg-regal-green py-16 md:pt-4">
         <Header/>
-        <div className="flex items-center flex-col">
+        <div className="flex items-center flex-col ">
           <div className="">
             <Fade left>
-              <div className="flex font-extrabold text-6xl text-left font-gilroybold">
+              <div className="flex font-extrabold text-6xl sm:text-2xl text-left font-gilroybold">
                 <div>Looking for the pricing table?</div>
                 <div className="ml-6" style={{ marginTop: "-30px" }}>
                   <Image
@@ -35,8 +35,8 @@ const PricingPage = () => {
               </div>{" "}
             </Fade>
             <Fade right>
-              <div className="mb-4 flex ml-16">
-                <div className="mr-36 text-xl text-pricingtextcolor-200">
+              <div className="mb-4 flex sm:block ml-16 sm:ml-4">
+                <div className="mr-36 text-xl sm:text-sm sm:text-left text-pricingtextcolor-200">
                   <div className="">
                     I’m a lot like you! I see a lot of interesting software. But
                     <br />
@@ -67,7 +67,7 @@ const PricingPage = () => {
                     className="m-6 ml-4"
                     height="196"
                   />
-                  <div className="font-bold text-xl text-center">
+                  <div className="font-bold text-xl text-center sm:text-left">
                     Founder and CEO at <br />
                     Leadzilla{" "}
                   </div>
@@ -78,22 +78,22 @@ const PricingPage = () => {
         </div>
       </div>
 
-      <div className="text-center mt-16 relative">
-        <div className="font-light text-3xl font-gilroylight">
+      <div className="text-center mt-16 relative sm:text-left sm:ml-3">
+        <div className="font-light text-3xl sm:text-xl font-gilroylight">
           Your time and efforts are not cheap.
         </div>
-        <div className="font-extrabold text-4xl my-5 font-gilroybold">
+        <div className="font-extrabold text-4xl sm:text-2xl my-5 font-gilroybold">
           You’re probably spending more than $1000 every <br />
           month on getting qualified leads already.
         </div>
-        <div className="text-xl py-2">
+        <div className="text-xl py-2 sm:text-base">
           There is significant cost and effort to find new customers - you spend
           hours trying to find contact
           <br /> information on Google or their website and then hours trying to
           writing personalized emails
         </div>
 
-        <table className="m-auto mt-16" style={{ borderRadius: "14px" }}>
+        <table className="m-auto mt-16 sm:mt-48 sm:hidden" style={{ borderRadius: "14px" }}>
           <thead className="bg-skin-bg border border-skin-border rounded-t-lg text-left">
             <th scope="col" className="px-6 py-6">
               Current Activity
@@ -147,7 +147,7 @@ const PricingPage = () => {
           </tbody>
         </table>
 
-        <span className="ml-2 absolute top-32 right-48 ">
+        <span className="ml-2 absolute top-32 right-48 sm:hidden ">
           <Image
             src="/assets/righteyeimg.svg"
             alt="eyesImg"
@@ -157,7 +157,7 @@ const PricingPage = () => {
           />
         </span>
 
-        <span className="ml-2 absolute top-32 right-3/4 ">
+        <span className="ml-2 absolute top-32 right-3/4 sm:top-48">
           <Image
             src="/assets/arrow.svg"
             alt="arrow"
