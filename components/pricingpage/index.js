@@ -168,7 +168,7 @@ const PricingPage = () => {
       </div>
       <Fade right>
         <div className="mt-48 relative px-9">
-          <div className="flex justify-center">
+          <div className="flex justify-center w-10/12 m-auto mb-14">
             <div className="xl:mr-96 lg:mr-auto">
               {" "}
               <div className="font-extrabold text-4xl font-gilroybold">
