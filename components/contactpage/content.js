@@ -10,7 +10,7 @@ const Contents = () => {
         id="contact"
       >
         <Header />
-        <div className=' grid grid-cols-2 w-10/12 py-2 mx-auto md:mx-0 px-2 lg:px-8 md:block'
+        <div className=' grid grid-cols-2 lg:w-10/12 py-2 mx-auto md:mx-0 px-2 lg:px-8 md:block'
         >
           <div className='mt-36 md:mt-8 md:px-6'>
             <h1 className='text-6xl font-extrabold leading-10 font-gilroybold lg:text-5xl md:text-4xl'>Contact us</h1>
@@ -31,11 +31,10 @@ const Contents = () => {
           </div>
 
           <div
-            className='mt-40 px-5 md:px-0  flex flex-col rounded-xl md:shadow-none md:rounded-none absolute right-20 lg:right-16 mr-7 md:mr-0  mx-auto shadow-md'
+            className='mt-40 px-5 md:px-0 lg:w-2/5 flex flex-col rounded-xl md:shadow-none md:rounded-none md:mt-44 lg:absolute right-20 lg:right-16 mr-7 md:mr-0  mx-auto shadow-md'
             style={{
               backgroundColor: 'white',
             }}
-            id="form"
           >
             <input
               className='mt-7 ml-7 py-3 border-b-2 border-inputblack-100 outline-none mr-7'
@@ -58,7 +57,6 @@ const Contents = () => {
               <input
                 className='mt-7 ml-7 p-5 w-6 h-6'
                 type='checkbox'
-
               />
               <div className='m-4 mt-5'>
                 <p className='text-sm text-gray-400'>
@@ -76,16 +74,14 @@ const Contents = () => {
               </div>
             </div>
 
-            <div className='p-10 transform w-7/12 md:w-full lg:w-full hover: transition duration-500 hover:scale-125'>
-              <button className='bg-black p-3 py-4 text-xl relative' id="sendBtn1">
+            <div className='p-10 w-7/12 md:w-full lg:w-full'>
+              <button className='bg-black p-3 py-4 text-xl relative transform  hover: transition duration-500 hover:scale-125' id="sendBtn1">
                 Send message
                 <button className='bg-yellow-500 p-3 py-4 text-xl absolute bottom-2 right-2 whitespace-nowrap' id="sendBtn2">
                   Send message
                 </button>
               </button>
             </div>
-
-
           </div>
         </div>
       </div>
