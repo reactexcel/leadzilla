@@ -11,7 +11,7 @@ const AboutUs = () => {
         className="bg-pink-bg w-full md:h-auto bg-no-repeat bg-cover"
         style={{ height: "871px" }}
       >
-        <Header/>
+        <Header />
         <div className="text-center pt-16 relative md:text-left">
           {" "}
           <div className="font-medium text-xl md:px-6">ABOUT Leadzilla</div>
@@ -53,7 +53,7 @@ const AboutUs = () => {
               </button>
             </Link>
           </div>
-          <div className="flex justify-center relative md:block">
+          <div className="flex justify-center relative sm:hidden">
             <div className="">
               {" "}
               <Image
@@ -138,11 +138,11 @@ const AboutUs = () => {
         </span>
       </div>
       <div>
-        <div className="flex items-center justify-around  mt-40 w-10/12 py-2 mx-auto">
+        <div className="flex sm:block items-center justify-around  mt-40 w-10/12 py-2 mx-auto">
           <Fade left>
             <div className="text-left ">
-              <div className="text-6xl font-gilroybold">What is Leadzilla?</div>
-              <div className="pt-4 pb-6 text-aboutustextcolor-200 text-xl">
+              <div className="text-6xl font-gilroybold sm:text-2xl">What is Leadzilla?</div>
+              <div className="pt-4 pb-6 text-aboutustextcolor-200 text-xl sm:text-base">
                 Leadzilla was founded by Saurav Gupta in 2020
                 <br />
                 with the aim of creating the world’s best data source for
@@ -153,7 +153,7 @@ const AboutUs = () => {
                 email, phone or LinkedIn.
                 <br />{" "}
               </div>
-              <div className="text-aboutustextcolor-200 text-xl">
+              <div className="text-aboutustextcolor-200 text-xl sm:text-base">
                 With Leadzilla, sales professionals can identify, engage and{" "}
                 <br /> close prospects, thanks to our prospecting platform, web{" "}
                 <br /> extension. Leadzilla is used by over <br /> 2000 sales
@@ -163,7 +163,7 @@ const AboutUs = () => {
             </div>
           </Fade>
           <Fade right>
-            <div>
+            <div className="sm:mt-5 ">
               <Image
                 src="/assets/aboutus/whatsleadzilla.svg"
                 alt="whatsleadzilla"

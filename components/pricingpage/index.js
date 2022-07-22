@@ -168,7 +168,7 @@ const PricingPage = () => {
       </div>
       <Fade right>
         <div className="mt-48 relative px-9">
-          <div className="flex justify-center">
+          <div className="flex justify-between">
             <div className="xl:mr-96 lg:mr-auto">
               {" "}
               <div className="font-extrabold text-4xl sm:text-2xl font-gilroybold">
@@ -187,13 +187,13 @@ const PricingPage = () => {
                 expensive.
               </div>
             </div>
-              <div className="sm:hidden">
             <Image
               src="/assets/pricing/manstar.svg"
               alt="manstar"
               width="251"
               height="239"
-            /></div>
+              className="sm:hidden"
+            />
           </div>
 
           <div className="text-center mt-8 sm:hidden md:mt-32">
