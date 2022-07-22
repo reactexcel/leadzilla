@@ -28,7 +28,7 @@ html {
 #contact{
   height: 380px;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   #contact{
     height: 535px;
   }
@@ -43,7 +43,7 @@ html {
     margin-right: -22%;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   #form{
     width: 101%;
     margin-right: -15%;
@@ -68,12 +68,12 @@ html {
 }
 @media only screen and (max-width:639px ) {
   .meetSauravText{
-    width: 95%;
+    width: 90%;
   }
 }
-@media only screen and (min-width:639px )and (max-width:767px ) {
+@media only screen and (min-width:639px )and (max-width:769px ) {
   .meetSauravText{
-    width: 80%;
+    width: 60%;
   }
   .ceoImage{
     width:400px;
