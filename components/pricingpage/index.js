@@ -78,22 +78,22 @@ const PricingPage = () => {
         </div>
       </div>
 
-      <div className="text-center mt-16 relative sm:text-left sm:ml-3">
-        <div className="font-light text-3xl sm:text-xl font-gilroylight">
+      <div className="text-center mt-16 relative sm:text-left sm:ml-3yy">
+        <div className="font-light text-3xl font-gilroylight">
           Your time and efforts are not cheap.
         </div>
-        <div className="font-extrabold text-4xl sm:text-2xl my-5 font-gilroybold">
+        <div className="font-extrabold text-4xl my-5 font-gilroybold">
           You’re probably spending more than $1000 every <br />
           month on getting qualified leads already.
         </div>
-        <div className="text-xl py-2 sm:text-base">
+        <div className="text-xl py-2">
           There is significant cost and effort to find new customers - you spend
           hours trying to find contact
           <br /> information on Google or their website and then hours trying to
           writing personalized emails
         </div>
 
-        <table className="m-auto mt-16 sm:mt-48 sm:hidden" style={{ borderRadius: "14px" }}>
+        <table className="m-auto mt-16" style={{ borderRadius: "14px" }}>
           <thead className="bg-skin-bg border border-skin-border rounded-t-lg text-left">
             <th scope="col" className="px-6 py-6">
               Current Activity
@@ -147,7 +147,7 @@ const PricingPage = () => {
           </tbody>
         </table>
 
-        <span className="ml-2 absolute top-32 right-48 sm:hidden ">
+        <span className="ml-2 absolute top-32 right-48 ">
           <Image
             src="/assets/righteyeimg.svg"
             alt="eyesImg"
@@ -157,7 +157,7 @@ const PricingPage = () => {
           />
         </span>
 
-        <span className="ml-2 absolute top-32 right-3/4 sm:top-48">
+        <span className="ml-2 absolute top-32 right-3/4 ">
           <Image
             src="/assets/arrow.svg"
             alt="arrow"
@@ -168,7 +168,7 @@ const PricingPage = () => {
       </div>
       <Fade right>
         <div className="mt-48 relative px-9">
-          <div className="flex justify-center w-10/12 m-auto mb-14">
+          <div className="flex justify-center">
             <div className="xl:mr-96 lg:mr-auto">
               {" "}
               <div className="font-extrabold text-4xl font-gilroybold">
@@ -187,6 +187,7 @@ const PricingPage = () => {
                 expensive.
               </div>
             </div>
+
             <Image
               src="/assets/pricing/manstar.svg"
               alt="manstar"

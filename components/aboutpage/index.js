@@ -13,9 +13,9 @@ const AboutUs = () => {
         style={{ height: "871px" }}
       >
         <Header />
-        <div className="text-center pt-16 relative md:text-left">
+        <div className="text-center pt-16 sm:pt-10 relative md:text-left">
           {" "}
-          <div className="font-medium text-xl md:px-6">ABOUT Leadzilla</div>
+          <div className="font-medium text-xl md:px-6 sm:font-normal">ABOUT Leadzilla</div>
           <div className="text-6xl md:text-4xl pt-5 font-gilroybold md:px-6">
             Hi! We’re Leadzilla
           </div>
@@ -176,10 +176,10 @@ const AboutUs = () => {
         </div>
         <Fade left>
           <div
-            className="flex sm:block items-center justify-center mt-24 w-10/12 sm:mb-60 mx-auto pb-2"
+            className="flex sm:block items-center justify-center mt-24 w-10/12 sm:mb-72 mx-auto pb-2"
             style={{ height: "446px" }}
           >
-            <div className="sm:hidden">
+            <div className="sm:hidden md:hidden">
               <Image
                 src="/assets/pricing/founderceo.svg"
                 alt=""
@@ -188,15 +188,15 @@ const AboutUs = () => {
               />
             </div>
             <div
-              className="bg-meetsauravbg-200"
-              style={{ width: "800px", height: "446px" }}
+              className=" bg-meetsauravbg-200"
+              // style={{ width: "800px", height: "446px" }}
             >
-              <div className="px-16 pt-16">
-                <div className="text-5xl font-gilroybold">Meet Saurav?</div>
-                <div className="py-6 text-2xl text-aboutustextcolor-200">
+              <div className="px-16 pt-16 sm:px-0 sm:pt-0 md:px-0 md:pt-0">
+                <div className="text-5xl md:text-4xl sm:text-3xl font-gilroybold">Meet Saurav?</div>
+                <div className="py-6 text-2xl md:text-xl sm:text-lg text-aboutustextcolor-200">
                   The Founder of Leadzilla
                 </div>
-                <div className="text-aboutustextcolor-200 text-justify text-xl">
+                <div className="meetSauravText text-aboutustextcolor-200 text-justify text-xl md:text-lg sm:text-base">
                   What started off as one sales dude's idea has become one of
                   the best AI-assisted data platforms for salespeople, small
                   business owners and anyone who's just looking to get meetings.
@@ -206,12 +206,13 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-            <div className="hidden sm:block">
+            <div className="hidden sm:block md:block">
               <Image
                 src="/assets/pricing/founderceo.svg"
                 alt=""
-                width="570"
-                height="448"
+                width="560"
+                height="440"
+                className="ceoImage"
               />
             </div>
           </div>
