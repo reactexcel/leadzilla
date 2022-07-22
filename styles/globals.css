@@ -33,30 +33,15 @@ html {
     height: 535px;
   }
 }
-#form{
-  width: 40%;
-  margin-right: 5%
-}
-@media only screen and (max-width: 350px) {
-  #form{
-    width: 100%;
-    margin-right: -22%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  #form{
-    width: 101%;
-    margin-right: -15%;
-  }
-}
 
 @media only screen and (max-width:639px ) {
 #sendBtn1{
-  width: 95%;
-
+  width: 99%;
+  padding: 6% 12%;
 }
 #sendBtn2{
-  padding: 5% 30%;
+  width: 99%;
+  padding: 6% 30%;
 }
 }
 #contactPage{
