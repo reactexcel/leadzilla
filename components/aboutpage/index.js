@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Fade } from "react-reveal";
+import { height } from "tailwindcss/defaultTheme";
 import Link from "next/link";
 import Header from "../header";
 const AboutUs = () => {
@@ -175,10 +176,10 @@ const AboutUs = () => {
         </div>
         <Fade left>
           <div
-            className="flex items-center justify-center mt-24 w-10/12 mx-auto pb-2"
+            className="flex sm:block items-center justify-center mt-24 w-10/12 sm:mb-60 mx-auto pb-2"
             style={{ height: "446px" }}
           >
-            <div>
+            <div className="sm:hidden">
               <Image
                 src="/assets/pricing/founderceo.svg"
                 alt=""
@@ -205,10 +206,18 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
+            <div className="hidden sm:block">
+              <Image
+                src="/assets/pricing/founderceo.svg"
+                alt=""
+                width="570"
+                height="448"
+              />
+            </div>
           </div>
         </Fade>
         <Fade bottom>
-          <div className="flex justify-center">
+          <div className="flex justify-center sm:hidden">
             <Image
               src="/assets/aboutus/aboutourteam.svg"
               alt="aboutourteam"

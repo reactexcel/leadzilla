@@ -7,10 +7,9 @@ module.exports = {
       xs: { max: "350px" },
       sm: { max: "639px" },
       md: { max: "767px" },
-      lg: { min: "768px", max: "1024px" }
+      lg: { min: "768px", max: "1024px" },
     },
     extend: {
-
       fontFamily: {
         sans: ["Manrope", ...defaultTheme.fontFamily.sans],
         gilroybold: ["Gilroy Bold"],
@@ -28,6 +27,7 @@ module.exports = {
         "brown-bg": "#FFF9EC",
         "green-bg": "#F4FFB4",
         "purple-bg": "#E471FF",
+        "purple-blue": "#7673FF",
 
         // blue: {
         //   950: "#1E2637",
@@ -104,29 +104,38 @@ module.exports = {
           100: "#4659FF",
         },
         bluefeature: {
-          100: "#4659FF"
+          100: "#4659FF",
         },
         graytextcol: {
-          200: "#8891B6"
+          200: "#8891B6",
         },
-        meetsauravbg: {
-          200: "#FFF3FB"
-        },
-
+        200: "#8891B6",
       },
       backgroundImage: {
         "pink-bg": "url('/assets/rectanglelanding.svg')",
         "signup-bg": "url('/assets/signup/backgroundimg.svg')",
         "purples-bg": "url('/assets/signup/reactangle.svg')",
-        "aboutus-bg": "url('/assets/aboutus/aboutusbg.svg')"
+        "aboutus-bg": "url('/assets/aboutus/aboutusbg.svg')",
         // "slide-2": "url('/images/slider-2.jpg')",
         // "more-services": "url('/images/bgimage-4.jpg')",
         // "footer-img": "url('/images/footer-img.jpg')",
       },
     },
+    backgroundImage: {
+      "pink-bg": "url('/assets/rectanglelanding.svg')",
+      "signup-bg": "url('/assets/signup/backgroundimg.svg')",
+      "purples-bg": "url('/assets/signup/reactangle.svg')",
+      "pinkbg-bg": "url('/assets/aboutus/pinkbg.svg')",
+
+      "aboutus-bg": "url('/assets/aboutus/aboutusbg.svg')",
+      // "slide-2": "url('/images/slider-2.jpg')",
+      // "more-services": "url('/images/bgimage-4.jpg')",
+      // "footer-img": "url('/images/footer-img.jpg')",
+    },
+    screens: {
+      sm: { max: "639px" },
+      md: { max: "769px" },
+      lg: "800px",
+    },
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
 };

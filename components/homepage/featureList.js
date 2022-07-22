@@ -183,7 +183,7 @@ const FeatureList = () => {
           </div>
         </div>
         <div className='w-10/12 mx-auto flex sm:block md:block justify-around items-center'>
-          <div className='pt-24 sm:hidden md:hidden'>
+          <div className='pt-24 sm:hidden md:hidden sm:mt-10 md:pt-24'>
             <Fade left>
               <Image
                 src='/assets/aipowerleadzilla.svg'
