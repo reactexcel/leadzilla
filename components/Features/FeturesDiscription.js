@@ -1,8 +1,10 @@
 import Image from 'next/image';
+import Header from '../header';
 
 const FeaturesDiscription = () => {
   return (
     <div className='bg-yellow-bg pb-20'>
+      <Header/>
       <div className='w-10/12 py-2 px-4 m-auto'>
         <div className='pt-20 text-lg font-bold'>
           <div>

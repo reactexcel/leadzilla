@@ -48,8 +48,8 @@ function Footer() {
           {/* Disabling link while FAQ page is under development
            <div className='flex flex-row justify-between mt-16'> */}
 
-          <div className="flex sm:flex-wrap justify-between mt-16">
-            <div className="font-gilroybold text-white text-lg mb-5  flex flex-col">
+          <div className="flex justify-between mt-16">
+            <div className="font-gilroybold text-white text-lg mb-5 flex flex-col">
               <Link href="/features">Features</Link>
               <p className="font-light">Text here</p>
               <p>Text here</p>
