@@ -15,6 +15,8 @@ module.exports = {
         gilroybold: ["Gilroy Bold"],
         gilroylight: ["Gilroy Light"],
         // experience: ["'Playfair Display'", "serif"],
+        
+  
       },
       colors: {
         "voilet-bg": "#AB78FF",
@@ -120,6 +122,15 @@ module.exports = {
         // "more-services": "url('/images/bgimage-4.jpg')",
         // "footer-img": "url('/images/footer-img.jpg')",
       },
+      width: {
+        '128': '500px',
+        '148':'300px'
+      },
+      height: {
+        '128':'486px',
+        '148':'600px'
+      }
+
     },
     backgroundImage: {
       "pink-bg": "url('/assets/rectanglelanding.svg')",
