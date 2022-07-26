@@ -110,7 +110,7 @@ const Contents = () => {
     <>
       <div className="w-full bg-glad-100">
         <Header />
-        <div className="w-10/12 py-2 mx-auto px-2 sm:px-6 lg:px-8 ">
+        <div className="w-10/12 py-2 mx-auto px-2 sm:px-6 lg:px-8 md:w-full ">
           <div className="mt-16 mb-16">
             <div className="flex items-center text-center justify-center flex-col">
               <div>
@@ -147,7 +147,7 @@ const Contents = () => {
           </div>
         </div>
       </div>
-      <div className=" w-10/12 py-2 mx-auto px-2">
+      <div className=" w-10/12 py-2 mx-auto px-2 md:w-full">
         <div className="grid grid-cols-2 md:grid-cols-1 sm:grid-cols-1  mt-20 ">
           {add.map((item, key) => {
             return (
