@@ -5,7 +5,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <nav className="">
+      <nav className="sm:hidden md:hidden">
         <div className="w-10/12 py-2 mx-auto">
           <div className="relative flex items-center justify-between h-16">
             <div className="flex-1 flex items-center justify-between">
@@ -19,7 +19,7 @@ const Navbar = () => {
                   />
                 </Link>
               </div>
-              <div className="hidden sm:block sm:ml-6 font-medium">
+              <div className="font-medium lg:mx-5">
                 <div className="flex space-x-4">
                   {/* <div
                     className="text-black px-3 py-2 text-base"
@@ -27,18 +27,18 @@ const Navbar = () => {
                   >
                     Blogs
                   </div> */}
-                  <div className="text-black px-3 py-2 text-base">
+                  <div className="text-black px-3 lg:px-1 py-2 text-base">
                     <Link href="/pricing">Pricing</Link>
                   </div>
 
-                  <div className="text-black px-3 py-2 text-base">
+                  <div className="text-black px-3 lg:px-1 py-2 text-base">
                     <Link href="/features">Features</Link>
                   </div>
 
-                  <div className="text-black px-3 py-2 text-base">
+                  <div className="text-black px-3 lg:px-1 py-2 text-base">
                     <Link href="https://blog.leadzilla.ai">Blogs</Link>
                   </div>
-                  <div className="text-black px-3 py-2 text-base">
+                  <div className="text-black px-3 lg:px-1 py-2 text-base">
                     <Link href="/about">About</Link>
                   </div>
                 </div>

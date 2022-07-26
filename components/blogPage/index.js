@@ -1,12 +1,12 @@
-import React from 'react'
-import Contents from './content'
+import React from "react";
+import Contents from "./content";
 
 const BlogPage = () => {
   return (
     <>
-    <Contents />
+      <Contents />
     </>
-  )
-}
+  );
+};
 
-export default BlogPage
+export default BlogPage;
