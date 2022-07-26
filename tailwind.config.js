@@ -3,18 +3,20 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    screens: {
-      xs: { max: "350px" },
-      sm: { max: "639px" },
-      md: { max: "767px" },
-      lg: { min: "768px", max: "1024px" },
-    },
+    // screens: {
+    //   xs: { max: "350px" },
+    //   sm: { max: "639px" },
+    //   md: { max: "767px" },
+    //   lg: { min: "768px", max: "1024px" },
+    // },
     extend: {
       fontFamily: {
         sans: ["Manrope", ...defaultTheme.fontFamily.sans],
         gilroybold: ["Gilroy Bold"],
         gilroylight: ["Gilroy Light"],
         // experience: ["'Playfair Display'", "serif"],
+        
+  
       },
       colors: {
         "voilet-bg": "#AB78FF",
@@ -28,7 +30,7 @@ module.exports = {
         "green-bg": "#F4FFB4",
         "purple-bg": "#E471FF",
         "purple-blue": "#7673FF",
-
+        "bg-meetsauravbg-200": "#FFFCE3",
         // blue: {
         //   950: "#1E2637",
         //   650: "#2C4A8A",
@@ -120,6 +122,17 @@ module.exports = {
         // "more-services": "url('/images/bgimage-4.jpg')",
         // "footer-img": "url('/images/footer-img.jpg')",
       },
+      width: {
+        '128': '500px',
+        '148':'310px',
+        '118':'109px',
+        '120':'205px',
+      },
+      height: {
+        '128':'486px',
+        '148':'600px'
+      }
+
     },
     backgroundImage: {
       "pink-bg": "url('/assets/rectanglelanding.svg')",

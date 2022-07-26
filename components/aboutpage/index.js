@@ -4,6 +4,7 @@ import { Fade } from "react-reveal";
 import { height } from "tailwindcss/defaultTheme";
 import Link from "next/link";
 import Header from "../header";
+import AboutImage from "./aboutImage";
 const AboutUs = () => {
   return (
     <>
@@ -12,10 +13,10 @@ const AboutUs = () => {
         className="bg-pink-bg w-full md:h-auto bg-no-repeat bg-cover"
         style={{ height: "871px" }}
       >
-        <Header/>
-        <div className="text-center pt-16 relative md:text-left">
+        <Header />
+        <div className="text-center pt-16 sm:pt-10 relative md:text-left">
           {" "}
-          <div className="font-medium text-xl md:px-6">ABOUT Leadzilla</div>
+          <div className="font-medium text-xl md:px-6 sm:font-normal">ABOUT Leadzilla</div>
           <div className="text-6xl md:text-4xl pt-5 font-gilroybold md:px-6">
             Hi! We’re Leadzilla
           </div>
@@ -54,7 +55,7 @@ const AboutUs = () => {
               </button>
             </Link>
           </div>
-          <div className="flex justify-center relative md:block">
+          <div className="flex justify-center relative sm:hidden">
             <div className="">
               {" "}
               <Image
@@ -107,6 +108,7 @@ const AboutUs = () => {
               />
             </div>
           </div>
+          <AboutImage/>
           <span className="ml-2 absolute bottom-2 right-48  md:hidden">
             <Image
               src="/assets/aboutus/smiley.svg"
@@ -139,11 +141,11 @@ const AboutUs = () => {
         </span>
       </div>
       <div>
-        <div className="flex items-center justify-around  mt-40 w-10/12 py-2 mx-auto">
+        <div className="flex sm:block md:block items-center justify-around  mt-40 w-10/12 py-2 mx-auto">
           <Fade left>
             <div className="text-left ">
-              <div className="text-6xl font-gilroybold">What is Leadzilla?</div>
-              <div className="pt-4 pb-6 text-aboutustextcolor-200 text-xl">
+              <div className="text-6xl font-gilroybold sm:text-2xl">What is Leadzilla?</div>
+              <div className="pt-4 pb-6 text-aboutustextcolor-200 text-xl sm:text-base">
                 Leadzilla was founded by Saurav Gupta in 2020
                 <br />
                 with the aim of creating the world’s best data source for
@@ -154,7 +156,7 @@ const AboutUs = () => {
                 email, phone or LinkedIn.
                 <br />{" "}
               </div>
-              <div className="text-aboutustextcolor-200 text-xl">
+              <div className="text-aboutustextcolor-200 text-xl sm:text-base">
                 With Leadzilla, sales professionals can identify, engage and{" "}
                 <br /> close prospects, thanks to our prospecting platform, web{" "}
                 <br /> extension. Leadzilla is used by over <br /> 2000 sales
@@ -164,7 +166,7 @@ const AboutUs = () => {
             </div>
           </Fade>
           <Fade right>
-            <div>
+            <div className="sm:mt-5 md:mt-5">
               <Image
                 src="/assets/aboutus/whatsleadzilla.svg"
                 alt="whatsleadzilla"
@@ -176,10 +178,10 @@ const AboutUs = () => {
         </div>
         <Fade left>
           <div
-            className="flex items-center justify-center mt-24 w-10/12 mx-auto pb-2"
+            className="flex sm:block md:block items-center justify-center mt-24 w-10/12 sm:mb-72 md:mb-72 mx-auto pb-2"
             style={{ height: "446px" }}
           >
-            <div>
+            <div className="sm:hidden md:hidden">
               <Image
                 src="/assets/pricing/founderceo.svg"
                 alt=""
@@ -188,15 +190,15 @@ const AboutUs = () => {
               />
             </div>
             <div
-              className="bg-meetsauravbg-200"
-              style={{ width: "800px", height: "446px" }}
+              className=" bg-meetsauravbg-200"
+              // style={{ width: "800px", height: "446px" }}
             >
-              <div className="px-16 pt-16">
-                <div className="text-5xl font-gilroybold">Meet Saurav?</div>
-                <div className="py-6 text-2xl text-aboutustextcolor-200">
+              <div className="px-16 pt-16 sm:px-0 sm:pt-0 md:px-0 md:pt-0">
+                <div className="text-5xl md:text-4xl sm:text-3xl font-gilroybold">Meet Saurav?</div>
+                <div className="py-6 text-2xl md:text-xl sm:text-lg text-aboutustextcolor-200">
                   The Founder of Leadzilla
                 </div>
-                <div className="text-aboutustextcolor-200 text-justify text-xl">
+                <div className="meetSauravText text-aboutustextcolor-200 text-justify text-xl md:text-lg sm:text-base">
                   What started off as one sales dude's idea has become one of
                   the best AI-assisted data platforms for salespeople, small
                   business owners and anyone who's just looking to get meetings.
@@ -206,10 +208,19 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
+            <div className="hidden sm:block md:block sm:mt-5 md:mt-5">
+              <Image
+                src="/assets/pricing/founderceo.svg"
+                alt=""
+                width="560"
+                height="440"
+                className="ceoImage"
+              />
+            </div>
           </div>
         </Fade>
         <Fade bottom>
-          <div className="flex justify-center">
+          <div className="flex justify-center sm:hidden md:hidden">
             <Image
               src="/assets/aboutus/aboutourteam.svg"
               alt="aboutourteam"

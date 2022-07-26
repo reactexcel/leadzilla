@@ -6,12 +6,12 @@ const MiddleSection = () => {
   return (
     <div className="bg-brown-bg">
       <Fade left>
-      <div className="w-10/12 py-10 px-4 m-auto flex justify-evenly pt-20 ">
-        <div>
+      <div className="w-10/12 sm:w-auto md:w-auto sm:pt-0 py-10 px-4 m-auto flex justify-evenly pt-20 sm:flex-wrap-reverse md:flex-wrap-reverse">
+        <div className="sm:mt-14 md:mt-14">
           <Image src="/assets/writemail.svg" alt="" width="521" height="564"/>
         </div>
-        <div className="mt-14 pl-14">
-          <div className="font-gilroylight" style={{fontSize: "42px"}}>
+        <div className="mt-14 pl-14 sm:pl-4">
+          <div className="font-gilroylight text-5xl sm:text-xl">
             Press one button to
             <span className="font-black font-gilroybold"> write a</span>
             <div className="font-black font-gilroybold">highly personalized email for</div>
