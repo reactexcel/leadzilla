@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const FindContact = () => {
   return (
-    <div className="w-10/12 py-2 px-8 m-auto pb-20">
+    <div className="w-10/12 py-2 px-8 m-auto pb-20 sm:px-0">
       <Fade right>
       <div className="-mt-48 flex justify-center items-center md:-mt-32 sm:-mt-24">
         <Image
