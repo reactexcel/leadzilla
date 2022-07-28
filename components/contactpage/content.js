@@ -74,10 +74,10 @@ const Contents = () => {
               </div>
             </div>
 
-            <div className='p-10 w-7/12 md:w-full lg:w-full'>
-              <button className='bg-black p-3 py-4 text-xl relative transform  hover: transition duration-500 hover:scale-125' id="sendBtn1">
+            <div className='p-10 w-7/12 md:w-2/4 lg:w-full sm:m-auto sm:p-0'>
+              <button className='bg-black p-3 sm:p-2 sm:py-2  py-4 text-xl sm:text-lg relative transform  hover: transition duration-500 hover:scale-125' id="sendBtn1">
                 Send message
-                <button className='bg-yellow-500 p-3 py-4 text-xl absolute bottom-2 right-2 whitespace-nowrap' id="sendBtn2">
+                <button className='bg-yellow-500 p-3 sm:p-2 py-4 sm:py-3 text-xl sm:text-lg absolute bottom-2 right-2 whitespace-nowrap' id="sendBtn2">
                   Send message
                 </button>
               </button>
