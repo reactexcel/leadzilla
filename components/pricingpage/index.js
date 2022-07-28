@@ -78,8 +78,19 @@ const PricingPage = () => {
         </div>
       </div>
 
-      <div className="text-center mt-16 relative sm:text-left sm:ml-3">
-        <div className="font-light text-3xl sm:text-xl md:text-2xl font-gilroylight">
+      <div className="text-center mx-9 mt-16 relative sm:text-left sm:ml-3">
+
+        <span className="ml-2 absolute top-1/4 right-3/4 sm:top-72 md:top-60 sm:hidden" style={{left:'8%'}}>
+          <Image
+            src="/assets/arrow.svg"
+            alt="arrow"
+            width="120px"
+            height="180px"
+          />
+        </span>
+        
+       <div>
+       <div className="font-light text-3xl sm:text-xl md:text-2xl font-gilroylight">
           Your time and efforts are not cheap.
         </div>
         <div className="font-extrabold text-4xl sm:text-2xl md:text-3xl my-5 font-gilroybold">
@@ -92,6 +103,16 @@ const PricingPage = () => {
           <br /> information on Google or their website and then hours trying to
           writing personalized emails
         </div>
+       </div>
+       <span className="ml-2 absolute top-32 right-48 sm:hidden md:hidden ">
+          <Image
+            src="/assets/righteyeimg.svg"
+            alt="eyesImg"
+            width="50px"
+            className="m-6 ml-4 animate-bounce"
+            height="50px"
+          />
+        </span>
        <div className="sm:overflow-x-scroll">
         <table className="m-auto mt-16  sm:mt-40 md:mt-40" style={{ borderRadius: "14px" }}>
           <thead className="bg-skin-bg  border border-skin-border rounded-t-lg text-left">
@@ -147,24 +168,9 @@ const PricingPage = () => {
           </tbody>
         </table>
         </div>
-        <span className="ml-2 absolute top-32 right-48 sm:hidden md:hidden ">
-          <Image
-            src="/assets/righteyeimg.svg"
-            alt="eyesImg"
-            width="50px"
-            className="m-6 ml-4 animate-bounce"
-            height="50px"
-          />
-        </span>
+       
 
-        <span className="ml-2 absolute top-32 right-3/4 sm:top-72 md:top-60 sm:hidden">
-          <Image
-            src="/assets/arrow.svg"
-            alt="arrow"
-            width="120px"
-            height="180px"
-          />
-        </span>
+      
       </div>
       <Fade right>
         <div className="mt-32 relative px-9">
