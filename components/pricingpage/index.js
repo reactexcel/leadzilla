@@ -221,7 +221,7 @@ const PricingPage = () => {
             /></div>
           </div>
 
-          <div className="text-center mt-8 sm:hidden md:mt-32">
+          <div className="text-center mt-32 sm:hidden md:mt-32">
             <Image
               src="/assets/pricing/realcosts.svg"
               alt="realcost"
@@ -238,7 +238,7 @@ const PricingPage = () => {
             />
           </div>
 
-          <span className="ml-2 absolute top-24 sm:top-64 md:top-60 left-1/2 sm:mt-12 md:ml-48 sm:hidden md:hidden">
+          <span className="ml-32 absolute top-44 sm:top-64 md:top-60 left-1/2 sm:mt-12 md:ml-48 sm:hidden md:hidden">
             <Image
               src="/assets/designerarrow.svg"
               alt="designerarrow"
