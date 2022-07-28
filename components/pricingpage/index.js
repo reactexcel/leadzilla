@@ -80,7 +80,7 @@ const PricingPage = () => {
 
       <div className="text-center mx-9 mt-16 relative sm:text-left sm:ml-3">
 
-        <span className="ml-2 absolute top-1/4 right-3/4 sm:top-72 md:top-60 sm:hidden" style={{left:'8%'}}>
+        <span className="ml-2 absolute top-1/4 sm:top-72 md:top-60 sm:hidden" style={{left:'8%'}}>
           <Image
             src="/assets/arrow.svg"
             alt="arrow"
