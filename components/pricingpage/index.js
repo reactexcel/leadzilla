@@ -80,7 +80,7 @@ const PricingPage = () => {
 
       <div className="text-center mx-9 mt-16 relative sm:text-left sm:ml-3">
 
-        <span className="ml-2 absolute top-1/4 sm:top-72 md:top-60 sm:hidden" style={{left:'8%'}}>
+        <span className="ml-2 absolute top-1/4 sm:top-72 md:top-60 sm:hidden mg:top-32 mg:left-0 left-16" >
           <Image
             src="/assets/arrow.svg"
             alt="arrow"
@@ -93,18 +93,18 @@ const PricingPage = () => {
        <div className="font-light text-3xl sm:text-xl md:text-2xl font-gilroylight">
           Your time and efforts are not cheap.
         </div>
-        <div className="font-extrabold text-4xl sm:text-2xl md:text-3xl my-5 font-gilroybold">
+        <div className="font-extrabold text-4xl  sm:text-2xl md:text-2xl mg:text-3xl my-5 font-gilroybold">
           You’re probably spending more than $1000 every <br />
           month on getting qualified leads already.
         </div>
-        <div className="text-xl py-2 sm:text-base md:text-lg">
+        <div className="text-xl py-2 mg:text-base sm:text-base md:text-lg">
           There is significant cost and effort to find new customers - you spend
           hours trying to find contact
           <br /> information on Google or their website and then hours trying to
           writing personalized emails
         </div>
        </div>
-       <span className="ml-2 absolute top-32 right-48 sm:hidden md:hidden ">
+       <span className="ml-2 absolute top-32  sm:hidden md:hidden mg:right-5 right-16">
           <Image
             src="/assets/righteyeimg.svg"
             alt="eyesImg"
@@ -174,8 +174,8 @@ const PricingPage = () => {
       </div>
       <Fade right>
         <div className="mt-32 relative px-9">
-          <div className="flex justify-center w-10/12 mb-12 m-auto">
-            <div className="xl:mr-96 lg:mr-auto">
+          <div className="flex justify-center w-10/12 mb-12 m-auto mg:w-full">
+            <div>
               {" "}
               <div className="font-extrabold text-4xl sm:text-2xl font-gilroybold">
                 The real cost of alternatives <br />
@@ -193,6 +193,14 @@ const PricingPage = () => {
                 expensive.
               </div>
             </div>
+            <span className="ml-2 ml-20 mt-20 mr-20 sm:top-64 md:top-60 sm:mt-12 md:ml-48">
+            <Image
+              src="/assets/designerarrow.svg"
+              alt="designerarrow"
+              width="105px"
+              height="130px"
+            />
+          </span>
             <div className="sm:hidden">
             <Image
               src="/assets/pricing/manstar.svg"
@@ -219,14 +227,7 @@ const PricingPage = () => {
             />
           </div>
 
-          <span className="ml-2 absolute top-24 sm:top-64 md:top-60 left-1/2 sm:mt-12 md:ml-48">
-            <Image
-              src="/assets/designerarrow.svg"
-              alt="designerarrow"
-              width="105px"
-              height="130px"
-            />
-          </span>
+          
         </div>
       </Fade>
       <Fade left>
