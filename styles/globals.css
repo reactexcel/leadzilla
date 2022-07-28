@@ -44,12 +44,12 @@ html {
 
 @media only screen and (max-width:639px ) {
 #sendBtn1{
-  width: 99%;
-  padding: 6% 12%;
+  width: 100%;
+  padding: 4% 10%;
 }
 #sendBtn2{
   width: 99%;
-  padding: 6% 30%;
+  padding: 4% 26%;
 }
 }
 #contactPage{
@@ -64,3 +64,6 @@ html {
     width: 90%;
   }
 }
+
+
+
