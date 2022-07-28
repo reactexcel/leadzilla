@@ -80,31 +80,50 @@ const PricingPage = () => {
 
       <div className="text-center mx-9 mt-16 relative sm:text-left sm:ml-3">
 
-        <span className="ml-2 absolute top-1/4 sm:top-72 md:top-60 sm:hidden" style={{left:'8%'}}>
+        {/* <span className="ml-2 absolute top-1/4 sm:top-72 md:top-60 sm:hidden" style={{left:'8%'}}>
           <Image
             src="/assets/arrow.svg"
             alt="arrow"
             width="120px"
             height="180px"
           />
-        </span>
+        </span> */}
         
-       <div>
+       <div className="-mb-20">
        <div className="font-light text-3xl sm:text-xl md:text-2xl font-gilroylight">
           Your time and efforts are not cheap.
         </div>
-        <div className="font-extrabold text-4xl sm:text-2xl md:text-3xl my-5 font-gilroybold">
+        <div className="font-extrabold text-4xl sm:text-2xl md:text-3xl my-5 font-gilroybold sm:text-justify">
           You’re probably spending more than $1000 every <br />
           month on getting qualified leads already.
         </div>
-        <div className="text-xl py-2 sm:text-base md:text-lg">
+        <div className="flex justify-evenly mx-auto mt-8">
+          <div className="md:hidden sm:hidden">
+            <Image
+            src="/assets/arrow.svg"
+            alt="arrow"
+            width="120px"
+            height="180px"
+          />
+          </div>
+        <div className="text-xl py-2 sm:text-base md:text-lg sm:text-justify">
           There is significant cost and effort to find new customers - you spend
           hours trying to find contact
-          <br /> information on Google or their website and then hours trying to
+          information on Google or their website and then hours trying to
           writing personalized emails
         </div>
+        <div className="mt-10 md:hidden sm:hidden">
+        <Image
+            src="/assets/righteyeimg.svg"
+            alt="eyesImg"
+            width="50px"
+            className="m-6 ml-4 animate-bounce"
+            height="50px"
+          />
+        </div>
+        </div>
        </div>
-       <span className="ml-2 absolute top-32 right-48 sm:hidden md:hidden ">
+       {/* <span className="ml-2 absolute top-32 right-48 sm:hidden md:hidden ">
           <Image
             src="/assets/righteyeimg.svg"
             alt="eyesImg"
@@ -112,7 +131,7 @@ const PricingPage = () => {
             className="m-6 ml-4 animate-bounce"
             height="50px"
           />
-        </span>
+        </span> */}
        <div className="sm:overflow-x-scroll">
         <table className="m-auto mt-16  sm:mt-40 md:mt-40" style={{ borderRadius: "14px" }}>
           <thead className="bg-skin-bg  border border-skin-border rounded-t-lg text-left">
@@ -173,15 +192,15 @@ const PricingPage = () => {
       
       </div>
       <Fade right>
-        <div className="mt-32 relative px-9">
+        <div className="mt-32 relative px-9 sm:mt-10 md:mt-20">
           <div className="flex justify-center w-10/12 mb-12 m-auto">
             <div className="xl:mr-96 lg:mr-auto">
               {" "}
-              <div className="font-extrabold text-4xl sm:text-2xl font-gilroybold">
+              <div className="font-extrabold text-4xl sm:text-2xl font-gilroybold sm:text-justify">
                 The real cost of alternatives <br />
                 or leaving things as they are…
               </div>
-              <div className="font-normal text-base	 mt-6">
+              <div className="font-normal text-base	 mt-6 sm:text-justify">
                 You can keep searching for emails on Google or use an
                 alternative tool
                 <br />
@@ -210,7 +229,7 @@ const PricingPage = () => {
               height="341"
             />
           </div>
-          <div className="text-center mt-36 hidden sm:block">
+          <div className="text-center mt-36 sm:mt-10 hidden sm:block">
             <Image
               src="/assets/pricing/vertical_image.svg"
               alt="realcost"
@@ -219,7 +238,7 @@ const PricingPage = () => {
             />
           </div>
 
-          <span className="ml-2 absolute top-24 sm:top-64 md:top-60 left-1/2 sm:mt-12 md:ml-48">
+          <span className="ml-2 absolute top-24 sm:top-64 md:top-60 left-1/2 sm:mt-12 md:ml-48 sm:hidden md:hidden">
             <Image
               src="/assets/designerarrow.svg"
               alt="designerarrow"
