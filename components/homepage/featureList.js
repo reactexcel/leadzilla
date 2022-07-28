@@ -59,7 +59,7 @@ const FeatureList = () => {
             </Fade>
           </div>
         </div>
-        <div className='w-10/12 mx-auto flex sm:block md:block justify-around items-center py-20'>
+        <div className='w-10/12 mx-auto flex sm:block md:block justify-around items-center py-20 sm:py-0'>
           <div className='sm:hidden md:hidden'>
             <Fade left>
               <Image
@@ -82,9 +82,9 @@ const FeatureList = () => {
 
               <div className='mt-4 h-7 w-3/6'>
               <Link href="https://chrome.google.com/webstore/detail/leadzilla/mlknnmdepgmefemphhdombdflfgceejg">
-                <button className='bg-black p-3 px-8 font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
+                <button className='bg-black sm:w-36 p-3 sm:p-3 px-8 font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
                   Learn more
-                  <button className='bg-yellow-500 p-3 px-8 font-bold absolute bottom-2 right-2 whitespace-nowrap'>
+                  <button className='bg-yellow-500 sm:w-36 p-3 sm:p-3 px-8 font-bold absolute bottom-2 right-2 whitespace-nowrap'>
                     Learn more
                   </button>
                 </button>
@@ -212,9 +212,9 @@ const FeatureList = () => {
 
               <div className='mt-4 h-7 w-3/6'>
               <Link href="https://app.leadzilla.ai/login">
-                <button className='bg-black p-3 px-8 font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
+                <button className='bg-black sm:w-36 p-3 sm:p-3 px-8 font-bold relative transform hover:ml-7 hover: transition duration-500 hover:scale-125'>
                   Learn more
-                  <button className='bg-yellow-500 p-3 px-8 font-bold absolute bottom-2 right-2 whitespace-nowrap'>
+                  <button className='bg-yellow-500 sm:w-36 p-3 sm:p-3 px-8 font-bold absolute bottom-2 right-2 whitespace-nowrap'>
                     Learn more
                   </button>
                 </button>

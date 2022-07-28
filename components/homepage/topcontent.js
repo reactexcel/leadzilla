@@ -16,7 +16,7 @@ const TopContent = () => {
       style={{height: '871px' }}
     >
       <Header />
-      <div className='pt-16 text-center text-7xl md:text-4xl sm:text-left md:text-left sm:pl-6 md:pl-6'>
+      <div className='pt-16 sm:pt-10 text-center text-7xl md:text-4xl sm:text-left md:text-left sm:pl-6 md:pl-6'>
         {starImage.map((val, key) => {
           return (
             <Image src='/assets/starlandingpage.svg' alt='' width='40' height='40' className='py-3 p-2' key={key}/>
@@ -38,9 +38,9 @@ const TopContent = () => {
       <span className='absolute top-1/2 right-3/4 sm:hidden md:hidden'><Image src="/assets/bigArrowTwisted.png" alt="arrow" height="100" width="170" /></span>
       <div className='text-center p-6 mb-10'>
         <Link href="https://app.leadzilla.ai/login"> 
-        <button className='bg-black p-3 px-5 text-2xl sm:text-lg font-bold relative cursor-pointer transform hover: transition duration-500 hover:scale-125'>
+        <button className='bg-black p-3 px-5 sm:px-2.5 text-2xl sm:text-lg font-bold relative cursor-pointer transform hover: transition duration-500 hover:scale-125'>
           Sign up and get 20 free leads now
-          <button className='bg-yellow-500 p-3 px-4 text-2xl sm:text-lg font-bold absolute bottom-2 left-2 whitespace-nowrap cursor-pointer'>
+          <button className='bg-yellow-500 p-3 px-4 sm:px-2 text-2xl sm:text-lg font-bold absolute bottom-2 left-2 whitespace-nowrap cursor-pointer'>
             Sign up and get 20 free leads now!
           </button>
         </button>
