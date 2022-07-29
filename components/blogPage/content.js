@@ -208,7 +208,7 @@ const Contents = () => {
           })}
         </div>
 
-        <div className="w-auto mx-auto grid-flow-col md:grid-flow-row sm:grid-flow-row ms:ml-5 mt-20">
+        <div className="w-auto mx-auto grid-flow-col md:grid-flow-row sm:grid-flow-row mt-20">
           <div className="grid grid-cols-3 md:grid-cols-1 sm:grid-cols-1 mx-auto  my-auto  mt-20 ">
             {detail.map((item, key) => {
               return (
@@ -264,7 +264,7 @@ const Contents = () => {
 
         <div>
           <div style={{ height: "500px" }}>
-            <div className="mt-20">
+            <div className="mt-20 ms:ml-2">
               <div
                 className="bg-yellow-300 p-3 py-4 text-xl  relative w-full border-2 border-darkcolor-200 "
                 style={{ height: "500px" }}
@@ -319,7 +319,7 @@ const Contents = () => {
         </div>
 
         <div style={{ height: "auto" }}>
-          <div className="grid grid-cols-3 md:grid-cols-1 sm:grid-cols-1 mt-20 ms:ml-5">
+          <div className="grid grid-cols-3 md:grid-cols-1 sm:grid-cols-1 mt-20">
             {detailmain.map((item, key) => {
               return (
                 <div className="mr-4 h-auto md:mr-0 sm:mr-0 mb-10" key={key}>
@@ -373,8 +373,8 @@ const Contents = () => {
           </div>
         </div>
         <div>
-          <div className="ms:ml-6" style={{ height: "600px" }}>
-            <div className="py-2  px-4  mt-20 ">
+          <div style={{ height: "600px" }}>
+            <div className="py-2 px-4 mt-20 ms:ml-2 ms:px-0 ms:py-0">
               <div
                 className="bg-yellow-300 p-3 py-4 text-xl  relative w-full border-2 border-darkcolor-200"
                 style={{ height: "500px" }}
