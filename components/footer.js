@@ -26,14 +26,14 @@ function Footer() {
               </div>
             </div>
 
-            <div className='flex flex-row items-center xs:flex-col xs:gap-11'>
+            <div className='flex flex-row items-center'>
               <Link href='https://app.leadzilla.ai/login'>
                 <button className='text-white text-sm font-bold border-2 py-4 sm:py-4 px-8 sm:px-4 rounded-full mr-4 hover:bg-yellow-300 hover:text-black sm:w-118 sm:text-xs'>
                   Get Started
                 </button>
               </Link>
               <Link href='https://chrome.google.com/webstore/detail/leadzilla/mlknnmdepgmefemphhdombdflfgceejg'>
-                <button className='hover:text-white text-sm font-bold py-4 bg-yellow-300 text-black-300  sm:py-4 px-8 sm:px-4 rounded-full sm:w-120 sm:text-xs sm:font-bold'>
+                <button className='hover:text-white text-sm font-bold py-4 bg-yellow-300 text-black-300  sm:py-3 px-8 sm:px-4 rounded-full sm:w-32 sm:text-xs sm:font-bold'>
                   Add Chrome Extension
                 </button>
               </Link>
