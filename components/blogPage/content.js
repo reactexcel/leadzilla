@@ -116,7 +116,7 @@ const Contents = () => {
               <div>
                 <p className="text-6xl font-gilroybold mt-5">Leadzilla Blog</p>
               </div>
-              <div className="flex justify-evenly w-9/12 mt-7 items-center font-bold">
+              <div className="flex justify-evenly w-9/12 mt-7 items-center font-bold sm:w-full">
                 <div className="text-lg underline underline-offset-2">
                   <Link href="">ALL</Link>
                 </div>
@@ -208,7 +208,7 @@ const Contents = () => {
           })}
         </div>
 
-        <div className="w-auto mx-auto grid-flow-col md:grid-flow-row sm:grid-flow-row mt-20">
+        <div className="w-auto mx-auto grid-flow-col md:grid-flow-row sm:grid-flow-row ms:ml-5 mt-20">
           <div className="grid grid-cols-3 md:grid-cols-1 sm:grid-cols-1 mx-auto  my-auto  mt-20 ">
             {detail.map((item, key) => {
               return (
@@ -264,7 +264,7 @@ const Contents = () => {
 
         <div>
           <div style={{ height: "500px" }}>
-            <div className="  mt-20">
+            <div className="mt-20">
               <div
                 className="bg-yellow-300 p-3 py-4 text-xl  relative w-full border-2 border-darkcolor-200 "
                 style={{ height: "500px" }}
@@ -276,26 +276,39 @@ const Contents = () => {
                   <p className="mt-20 text-base font-gilroybold text-white ">
                     WEEKLY NEWSLETTER
                   </p>
-                  <p className="text-5xl text-yellow-300 font-gilroybold m-2 mb-7">
+                  <p className="text-4xl xs:text-3xl text-yellow-300 font-gilroybold m-2 mb-7">
                     Join the community
                   </p>
 
-                  <p className="text-center m-auto text-white ">
-                    Weekly articles, tips, and tools to inspire and help you
-                    gain the latest insights.
-                  </p>
-                  <p className="text-white">
-                    Subscribe to get curated content delivered directly to your
-                    inbox
-                  </p>
+                 <div className="md:hidden sm:hidden lg:block">
+                    <div className="text-center m-auto text-white">
+                      Weekly articles, tips, and tools to inspire and help you
+                      gain the latest insights.
+                    </div>
+                    <div className="text-white">
+                      Subscribe to get curated content delivered directly to your
+                      inbox
+                    </div>
+                  </div>
+
+                  <div className="md:block sm:block lg:hidden">
+                    <div className="text-center m-auto text-white xs:text-base">
+                      Weekly articles, tips, and tools to <br/> inspire and help you
+                      gain the latest <br/> insights.
+                    </div>
+                    <div className="text-white xs:text-base">
+                      Subscribe to get curated content <br/> delivered  directly to your
+                      inbox
+                    </div>
+                  </div>
 
                   <div className="mt-7 mb-20">
                     <input
-                      className="p-5 border-2 border-darkcolor-200 inputstyle"
+                      className="p-5 ms:py-2 ms:px-0 ms:p-0 ms:w-3/5 ms:text-base border-2 border-darkcolor-200 inputstyle"
                       placeholder="Enter your email address"
                       type="search"
                     />
-                    <button className="bg-yellow-300 p-5 mb-20 border-2 border-darkcolor-200 font-bold">
+                    <button className="bg-yellow-300 p-5 ms:py-2 ms:text-base ms:p-0 ms:px-0 mb-20 border-2 border-darkcolor-200 font-bold">
                       Subscribe Now
                     </button>
                   </div>
@@ -306,7 +319,7 @@ const Contents = () => {
         </div>
 
         <div style={{ height: "auto" }}>
-          <div className="grid grid-cols-3 md:grid-cols-1 sm:grid-cols-1 mt-20">
+          <div className="grid grid-cols-3 md:grid-cols-1 sm:grid-cols-1 mt-20 ms:ml-5">
             {detailmain.map((item, key) => {
               return (
                 <div className="mr-4 h-auto md:mr-0 sm:mr-0 mb-10" key={key}>
@@ -360,7 +373,7 @@ const Contents = () => {
           </div>
         </div>
         <div>
-          <div style={{ height: "600px" }}>
+          <div className="ms:ml-6" style={{ height: "600px" }}>
             <div className="py-2  px-4  mt-20 ">
               <div
                 className="bg-yellow-300 p-3 py-4 text-xl  relative w-full border-2 border-darkcolor-200"
@@ -385,25 +398,25 @@ const Contents = () => {
                   </div>
 
                   <div className="lg:hidden">
-                    <p className="text-5xl text-black-800 font-extrabold break-all">
+                    <p className="text-4xl ms:text-2xl text-black-800 font-extrabold break-all">
                       Leadzilla offers you
                     </p>
 
-                    <p className="text-5xl text-black-800 font-extrabold break-all">
+                    <p className="text-4xl ms:text-2xl text-black-800 font-extrabold break-all">
                       the best way to reach
                     </p>
-                    <p className="text-5xl text-black-800 font-extrabold break-all">
+                    <p className="text-4xl ms:text-2xl text-black-800 font-extrabold break-all">
                       your customers.
                     </p>
                   </div>
 
                   <div className=" mb-20 mt-12">
                     <input
-                      className="p-5 border-2 border-darkcolor-200 inputstyle"
+                      className="p-5 ms:py-2 ms:px-0 ms:p-0 ms:w-3/5 ms:text-base border-2 border-darkcolor-200 inputstyle"
                       placeholder="Enter your email address"
                       type="search"
                     />
-                    <button className="bg-yellow-300 p-5 mb-20 border-2 font-bold border-darkcolor-200">
+                    <button className="bg-yellow-300 ms:text-base p-5 ms:py-2 ms:px-0 ms:p-0 mb-20 border-2 font-bold border-darkcolor-200">
                       Try for Free
                     </button>
                   </div>
