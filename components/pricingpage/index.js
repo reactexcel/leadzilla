@@ -212,14 +212,6 @@ const PricingPage = () => {
                 expensive.
               </div>
             </div>
-            <span className="ml-2 ml-20 mt-20 mr-20 sm:top-64 md:top-60 sm:mt-12 md:ml-48">
-            <Image
-              src="/assets/designerarrow.svg"
-              alt="designerarrow"
-              width="105px"
-              height="130px"
-            />
-          </span>
             <div className="sm:hidden">
             <Image
               src="/assets/pricing/manstar.svg"
@@ -246,7 +238,14 @@ const PricingPage = () => {
             />
           </div>
 
-        
+          <span className="ml-32 absolute top-44 sm:top-64 md:top-60 left-1/2 sm:mt-12 md:ml-48 sm:hidden md:hidden">
+            <Image
+              src="/assets/designerarrow.svg"
+              alt="designerarrow"
+              width="105px"
+              height="130px"
+            />
+          </span>
         </div>
       </Fade>
       <Fade left>
