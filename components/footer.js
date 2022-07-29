@@ -33,7 +33,7 @@ function Footer() {
                 </button>
               </Link>
               <Link href='https://chrome.google.com/webstore/detail/leadzilla/mlknnmdepgmefemphhdombdflfgceejg'>
-                <button className='hover:text-white text-sm font-bold py-4 bg-yellow-300 text-black-300  sm:py-3 px-8 sm:px-4 rounded-full sm:w-32 sm:text-xs sm:font-bold'>
+                <button className='hover:text-white text-sm font-bold py-4 bg-yellow-300 text-black-300  sm:py-4 px-8 sm:px-4 rounded-full sm:w-120 sm:text-xs sm:font-bold'>
                   Add Chrome Extension
                 </button>
               </Link>
