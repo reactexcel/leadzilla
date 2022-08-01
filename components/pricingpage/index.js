@@ -93,7 +93,7 @@ const PricingPage = () => {
        <div className="font-light text-3xl sm:text-xl md:text-2xl font-gilroylight">
           Your time and efforts are not cheap.
         </div>
-        <div className="font-extrabold text-4xl sm:text-2xl md:text-3xl my-5 font-gilroybold sm:text-justify">
+        <div className="font-extrabold text-4xl sm:text-2xl my-5 font-gilroybold sm:text-justify">
           You’re probably spending more than $1000 every <br />
           month on getting qualified leads already.
         </div>
