@@ -5,16 +5,16 @@ const MiddleTopSection = () => {
   return (
     <>
       <div
-        className='mt-80 text-5xl text-center'
+        className='mt-80 text-5xl text-center md:mt-20 sm:text-2xl md:text-4xl sm:mt-10 sm:text-left'
       >
-        <div className='py-1 font-gilroylight'>Let’s get real</div>
-        <div className='p-2.5 font-gilroylight'>You don’t need contact data.</div>
-        <div className='font-gilroybold'>
+        <div className='py-1 sm:pl-4 md:pl-4 font-gilroylight'>Let’s get real</div>
+        <div className='p-2.5 sm:pl-4 md:pl-4 font-gilroylight'>You don’t need contact data.</div>
+        <div className='font-gilroybold sm:pl-4 md:pl-4'>
           You need meetings with good fit buyers.
         </div>
       </div>
-      <div className='my-12 flex justify-center'>
-        <div className='mr-2'>
+      <div className='my-12 flex sm:block md:block sm:px-4 justify-center'>
+        <div className='mr-2 md:mb-4 md:flex md:justify-center md:items-center'>
           <Image
             src='/assets/current.svg'
             alt=''
@@ -22,7 +22,7 @@ const MiddleTopSection = () => {
             height='420px'
           />
         </div>
-        <div className='ml-2'>
+        <div className='ml-2 md:flex md:justify-center md:items-center'>
           <Image
             src='/assets/process.svg'
             alt=''
@@ -33,8 +33,8 @@ const MiddleTopSection = () => {
         </div>
       </div>
 
-      <div className='flex justify-center items-center py-20'>
-        <div className='px-3'>
+      <div className='flex sm:block md:block justify-center items-center py-20 sm:py-0 sm:pb-20'>
+        <div className='px-3 sm:hidden md:hidden'>
           <Image
             src='/assets/whychoosethis.svg'
             alt=''
@@ -43,11 +43,11 @@ const MiddleTopSection = () => {
           />
         </div>
         <div className='px-10'>
-          <div className='text-5xl'>
+          <div className='text-5xl sm:text-3xl md:text-4xl sm:text-justify'>
             <span className='font-gilroybold'>Why choose us </span> over
             <div className='font-gilroylight'>hundreds of other options?</div>
           </div>
-          <div className='text-base'>
+          <div className='text-base sm:text-justify'>
             <div className='mt-7'>
               Look, we get it. We’re a team of outbound sales professionals and
               <div>we have struggled with getting meetings as well.</div>
