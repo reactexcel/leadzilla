@@ -1,29 +1,69 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   @font-face {
-    font-family: 'Manrope';
+    font-family: "Manrope";
     font-style: normal;
-    src: url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
+    src: url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap");
   }
   @font-face {
-    font-family: 'Gilroy Bold';
+    font-family: "Gilroy Bold";
     src: url("../public/font/Gilroy-ExtraBold.otf") format("opentype");
-}
+  }
 
-@font-face {
-    font-family: 'Gilroy Light';
+  @font-face {
+    font-family: "Gilroy Light";
     src: url("../public/font/Gilroy-Light.otf") format("opentype");
-}
+  }
 }
 html {
   scroll-behavior: smooth;
 }
-.react-multi-carousel-dot-list{
+.react-multi-carousel-dot-list {
   justify-content: start !important;
   margin-left: 5rem !important;
 }
+#contact{
+  height: 380px;
+}
+.blogpageinput{
+  width: 506px;
+   max-width: 540px
+}
+
+@media only screen and (max-width: 769px) {
+  #contact{
+    height: 535px;
+  }
+  .blogpageinput{
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width:639px ) {
+#sendBtn1{
+  width: 100%;
+  padding: 4% 10%;
+}
+#sendBtn2{
+  width: 99%;
+  padding: 4% 26%;
+}
+}
+#contactPage{
+  height: 550px;
+  }
+
+.meetSaurav{
+  height:446px;
+}
+@media only screen and (max-width:639px ) {
+  .meetSauravText{
+    width: 90%;
+  }
+}
+
+
 
