@@ -5,7 +5,11 @@ const Header = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className={`hidden sm:block md:block border-gray-200 px-2 md:px-4 py-2.5 rounded dark:bg-gray-900 shadow-md ${toggle && 'bg-gray-50 z-10'}`}>
+    <nav
+      className={`hidden sm:block md:block border-gray-200 px-2 md:px-4 py-2.5 rounded dark:bg-gray-900 shadow-md ${
+        toggle && 'bg-gray-50 z-10'
+      }`}
+    >
       <div className='container flex flex-wrap justify-between items-center mx-auto'>
         <Link href='/'>
           <Image
@@ -59,25 +63,25 @@ const Header = () => {
                 About
               </Link>
             </li>
-            <hr/>
+            <hr />
             <li className='sm:my-2 md:my-2 font-semibold'>
-              <button className="border-2 px-2 mr-3 py-2 text-base font-medium w-full hover:bg-black hover:text-white">
-              <Link
-                href='https://app.leadzilla.ai/login'
-                className='block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100'
-              >
-                Sign up
-              </Link>
+              <button className='border-2 px-2 mr-3 py-2 text-base font-medium w-full hover:bg-black hover:text-white border-black'>
+                <Link
+                  href='https://app.leadzilla.ai/login'
+                  className='block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100'
+                >
+                  Sign up
+                </Link>
               </button>
             </li>
             <li className='sm:my-2 md:my-2 font-semibold'>
-            <button className="border-2 px-2 mr-3 py-2 text-base font-medium w-full hover:bg-black hover:text-white">
-              <Link
-                href='https://calendly.com/sam_gupta/15min'
-                className='block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100'
-              >
-                Book a demo
-              </Link>
+              <button className='border-2 px-2 mr-3 py-2 text-base font-medium w-full hover:bg-black hover:text-white border-black'>
+                <Link
+                  href='https://calendly.com/sam_gupta/15min'
+                  className='block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100'
+                >
+                  Book a demo
+                </Link>
               </button>
             </li>
           </ul>
