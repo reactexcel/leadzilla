@@ -7,9 +7,9 @@ import Header from "../header";
 const PricingPage = () => {
   return (
     <>
-      <div className="bg-regal-green py-16 md:pt-4">
+      <div className="bg-regal-green">
         <Header/>
-        <div className="flex items-center flex-col ">
+        <div className="flex items-center flex-col py-10">
           <div className="">
             <Fade left>
               <div className="flex font-extrabold text-6xl sm:text-2xl md:text-4xl text-left font-gilroybold sm:px-3 md:px-4">
