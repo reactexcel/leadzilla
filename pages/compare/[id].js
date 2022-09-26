@@ -2,12 +2,17 @@ import React from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
 import Link from "next/link";
+import Navbar from "../../components/navbar";
+import Footer from "../../components/footer";
+import ComparePage from "../../components/comparePage";
 
 const companyData = [
   {
     id: "lusha-vs-apollo",
     firstCompany: "Lusha",
     secondCompany: "Apollo",
+    firstWebsite: "lusha.com",
+    secondWebsite: "apollo.io",
     firstCompanyDescription: "1-test description",
     secondCompanyDescription: "2-test description",
   },
@@ -15,6 +20,8 @@ const companyData = [
     id: "hunter-vs-snovio",
     firstCompany: "Hunter",
     secondCompany: "Sonvio",
+    firstWebsite: "hunter.io",
+    secondWebsite: "snov.io",
     firstCompanyDescription: "test description",
     secondCompanyDescription: "2-test description",
   },
@@ -52,28 +59,17 @@ export default function SoftwareComparision({ companyData }) {
   //console.log("data is", companyData);
   return (
     <>
-      <Head>
-        <title>
-          {companyData.firstCompany} vs {companyData.secondCompany}{" "}
-        </title>
+      <Navbar />
+      <ComparePage
+        firstCompany={companyData.firstCompany}
+        secondCompany={companyData.secondCompany}
+        firstWebsite={companyData.firstWebsite}
+        secondWebsite={companyData.secondWebsite}
+        firstCompanyDescription={companyData.firstCompanyDescription}
+        secondCompanyDescription={companyData.secondCompanyDescription}
+      />
 
-        <meta
-          name="description"
-          content={`compare ${companyData.firstCompany} and ${companyData.secondCompany}`}
-        />
-      </Head>
-      <h1>Comparision</h1>
-      <h1>-----------------</h1>
-      <h1>page url is {companyData.id}</h1>
-      <h1>
-        {companyData.firstCompany} vs {companyData.secondCompany}
-      </h1>
-      <h1>{companyData.firstCompanyDescription}</h1>
-      <h1>{companyData.secondCompanyDescription}</h1>
-
-      {/* {companyData.map((companyData) => {
-        <h1>{companyData.companyA + companyData.companyB}</h1>;
-      })} */}
+      <Footer />
     </>
   );
 }
