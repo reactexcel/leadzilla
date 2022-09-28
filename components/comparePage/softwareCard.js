@@ -2,7 +2,13 @@ import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const SoftwareCard = ({ companyName, companyDescription, website }) => {
+const SoftwareCard = ({
+  companyName,
+  companyDescription,
+  website,
+  para1,
+  para2,
+}) => {
   const router = useRouter();
 
   return (
@@ -15,6 +21,8 @@ const SoftwareCard = ({ companyName, companyDescription, website }) => {
       </Link>
 
       <h1>{companyDescription}</h1>
+      <h1>{para1}</h1>
+      <h1>{para2}</h1>
     </div>
   );
 };

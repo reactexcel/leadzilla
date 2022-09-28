@@ -1,0 +1,28 @@
+export const companyData = [
+  {
+    id: "lusha-vs-apollo",
+    firstCompany: "Lusha",
+    secondCompany: "Apollo",
+    firstWebsite: "lusha.com",
+    secondWebsite: "apollo.io",
+    firstCompanyDescription: "Lusha description",
+    secondCompanyDescription: "Apollo description",
+    firstCompanyPara1: "Lusha para1",
+    secondCompanyPara1: "Apollo para1",
+    firstCompanyPara2: "Lusha para2",
+    secondCompanyPara2: "Apollo para2",
+  },
+  {
+    id: "hunter-vs-snovio",
+    firstCompany: "Hunter",
+    secondCompany: "Sonvio",
+    firstWebsite: "hunter.io",
+    secondWebsite: "snov.io",
+    firstCompanyDescription: "Hunter description",
+    secondCompanyDescription: "Sonvio description",
+    firstCompanyPara1: "Hunter para1",
+    secondCompanyPara1: "Sonvio para1",
+    firstCompanyPara2: "Hunter para2",
+    secondCompanyPara2: "Sonvio para2",
+  },
+];
