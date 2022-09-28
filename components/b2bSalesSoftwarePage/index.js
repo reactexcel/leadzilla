@@ -40,9 +40,10 @@ const SalesSoftwarePage = () => {
     <>
       <Head />
       <div className="grid grid-cols-3 gap-4 py-20 px-20">
-        {b2bSoftwareData.map((data) => {
+        {b2bSoftwareData.map((data, index) => {
           return (
             <SoftwareCard
+              key={index}
               companyName={data.companyName}
               companyDescription={data.companyDescription}
               thirdpartyReviewCount={data.thirdpartyReviewCount}

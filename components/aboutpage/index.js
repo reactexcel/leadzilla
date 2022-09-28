@@ -16,7 +16,9 @@ const AboutUs = () => {
         <Header />
         <div className="text-center pt-16 sm:pt-10 relative md:text-left">
           {" "}
-          <div className="font-medium text-xl md:px-6 sm:font-normal">ABOUT Leadzilla</div>
+          <div className="font-medium text-xl md:px-6 sm:font-normal">
+            ABOUT Leadzilla
+          </div>
           <div className="text-6xl md:text-4xl pt-5 font-gilroybold md:px-6">
             Hi! We’re Leadzilla
           </div>
@@ -108,7 +110,7 @@ const AboutUs = () => {
               />
             </div>
           </div>
-          <AboutImage/>
+          <AboutImage />
           <span className="ml-2 absolute bottom-2 right-48  md:hidden">
             <Image
               src="/assets/aboutus/smiley.svg"
@@ -144,7 +146,9 @@ const AboutUs = () => {
         <div className="flex sm:block md:block items-center justify-around  mt-40 w-10/12 py-2 mx-auto">
           <Fade left>
             <div className="text-left ">
-              <div className="text-6xl font-gilroybold sm:text-2xl">What is Leadzilla?</div>
+              <div className="text-6xl font-gilroybold sm:text-2xl">
+                What is Leadzilla?
+              </div>
               <div className="pt-4 pb-6 text-aboutustextcolor-200 text-xl sm:text-base">
                 Leadzilla was founded by Saurav Gupta in 2020
                 <br />
@@ -194,7 +198,9 @@ const AboutUs = () => {
               // style={{ width: "800px", height: "446px" }}
             >
               <div className="px-16 pt-16 sm:px-0 sm:pt-0 md:px-0 md:pt-0">
-                <div className="text-5xl md:text-4xl sm:text-3xl font-gilroybold">Meet Saurav?</div>
+                <div className="text-5xl md:text-4xl sm:text-3xl font-gilroybold">
+                  Meet Saurav?
+                </div>
                 <div className="py-6 text-2xl md:text-xl sm:text-lg text-aboutustextcolor-200">
                   The Founder of Leadzilla
                 </div>

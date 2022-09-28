@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const softwareCard = ({ companyName, companyDescription, website }) => {
+const SoftwareCard = ({ companyName, companyDescription, website }) => {
   const router = useRouter();
 
   return (
@@ -19,4 +19,4 @@ const softwareCard = ({ companyName, companyDescription, website }) => {
   );
 };
 
-export default softwareCard;
+export default SoftwareCard;

@@ -9,7 +9,7 @@ const HeadFaq = ({ firstCompany, secondCompany }) => {
         {firstCompany} vs {secondCompany}
       </div>
       <div className="flex flex-col items-center">
-        <div className="text-3xl p-6 md:text-lg text-center py-8 w-9/12">
+        <div className="text-2xl p-6 md:text-lg text-center py-8 w-9/12">
           Both tools are great, but which one is right for you? Let's break it
           down...
         </div>
