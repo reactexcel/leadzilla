@@ -9,7 +9,7 @@ function Footer() {
           <div className="flex  sm:flex-wrap flex-row justify-between">
             <div className="flex justify-center items-center">
               <div className="flex flex-row items-center sm:hidden md:hidden">
-                <Image
+                <img
                   src="/assets/footerlogoleadzilla.svg"
                   alt="leadzilla logo"
                   width="162px"
@@ -17,7 +17,7 @@ function Footer() {
                 />
               </div>
               <div className="sm:block md:block hidden flex flex-row items-center sm:mb-4 sm:mt-4">
-                <Image
+                <img
                   src="/assets/footerlogoleadzilla.svg"
                   alt="leadzilla logo"
                   width="120px"
@@ -57,7 +57,7 @@ function Footer() {
           <div className="flex flex-row-reverse sm:block justify-between items-center mt-20">
             <div className="flex flex-row sm:-ml-3 sm:mb-4">
               <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gray-500 cursor-pointer mx-2">
-                <Image
+                <img
                   src="/assets/facebook.png"
                   alt="facebook"
                   height="25"
@@ -65,7 +65,7 @@ function Footer() {
                 />
               </div>
               <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gray-500 cursor-pointer mx-2">
-                <Image
+                <img
                   src="/assets/linkedIn.png"
                   alt="facebook"
                   height="25"
@@ -73,7 +73,7 @@ function Footer() {
                 />
               </div>
               <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gray-500 cursor-pointer mx-2">
-                <Image
+                <img
                   src="/assets/youtube.png"
                   alt="facebook"
                   height="18"
@@ -81,7 +81,7 @@ function Footer() {
                 />
               </div>
               <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gray-500 cursor-pointer mx-2">
-                <Image
+                <img
                   src="/assets/instagram.png"
                   alt="facebook"
                   height="25"

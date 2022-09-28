@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className="flex-1 flex items-center justify-between">
               <div className="flex-shrink-0 flex items-center cursor-pointer">
                 <Link href="/">
-                  <Image
+                  <img
                     src="/assets/logoleadzilla.svg"
                     alt=""
                     width="160px"

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
+
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   const router = useRouter();
@@ -23,7 +24,7 @@ const Header = () => {
     >
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <Link href="/">
-          <Image
+          <img
             src="/assets/logoleadzilla.svg"
             alt=""
             width="120px"
@@ -38,7 +39,7 @@ const Header = () => {
           aria-expanded="false"
           onClick={(e) => setToggle(!toggle)}
         >
-          <Image src="/assets/hamburger.svg" width="30" height="30" />
+          <img src="/assets/hamburger.svg" width="30" height="30" />
         </button>
         <div className={`${toggle ? "" : "hidden"} w-full`} id="navbar-default">
           <ul className="flex flex-col ml-3 mt-4 md:mt-2 md:text-md">
