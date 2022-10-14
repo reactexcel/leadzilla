@@ -18,7 +18,8 @@ const SalesSoftwarePage = ({
     <>
       <Head firstCompany={firstCompany} secondCompany={secondCompany} />
       <div className="grid grid-cols-2 gap-4 py-20 px-20">
-        <SoftwareCard
+        <h1>Coming soon...</h1>
+        {/* <SoftwareCard
           companyName={firstCompany}
           companyDescription={firstCompanyDescription}
           website={firstWebsite}
@@ -31,7 +32,7 @@ const SalesSoftwarePage = ({
           website={secondWebsite}
           para1={secondCompanyPara1}
           para2={secondCompanyPara2}
-        />
+        /> */}
       </div>
     </>
   );

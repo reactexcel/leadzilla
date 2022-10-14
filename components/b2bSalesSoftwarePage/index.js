@@ -8,7 +8,8 @@ const SalesSoftwarePage = () => {
     <>
       <Head />
       <div className="grid grid-cols-3 gap-4 py-20 px-20">
-        {b2bSoftwareData.map((data, index) => {
+        <h1>Coming soon...</h1>
+        {/* {b2bSoftwareData.map((data, index) => {
           return (
             <SoftwareCard
               key={index}
@@ -17,7 +18,7 @@ const SalesSoftwarePage = () => {
               thirdpartyReviewCount={data.thirdpartyReviewCount}
             />
           );
-        })}
+        })} */}
       </div>
     </>
   );
