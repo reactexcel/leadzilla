@@ -8,13 +8,13 @@ const PricingPage = () => {
   return (
     <>
       <div className="bg-regal-green">
-        <Header/>
+        <Header />
         <div className="flex items-center flex-col py-10">
           <div className="">
             <Fade left>
               <div className="flex font-extrabold text-6xl sm:text-2xl md:text-4xl text-left font-gilroybold sm:px-3 md:px-4">
                 <div>Looking for the pricing table?</div>
-                <div className="ml-6" style={{marginTop:'10px'}}>
+                <div className="ml-6" style={{ marginTop: "10px" }}>
                   <Image
                     src="/assets/highlightpricing.png"
                     alt=""
@@ -68,8 +68,9 @@ const PricingPage = () => {
                     height="196"
                   />
                   <div className="font-bold text-xl text-center sm:text-left">
-                    Founder and CEO at <br />
-                    Leadzilla{" "}
+                    Saurav
+                    <br /> Founder and CEO at <br />
+                    Leadzilla
                   </div>
                 </div>
               </div>
@@ -79,7 +80,6 @@ const PricingPage = () => {
       </div>
 
       <div className="text-center mx-9 mt-16 relative sm:text-left sm:ml-3">
-
         {/* <span className="ml-2 absolute top-1/4 sm:top-72 md:top-60 sm:hidden" style={{left:'8%'}}>
           <Image
             src="/assets/arrow.svg"
@@ -88,42 +88,49 @@ const PricingPage = () => {
             height="180px"
           />
         </span> */}
-        
-       <div className="-mb-20">
-       <div className="font-light text-3xl sm:text-xl md:text-2xl font-gilroylight">
-          Your time and efforts are not cheap.
+
+        <div className="text-center font-light text-3xl  sm:text-2xl sm:text-left sm:ml-3 md:ml-4 py-20 sm:py-12 font-gilroylight">
+          "Straight forward pricing
+          <span className="font-bold font-gilroybold">
+            $49/mo for 600 credits
+          </span>
+          , billed monthly"
         </div>
-        <div className="font-extrabold text-4xl sm:text-2xl my-5 font-gilroybold sm:text-justify">
-          You’re probably spending more than $1000 every <br />
-          month on getting qualified leads already.
-        </div>
-        <div className="flex justify-evenly mx-auto mt-8">
-          <div className="md:hidden sm:hidden">
-            <Image
-            src="/assets/arrow.svg"
-            alt="arrow"
-            width="120px"
-            height="180px"
-          />
+
+        <div className="-mb-20">
+          <div className="font-light text-3xl sm:text-xl md:text-2xl font-gilroylight">
+            Your time and efforts are not cheap.
           </div>
-        <div className="text-xl py-2 sm:text-base md:text-lg sm:text-justify">
-          There is significant cost and effort to find new customers - you spend
-          hours trying to find contact
-          information on Google or their website and then hours trying to
-          writing personalized emails
+          <div className="font-extrabold text-4xl sm:text-2xl my-5 font-gilroybold sm:text-justify">
+            You’re probably spending more than $1000 every <br />
+            month on getting qualified leads already.
+          </div>
+          <div className="flex justify-evenly mx-auto mt-8">
+            <div className="md:hidden sm:hidden">
+              <Image
+                src="/assets/arrow.svg"
+                alt="arrow"
+                width="120px"
+                height="180px"
+              />
+            </div>
+            <div className="text-xl py-2 sm:text-base md:text-lg sm:text-justify">
+              There is significant cost and effort to find new customers - you
+              spend hours trying to find contact information on Google or their
+              website and then hours trying to writing personalized emails
+            </div>
+            <div className="mt-10 md:hidden sm:hidden">
+              <Image
+                src="/assets/righteyeimg.svg"
+                alt="eyesImg"
+                width="50px"
+                className="m-6 ml-4 animate-bounce"
+                height="50px"
+              />
+            </div>
+          </div>
         </div>
-        <div className="mt-10 md:hidden sm:hidden">
-        <Image
-            src="/assets/righteyeimg.svg"
-            alt="eyesImg"
-            width="50px"
-            className="m-6 ml-4 animate-bounce"
-            height="50px"
-          />
-        </div>
-        </div>
-       </div>
-       {/* <span className="ml-2 absolute top-32 right-48 sm:hidden md:hidden ">
+        {/* <span className="ml-2 absolute top-32 right-48 sm:hidden md:hidden ">
           <Image
             src="/assets/righteyeimg.svg"
             alt="eyesImg"
@@ -132,64 +139,66 @@ const PricingPage = () => {
             height="50px"
           />
         </span> */}
-       <div className="sm:overflow-x-scroll">
-        <table className="m-auto mt-16  sm:mt-40 md:mt-40" style={{ borderRadius: "14px" }}>
-          <thead className="bg-skin-bg  border border-skin-border rounded-t-lg text-left">
-            <th scope="col" className="px-6 py-6">
-              Current Activity
-            </th>
-            <th scope="col" className="px-16 py-6">
-              Person
-            </th>
-            <th scope="col" className="px-16 py-6">
-              Average Time
-            </th>
-            <th scope="col" className="px-16 py-6">
-              Minimum Cost
-            </th>
-          </thead>
-          <tbody>
-            {TableData?.map(
-              (
-                {
-                  Current_Activity1,
-                  Current_Activity2,
-                  Average_Time,
-                  Minimum_Cost,
-                  Person,
-                },
-                key
-              ) => {
-                return (
-                  <>
-                    <tr className="border border-skin-border">
-                      <td className="text-left px-6 py-4">
-                        {Current_Activity1} <br />
-                        {Current_Activity2}
-                      </td>
-                      <td className="text-left px-16 py-4">{Person}</td>
-                      <td className="text-left px-16 py-4">{Average_Time}</td>
-                      <td className="text-left px-16 py-4">{Minimum_Cost}</td>
-                    </tr>
-                  </>
-                );
-              }
-            )}
+        <div className="sm:overflow-x-scroll">
+          <table
+            className="m-auto mt-16  sm:mt-40 md:mt-40"
+            style={{ borderRadius: "14px" }}
+          >
+            <thead className="bg-skin-bg  border border-skin-border rounded-t-lg text-left">
+              <th scope="col" className="px-6 py-6">
+                Current Activity
+              </th>
+              <th scope="col" className="px-16 py-6">
+                Person
+              </th>
+              <th scope="col" className="px-16 py-6">
+                Average Time
+              </th>
+              <th scope="col" className="px-16 py-6">
+                Minimum Cost
+              </th>
+            </thead>
+            <tbody>
+              {TableData?.map(
+                (
+                  {
+                    Current_Activity1,
+                    Current_Activity2,
+                    Average_Time,
+                    Minimum_Cost,
+                    Person,
+                  },
+                  key
+                ) => {
+                  return (
+                    <>
+                      <tr className="border border-skin-border">
+                        <td className="text-left px-6 py-4">
+                          {Current_Activity1} <br />
+                          {Current_Activity2}
+                        </td>
+                        <td className="text-left px-16 py-4">{Person}</td>
+                        <td className="text-left px-16 py-4">{Average_Time}</td>
+                        <td className="text-left px-16 py-4">{Minimum_Cost}</td>
+                      </tr>
+                    </>
+                  );
+                }
+              )}
 
-            <tr className="border border-skin-border">
-              <td className="text-left font-bold px-6 py-4">Total</td>
-              <td className="text-left font-bold px-16 py-4"></td>
-              <td className="text-left font-bold px-16 py-4">80 hours / mo</td>
-              <td className="text-left font-bold px-16 py-4">
-                {">"} $1000-$1500 / mo
-              </td>
-            </tr>
-          </tbody>
-        </table>
+              <tr className="border border-skin-border">
+                <td className="text-left font-bold px-6 py-4">Total</td>
+                <td className="text-left font-bold px-16 py-4"></td>
+                <td className="text-left font-bold px-16 py-4">
+                  80 hours / mo
+                </td>
+                <td className="text-left font-bold px-16 py-4">
+                  {">"} $1000-$1500 / mo
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-       
-
-      
       </div>
       <Fade right>
         <div className="mt-32 relative px-9 sm:mt-10 md:mt-20">
@@ -213,12 +222,13 @@ const PricingPage = () => {
               </div>
             </div>
             <div className="sm:hidden">
-            <Image
-              src="/assets/pricing/manstar.svg"
-              alt="manstar"
-              width="251"
-              height="239"
-            /></div>
+              <Image
+                src="/assets/pricing/manstar.svg"
+                alt="manstar"
+                width="251"
+                height="239"
+              />
+            </div>
           </div>
 
           <div className="text-center mt-32 sm:hidden md:mt-32">
@@ -265,14 +275,14 @@ const PricingPage = () => {
         </div>
       </Fade>
 
-      <div className="bg-pink-bg w-full h-240px md:h-auto bg-center bg-no-repeat bg-cover  mb-100">
+      <div className="bg-pink-bg w-full h-200px md:h-auto bg-center bg-no-repeat bg-cover  mb-100">
         <div className="font-extrabold text-center text-5xl md:text-4xl md:font-bold sm:text-2xl sm:text-left pt-20 font-gilroybold  sm:px-2">
           Now here’s the pricing table you <br />
           were looking for.
         </div>
         <Fade bottom>
-          <div className="flex sm:block md:block justify-center mt-16 mx-10 sm:mx-4 ">
-            <div className="bg-white rounded border border-pricing-border p-10 pb-30 sm:mb-5 md:mb-5">
+          <div className="flex sm:block md:block justify-center mt-0 mx-10 sm:mx-4 py-20">
+            <div className="bg-white rounded border border-pricing-border p-10 pb-20 sm:mb-5 md:mb-5">
               <div className="font-bold text-3xl mb-2.5 sm:text-2xl">
                 Which module is it <br /> a part of?
               </div>
@@ -307,7 +317,9 @@ const PricingPage = () => {
               </div>
             </div>
             <div className="bg-white rounded border border-pricing-border p-10 ml-10 pb-30 mr-10 sm:mx-0 md:mx-0 sm:mb-5 md:mb-5">
-              <div className="font-bold text-3xl mb-10 sm:text-2xl">What do you get?</div>
+              <div className="font-bold text-3xl mb-10 sm:text-2xl">
+                What do you get?
+              </div>
               <div className="text-xl font-normal">
                 1 email or 1 phone number
               </div>
@@ -331,13 +343,6 @@ const PricingPage = () => {
             </div>
           </div>
         </Fade>
-        <div className="text-center font-light text-3xl  sm:text-2xl sm:text-left sm:ml-3 md:ml-4 py-20 sm:py-12 font-gilroylight">
-          Straight forward pricing{" "}
-          <span className="font-bold font-gilroybold">
-            $49/mo for 600 credits
-          </span>{" "}
-          , billed monthly
-        </div>
       </div>
     </>
   );
