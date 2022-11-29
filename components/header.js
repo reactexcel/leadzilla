@@ -85,7 +85,7 @@ const Header = () => {
                   href='https://app.leadzilla.ai/login'
                   className='block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100'
                 > */}
-                Start for free
+                Try it at no cost
                 {/* </Link> */}
               </button>
             </li>

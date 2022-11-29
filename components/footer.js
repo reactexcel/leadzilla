@@ -29,7 +29,7 @@ function Footer() {
             <div className="flex flex-row items-center">
               <Link href="https://app.leadzilla.ai/login">
                 <button className="text-white text-sm font-bold border-2 py-4 sm:py-4 px-8 sm:px-4 rounded-full mr-4 hover:bg-yellow-300 hover:text-black sm:w-119 sm:text-xs">
-                  Start for free
+                  Try it at no cost
                 </button>
               </Link>
               <Link href="https://chrome.google.com/webstore/detail/leadzilla/mlknnmdepgmefemphhdombdflfgceejg">

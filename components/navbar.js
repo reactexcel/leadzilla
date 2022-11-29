@@ -47,7 +47,7 @@ const Navbar = () => {
               <div className="flex">
                 <Link href="https://app.leadzilla.ai/login">
                   <button className="border-2 hover:border-white border-black px-2 mr-3 py-2 text-base font-medium hover:bg-black hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-                    Start for free
+                    Try it at no cost
                   </button>
                 </Link>
                 <Link href="https://calendly.com/sam_gupta/15min">

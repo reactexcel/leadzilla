@@ -5,6 +5,11 @@
       "public": "out",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "cleanUrls": true,
+      "redirects": [ {
+        "source": "/blog",
+        "destination": "blog.leadzilla.ai",
+        "type": 301
+      } ],
       "rewrites": [
         {
           "source": "**",

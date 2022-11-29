@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { TableData } from "../../hardcodedData";
 import { Fade } from "react-reveal";
 import Header from "../header";
@@ -90,19 +91,32 @@ const PricingPage = () => {
         </span> */}
 
         <div className="text-center font-light text-3xl  sm:text-2xl sm:text-left sm:ml-3 md:ml-4 py-20 sm:py-12 font-gilroylight">
-          "Straight forward pricing
+          Straight forward pricing <br/><br/>
           <span className="font-bold font-gilroybold">
-            $49/mo for 600 credits
+            $49/mo for <br/>250 ContactAI credits <br/> and 100 WriterAI credits <br/><br/>
           </span>
-          , billed monthly"
+          billed monthly
         </div>
 
+        <div className="-mb-20">
+          <Link href="https://app.leadzilla.ai/login">
+            <button className="hover:text-white text-xl font-bold py-4 bg-yellow-300 text-black-300  sm:py-4 px-8 sm:px-4 rounded-full sm:w-120 sm:text-xs sm:font-bold">
+              Try it at no cost
+            </button>
+          </Link>
+          <Link href="https://calendly.com/sam_gupta/15min">
+              <button className="hover:text-white text-xl font-bold py-4 bg-yellow-300 text-black-300  sm:py-4 px-8 sm:px-4 rounded-full sm:w-120 sm:text-xs sm:font-bold">
+                Talk to our experts <br/><span className="font-bold font-gilroybold text-sm">if you need more credits!</span>
+              </button>
+          </Link>    
+        </div>
+        <div><br/><br/><br/><br/><br/></div>
         <div className="-mb-20">
           <div className="font-light text-3xl sm:text-xl md:text-2xl font-gilroylight">
             Your time and efforts are not cheap.
           </div>
           <div className="font-extrabold text-4xl sm:text-2xl my-5 font-gilroybold sm:text-justify">
-            You’re probably spending more than $1000 every <br />
+            You’re probably spending a lot every <br />
             month on getting qualified leads already.
           </div>
           <div className="flex justify-evenly mx-auto mt-8">
@@ -193,7 +207,7 @@ const PricingPage = () => {
                   80 hours / mo
                 </td>
                 <td className="text-left font-bold px-16 py-4">
-                  {">"} $1000-$1500 / mo
+                  {">"} A lot of dollars / mo
                 </td>
               </tr>
             </tbody>
@@ -268,7 +282,7 @@ const PricingPage = () => {
             example are <br />
             exaggerated,{" "}
             <span className="font-bold">
-              Leadzilla will save you a minimum 30 hours and $840 every <br />
+              Leadzilla will save you a minimum 30 hours and $$$ every <br />
               month. That’s 10x return on your investment – at least.
             </span>
           </div>
@@ -305,16 +319,6 @@ const PricingPage = () => {
                 />
                 <div className="pl-2 text-xl font-normal">WriterAI</div>
               </div>
-
-              <div className="flex items-center">
-                <Image
-                  src="/assets/pricing/tickvector.svg"
-                  alt="tickvector"
-                  width="12px"
-                  height="12px"
-                />
-                <div className="pl-2 text-xl font-normal">LookalikeAI</div>
-              </div>
             </div>
             <div className="bg-white rounded border border-pricing-border p-10 ml-10 pb-30 mr-10 sm:mx-0 md:mx-0 sm:mb-5 md:mb-5">
               <div className="font-bold text-3xl mb-10 sm:text-2xl">
@@ -326,20 +330,14 @@ const PricingPage = () => {
               <div className="text-xl font-normal pt-5 pb-5">
                 1 personalized line per prospect
               </div>
-              <div className="text-xl font-normal">
-                Find highly-precise <br />
-                competitors of your current <br />
-                customers
-              </div>
             </div>
             <div className="bg-white rounded border border-pricing-border p-10">
               <div className="font-bold text-3xl mb-3 ">
                 How much does it <br />
                 cost?
               </div>
-              <div className="text-xl font-normal">2 credits</div>
-              <div className="text-xl font-normal pt-5 pb-5">1 credit</div>
-              <div className="text-xl font-normal">1 credit/competitor</div>
+              <div className="text-xl font-normal">1 contact credit</div>
+              <div className="text-xl font-normal pt-5 pb-5">1 line credit</div>
             </div>
           </div>
         </Fade>
