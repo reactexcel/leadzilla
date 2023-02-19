@@ -7,7 +7,7 @@
       "cleanUrls": true,
       "redirects": [ {
         "source": "/blog",
-        "destination": "blog.leadzilla.ai",
+        "destination": "https://blog.leadzilla.ai/",
         "type": 301
       } ],
       "rewrites": [

@@ -9,6 +9,7 @@ const nextConfig = {
 }
 
 module.exports = {
+  exportTrailingSlash: true,
   images: {
     loader: 'akamai',
     path: '',

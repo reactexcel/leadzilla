@@ -47,7 +47,7 @@ function Footer() {
               <Link href="/pricing">Pricing</Link>
             </div>
             <div className="font-gilroybold text-white text-lg mb-5  flex flex-col">
-              <Link href="https://blog.leadzilla.ai">Blogs</Link>
+              <Link href="https://leadzilla.ai/blog/">Blogs</Link>
             </div>
             <div className="font-gilroybold text-white text-lg mb-5  flex flex-col">
               <Link href="/contactus">Contact Us</Link>

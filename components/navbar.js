@@ -36,7 +36,7 @@ const Navbar = () => {
                   </div>
 
                   <div className="text-black px-3 lg:px-1 py-2 text-base">
-                    <Link href="https://blog.leadzilla.ai">Blogs</Link>
+                    <Link href="https://leadzilla.ai/blog/">Blogs</Link>
                   </div>
                   <div className="text-black px-3 lg:px-1 py-2 text-base">
                     <Link href="/about">About</Link>

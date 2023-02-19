@@ -61,7 +61,7 @@ const Header = () => {
             </li>
             <li className="sm:my-2 md:my-2 font-semibold">
               <Link
-                href="https://blog.leadzilla.ai"
+                href="https://leadzilla.ai/blog/"
                 className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 "
               >
                 Blogs
