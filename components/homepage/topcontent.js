@@ -22,17 +22,15 @@ const TopContent = () => {
             <Image src='/assets/starlandingpage.svg' alt='' width='40' height='40' className='py-3 p-2' key={key}/>
           );
         })}
-        <div className='font-extrabold font-gilroybold'>More than just accurate,</div>
-        <div className='py-1 font-gilroylight'>verified contact data </div>
+        <div className='font-extrabold font-gilroybold'>The simplest way to find emails from</div>
+        <div className='py-1 font-gilroylight'>LinkedIn Sales Navigator </div>
       </div>
       <div className='text-2xl text-center sm:text-left sm:text-lg md:text-left md:text-lg p-6'>
         <div>
-          Leadzilla gives you 95%+ accurate contact data and uses AI to write
-          highly
+          Leadzilla is a chrome extension that helps you find 
         </div>
         <div>
-          personalized emails for them. Sit back and enjoy warm leads in your
-          inbox.
+          30% more emails from your Sales Navigator search in 1-click really fast.
         </div>
       </div>
       <span className='absolute top-1/2 right-3/4 sm:hidden md:hidden'><Image src="/assets/bigArrowTwisted.png" alt="arrow" height="100" width="170" /></span>
