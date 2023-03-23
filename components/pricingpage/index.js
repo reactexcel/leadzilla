@@ -93,13 +93,13 @@ const PricingPage = () => {
         <div className="text-center font-light text-3xl  sm:text-2xl sm:text-left sm:ml-3 md:ml-4 py-20 sm:py-12 font-gilroylight">
           Straight forward pricing <br/><br/>
           <span className="font-bold font-gilroybold">
-            $49/mo for <br/>250 ContactAI credits <br/> and 100 WriterAI credits <br/><br/>
+            $49/mo for 600 emails<br/>
           </span>
           billed monthly
         </div>
 
         <div className="-mb-20">
-          <Link href="https://app.leadzilla.ai/login">
+          <Link href="https://chrome.google.com/webstore/detail/leadzilla/mlknnmdepgmefemphhdombdflfgceejg">
             <button className="hover:text-white text-xl font-bold py-4 bg-yellow-300 text-black-300  sm:py-4 px-8 sm:px-4 rounded-full sm:w-120 sm:text-xs sm:font-bold">
               Try it at no cost
             </button>
@@ -131,7 +131,7 @@ const PricingPage = () => {
             <div className="text-xl py-2 sm:text-base md:text-lg sm:text-justify">
               There is significant cost and effort to find new customers - you
               spend hours trying to find contact information on Google or their
-              website and then hours trying to writing personalized emails
+              website and then saving contact information in your CRM
             </div>
             <div className="mt-10 md:hidden sm:hidden">
               <Image
@@ -276,9 +276,9 @@ const PricingPage = () => {
         <div className="flex justify-center mt-20 mb-20 px-16 sm:px-0 md:px-4">
           <div className="bg-grey-bg text-left text-2xl	md:text-xl sm:text-base text-aboutustextcolor-200 px-40 sm:px-3 md:px-6 py-16">
             Even if we disregard the opportunity cost and value of using
-            AI-powered hyper-
+            our native integrations
             <br />
-            personalized prospecting, and consider the time and costs in this
+            with your CRM, and consider the time and costs in this
             example are <br />
             exaggerated,{" "}
             <span className="font-bold">
@@ -289,59 +289,6 @@ const PricingPage = () => {
         </div>
       </Fade>
 
-      <div className="bg-pink-bg w-full h-200px md:h-auto bg-center bg-no-repeat bg-cover  mb-100">
-        <div className="font-extrabold text-center text-5xl md:text-4xl md:font-bold sm:text-2xl sm:text-left pt-20 font-gilroybold  sm:px-2">
-          Now here’s the pricing table you <br />
-          were looking for.
-        </div>
-        <Fade bottom>
-          <div className="flex sm:block md:block justify-center mt-0 mx-10 sm:mx-4 py-20">
-            <div className="bg-white rounded border border-pricing-border p-10 pb-20 sm:mb-5 md:mb-5">
-              <div className="font-bold text-3xl mb-2.5 sm:text-2xl">
-                Which module is it <br /> a part of?
-              </div>
-              <div className="flex items-center">
-                <Image
-                  src="/assets/pricing/tickvector.svg"
-                  alt="tickvector"
-                  width="12px"
-                  height="12px"
-                />
-                <div className="pl-2 text-xl font-normal">ContactAI</div>
-              </div>
-
-              <div className="flex items-center pt-5 pb-5">
-                <Image
-                  src="/assets/pricing/tickvector.svg"
-                  alt="tickvector"
-                  width="12px"
-                  height="12px"
-                />
-                <div className="pl-2 text-xl font-normal">WriterAI</div>
-              </div>
-            </div>
-            <div className="bg-white rounded border border-pricing-border p-10 ml-10 pb-30 mr-10 sm:mx-0 md:mx-0 sm:mb-5 md:mb-5">
-              <div className="font-bold text-3xl mb-10 sm:text-2xl">
-                What do you get?
-              </div>
-              <div className="text-xl font-normal">
-                1 email or 1 phone number
-              </div>
-              <div className="text-xl font-normal pt-5 pb-5">
-                1 personalized line per prospect
-              </div>
-            </div>
-            <div className="bg-white rounded border border-pricing-border p-10">
-              <div className="font-bold text-3xl mb-3 ">
-                How much does it <br />
-                cost?
-              </div>
-              <div className="text-xl font-normal">1 contact credit</div>
-              <div className="text-xl font-normal pt-5 pb-5">1 line credit</div>
-            </div>
-          </div>
-        </Fade>
-      </div>
     </>
   );
 };

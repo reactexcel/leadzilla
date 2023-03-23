@@ -46,14 +46,12 @@ const LowerFeaturesSection = () => {
               </div>
               <div className='my-2 font-medium text-xl sm:text-base flex mt-4'>
               <div className='flex items-start pt-3'><Image src="/assets/arrowfeature.png" alt='' width="10" height="3"/></div>
-              <div className='ml-2 text-pricingtextcolor-200'>A lot of our customers are busy salespeople who struggle with
-                writing personalized emails. Our AI helps them get leads on
-                autopilot</div>
+              <div className='ml-2 text-pricingtextcolor-200'>A lot of our customers are busy salespeople who struggle with copy-pasting 
+                contact info into CRMs. We save them 6-8 hours every week.</div>
               </div>
               <div className='my-2 font-medium text-xl sm:text-base flex mt-4'>
               <div className='flex items-start pt-3'><Image src="/assets/arrowfeature.png" alt='' width="10" height="3"/></div>
-              <div className='ml-2 text-pricingtextcolor-200'>The data is very accurate and there’s an email verification
-                tool inbuilt into the product at no added cost</div>
+              <div className='ml-2 text-pricingtextcolor-200'>It goes through multiple pages of Sales Navigator searches in one click and saves 3-5 hours of manual work every week.</div>
               </div>
               <div className='my-2 font-medium text-xl sm:text-base flex mt-4'>
               <div className='flex items-start pt-3'><Image src="/assets/arrowfeature.png" alt='' width="10" height="3"/></div>
@@ -75,14 +73,13 @@ const LowerFeaturesSection = () => {
               </div>
               <div className='my-2 font-medium text-xl flex mt-4'>
               <div className='flex items-start pt-3'><Image src="/assets/arrowfeature.png" alt='' width="10" height="3"/></div>
-              <div className='ml-2 text-pricingtextcolor-200'>A lot of our customers are busy salespeople who struggle with
-                writing personalized emails. Our AI helps them get leads on
-                autopilot</div>
+              <div className='ml-2 text-pricingtextcolor-200'>A lot of our customers are busy salespeople who struggle with copy-pasting 
+                contact info into CRMs. We save them 6-8 hours every week.</div>
               </div>
               <div className='my-2 font-medium text-xl flex mt-4'>
               <div className='flex items-start pt-3'><Image src="/assets/arrowfeature.png" alt='' width="10" height="3"/></div>
-              <div className='ml-2 text-pricingtextcolor-200'>The data is very accurate and there’s an email verification
-                tool inbuilt into the product at no added cost</div>
+              <div className='ml-2 text-pricingtextcolor-200'>It goes through multiple pages of Sales Navigator searches in one click and 
+              saves 3-5 hours of manual work every week.</div>
               </div>
               <div className='my-2 font-medium text-xl flex mt-4'>
               <div className='flex items-start pt-3'><Image src="/assets/arrowfeature.png" alt='' width="10" height="3"/></div>

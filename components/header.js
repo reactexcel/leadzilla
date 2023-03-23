@@ -9,7 +9,7 @@ const Header = () => {
 
   const handleClickedSignUp = (e) => {
     e.preventDefault();
-    router.push("https://app.leadzilla.ai/login");
+    router.push("https://chrome.google.com/webstore/detail/leadzilla/mlknnmdepgmefemphhdombdflfgceejg");
   };
 
   const handleBookAdemo = (e) => {

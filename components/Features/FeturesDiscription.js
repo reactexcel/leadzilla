@@ -51,7 +51,7 @@ const FeaturesDiscription = () => {
             <div>
               That’s where{' '}
               <span className='text-blue-500'>
-                Leadzilla steps in and gives you the accurate, verified email
+                Leadzilla steps in and gives you the accurate email
                 addresses and phone numbers of the potential customers{' '}
               </span>
               you desperately want to get in touch with.{' '}
@@ -59,8 +59,7 @@ const FeaturesDiscription = () => {
             <div className='sm:mt-4 md:mt-4 sm:pb-10'>
               And that’s not all,{' '}
               <span className='text-blue-500'>
-                it uses industry-leading AI to write personalized emails to
-                them.
+                it exports the data to your favorite CRM in one click.
               </span>
             </div>
           </div>

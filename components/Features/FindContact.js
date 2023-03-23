@@ -22,7 +22,7 @@ const FindContact = () => {
            >
             <span className="font-black font-gilroybold">Find contacts</span>
             <span className="font-gilroylight"> based on</span>
-            <div className="font-gilroylight"> hyper-precise filters</div>
+            <div className="font-gilroylight"> hyper-precise filters from Sales Navigator</div>
           </div>
           <div className="flex mt-4">
             <div style={{marginTop:"-4px"}}>
@@ -38,9 +38,7 @@ const FindContact = () => {
               <Image src="/assets/arrowfeature.png" width="15" height="2" alt=""/>
             </div>
             <div className="text-base font-normal ml-2">
-              If that doesn’t work, you have advanced filters like funding,
-              technology used and highly-precise lookalikes of your current/past
-              customers
+              If that doesn’t work, you have advanced filters like posted in past 30 days, changed jobs in the past 90 days and more
             </div>
           </div>
           <div className="flex mt-4">
@@ -48,11 +46,11 @@ const FindContact = () => {
               <Image src="/assets/arrowfeature.png" width="10" height="2" alt=""/>
             </div>
             <p className="text-base font-normal ml-2">
-            Reveal their verified emails and phone numbers
+            Reveal their work emails and phone numbers
             </p>
           </div>
           <div className='my-16 ml-1 h-7 w-3/6'>
-          <Link href="https://app.leadzilla.ai/login">
+          <Link href="https://chrome.google.com/webstore/detail/leadzilla/mlknnmdepgmefemphhdombdflfgceejg">
               <button className='bg-black p-3 px-8 sm:px-4 text-base font-bold relative transform  hover: transition duration-500 hover:scale-125'>
                 Learn more
                 <button className='bg-yellow-500 p-3 px-8  sm:px-4 text-base font-bold absolute bottom-1 right-1 whitespace-nowrap'>

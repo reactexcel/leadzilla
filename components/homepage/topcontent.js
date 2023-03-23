@@ -35,11 +35,11 @@ const TopContent = () => {
       </div>
       <span className='absolute top-1/2 right-3/4 sm:hidden md:hidden'><Image src="/assets/bigArrowTwisted.png" alt="arrow" height="100" width="170" /></span>
       <div className='text-center p-6 mb-10'>
-        <Link href="https://app.leadzilla.ai/login"> 
+        <Link href="https://chrome.google.com/webstore/detail/leadzilla/mlknnmdepgmefemphhdombdflfgceejg"> 
         <button className='bg-black p-3 px-5 sm:px-2.5 text-2xl sm:text-lg font-bold relative cursor-pointer transform hover: transition duration-500 hover:scale-125'>
           Sign up and get 20 free leads now
           <button className='bg-yellow-500 p-3 px-4 sm:px-2 text-2xl sm:text-lg font-bold absolute bottom-2 left-2 whitespace-nowrap cursor-pointer'>
-            Sign up and get 20 free leads now!
+            Sign up and get 20 free emails now!
           </button>
         </button>
         </Link>

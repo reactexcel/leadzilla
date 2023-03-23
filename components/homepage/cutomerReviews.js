@@ -26,14 +26,14 @@ function CutomerReviews() {
   const customerReviews = [
     {
       description:
-        "After checking all the alternatives, Leadzilla was the only solution to provide so much more than that. On top of that, it was also the only solution that didn’t involve so much pain during integration, so quick and easy, my team loves it.",
+        "After checking all the alternatives, Leadzilla was the only solution to provide so much more than that. On top of that, it was also the only solution that didn’t involve so much pain during integration with Hubspot, so quick and easy, my team loves it.",
       img: "/assets/customers/connor-hevingham-alphaletz.jpeg",
       name: "Connor Hevingham",
       designation: "Head of Marketing @ Alphaletz",
     },
     {
       description:
-        "We checked out a number of data products and we just loved the simplicity of Leadzilla. The data is second to none and the AI module works like magic.",
+        "We checked out a number of data products and we just loved the simplicity of Leadzilla. The data is second to none.",
       img: "/assets/customers/patricia-christensen-goperspecta.jpeg",
       name: "Patricia Christensen ",
       designation: "Sales Manager @ Goperspecta",

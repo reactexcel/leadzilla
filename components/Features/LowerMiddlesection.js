@@ -83,7 +83,7 @@ const LowerMiddlesection = () => {
                     </div>
                     <div className='text-white my-2 font-semibold text-base sm:text-sm sm:whitespace-pre-line'>
                       {' '}
-                      "I love how you can press one button and have an email!"
+                      "I love how you can press one button and find an email!"
                     </div>
                     <div className='text-white my-2 font-semibold text-base sm:text-sm sm:whitespace-pre-line'>
                       "Really clever, quick and intuitive. Very easy to use"

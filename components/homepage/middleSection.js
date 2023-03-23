@@ -8,9 +8,9 @@ const MiddleTopSection = () => {
         className='mt-80 text-5xl text-center md:mt-20 sm:text-2xl md:text-4xl sm:mt-10 sm:text-left'
       >
         <div className='py-1 sm:pl-4 md:pl-4 font-gilroylight'>Let’s get real</div>
-        <div className='p-2.5 sm:pl-4 md:pl-4 font-gilroylight'>You don’t need contact data.</div>
+        <div className='p-2.5 sm:pl-4 md:pl-4 font-gilroylight'>You purchased LinkedIn Sales Navigator for $99/mo</div>
         <div className='font-gilroybold sm:pl-4 md:pl-4'>
-          You need meetings with good fit buyers.
+          But you haven't used it well.
         </div>
       </div>
       <div className='my-12 flex sm:block md:block sm:px-4 justify-center'>
@@ -50,17 +50,16 @@ const MiddleTopSection = () => {
           <div className='text-base sm:text-justify'>
             <div className='mt-7'>
               Look, we get it. We’re a team of outbound sales professionals and
-              <div>we have struggled with getting meetings as well.</div>
+              <div>we have struggled with getting the best out of LinkedIn Sales Navigator as well</div>
             </div>
             <div className='py-4'>
-              There are tons of contact data tools in the market, but we were
+              There are tons of Sales Navigator add-ons in the market, but we were
               still <br />
-              spending hours and thousands of dollars personalizing emails every
-              <br /> week, but struggling to get meetings.
+              spending hours finding emails from Sales Navigator and cleaning lists
+              <br /> (💎John -> John, Leadzilla Inc. -> Leadzilla).
             </div>
             <div>
-              Now, we get 3-5 highly qualified meetings a week just using
-              Leadzilla
+              Now, we find emails from our Sales Navigator lists just using Leadzilla.
             </div>
           </div>
           {/* <div>
