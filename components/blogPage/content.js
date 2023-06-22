@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-
+import Header from "../header";
 const Contents = () => {
   const add = [
     {
@@ -109,13 +109,14 @@ const Contents = () => {
   return (
     <>
       <div className="w-full bg-glad-100">
-        <div className="w-10/12 py-2 mx-auto px-2 sm:px-6 lg:px-8 ">
+        <Header />
+        <div className="w-10/12 py-2 mx-auto px-2 sm:px-6 lg:px-8 md:w-full ">
           <div className="mt-16 mb-16">
             <div className="flex items-center text-center justify-center flex-col">
               <div>
                 <p className="text-6xl font-gilroybold mt-5">Leadzilla Blog</p>
               </div>
-              <div className="flex justify-evenly w-9/12 mt-7 items-center font-bold">
+              <div className="flex justify-evenly w-9/12 mt-7 items-center font-bold sm:w-full">
                 <div className="text-lg underline underline-offset-2">
                   <Link href="">ALL</Link>
                 </div>
@@ -128,7 +129,10 @@ const Contents = () => {
                 <div className="text-lg text-gray-400">
                   <Link href="">Pricing</Link>
                 </div>
-                <div className="mt-1 bg-white ml-1 mr-7" style={{borderRadius: "5px"}}>
+                <div
+                  className="mt-1 bg-white ml-1 mr-7"
+                  style={{ borderRadius: "5px" }}
+                >
                   <div className="ml-1 mr-1 p-2">
                     <Image
                       src="/assets/search.png"
@@ -143,9 +147,9 @@ const Contents = () => {
           </div>
         </div>
       </div>
-      <div className=" w-10/12 py-2 mx-auto px-2">
-        <div className="grid grid-cols-2   mt-20 ">
-          {add.map((item,key) => {
+      <div className=" w-10/12 py-2 mx-auto px-2 md:w-full">
+        <div className="grid grid-cols-2 md:grid-cols-1 sm:grid-cols-1  mt-20 ">
+          {add.map((item, key) => {
             return (
               <>
                 <div key={key}>
@@ -172,7 +176,9 @@ const Contents = () => {
                     >
                       {item.author}
                     </p>
-                    <p className="ml-2 text-graytextcol-200">{item.createdAt}</p>
+                    <p className="ml-2 text-graytextcol-200">
+                      {item.createdAt}
+                    </p>
                     <p className="ml-2 text-graytextcol-200">{item.minRead}</p>
                   </div>
 
@@ -202,11 +208,11 @@ const Contents = () => {
           })}
         </div>
 
-        <div className="w-auto mx-auto grid-flow-col mt-20">
-          <div className="grid grid-cols-3  mx-auto  my-auto  mt-20 ">
+        <div className="w-auto mx-auto grid-flow-col md:grid-flow-row sm:grid-flow-row mt-20">
+          <div className="grid grid-cols-3 md:grid-cols-1 sm:grid-cols-1 mx-auto  my-auto  mt-20 ">
             {detail.map((item, key) => {
               return (
-                <div className="mr-4 h-auto " key={key}>
+                <div className="mr-4 h-auto md:mr-0 sm:mr-0" key={key}>
                   <Image
                     src={item.imgsrc}
                     alt=""
@@ -229,9 +235,11 @@ const Contents = () => {
                     >
                       {item.author}
                     </p>
-                    <p className="ml-2 text-graytextcol-200">{item.createdAt}</p>
+                    <p className="ml-2 text-graytextcol-200">
+                      {item.createdAt}
+                    </p>
                     <p className="ml-2 text-graytextcol-200">{item.minRead}</p>
-                  </div>  
+                  </div>
                   <p className="text-3xl font-gilroybold mb-1">
                     {item.description}
                   </p>
@@ -256,7 +264,7 @@ const Contents = () => {
 
         <div>
           <div style={{ height: "500px" }}>
-            <div className="  mt-20">
+            <div className="mt-20 ms:ml-2">
               <div
                 className="bg-yellow-300 p-3 py-4 text-xl  relative w-full border-2 border-darkcolor-200 "
                 style={{ height: "500px" }}
@@ -265,28 +273,42 @@ const Contents = () => {
                   className="bg-bluedon-300 p-3 py-4 text-xl text-center absolute bottom-2 right-2 whitespace-nowrap w-full  mt-20 border-2 border-darkcolor-200"
                   style={{ height: "500px" }}
                 >
-                  <p className="mt-20 text-base font-gilroybold text-white ">WEEKLY NEWSLETTER</p>
-                  <p className="text-5xl text-yellow-300 font-gilroybold m-2 mb-7">
+                  <p className="mt-20 text-base font-gilroybold text-white ">
+                    WEEKLY NEWSLETTER
+                  </p>
+                  <p className="text-4xl xs:text-3xl text-yellow-300 font-gilroybold m-2 mb-7">
                     Join the community
                   </p>
 
-                  <p className="text-center m-auto text-white ">
-                    Weekly articles, tips, and tools to inspire and help you
-                    gain the latest insights.
-                  </p>
-                  <p className="text-white">
-                    Subscribe to get curated content delivered directly to your
-                    inbox
-                  </p>
+                 <div className="md:hidden sm:hidden lg:block">
+                    <div className="text-center m-auto text-white">
+                      Weekly articles, tips, and tools to inspire and help you
+                      gain the latest insights.
+                    </div>
+                    <div className="text-white">
+                      Subscribe to get curated content delivered directly to your
+                      inbox
+                    </div>
+                  </div>
+
+                  <div className="md:block sm:block lg:hidden">
+                    <div className="text-center m-auto text-white xs:text-base">
+                      Weekly articles, tips, and tools to <br/> inspire and help you
+                      gain the latest <br/> insights.
+                    </div>
+                    <div className="text-white xs:text-base">
+                      Subscribe to get curated content <br/> delivered  directly to your
+                      inbox
+                    </div>
+                  </div>
 
                   <div className="mt-7 mb-20">
                     <input
-                      style={{ width: "506px", maxWidth: "540px" }}
-                      className="p-5 border-2 border-darkcolor-200"
+                      className="p-5 ms:py-2 ms:px-0 ms:p-0 ms:w-3/5 ms:text-base border-2 border-darkcolor-200 inputstyle"
                       placeholder="Enter your email address"
                       type="search"
                     />
-                    <button className="bg-yellow-300 p-5 mb-20 border-2 border-darkcolor-200 font-bold">
+                    <button className="bg-yellow-300 p-5 ms:py-2 ms:text-base ms:p-0 ms:px-0 mb-20 border-2 border-darkcolor-200 font-bold">
                       Subscribe Now
                     </button>
                   </div>
@@ -297,10 +319,10 @@ const Contents = () => {
         </div>
 
         <div style={{ height: "auto" }}>
-          <div className="grid grid-cols-3  mt-20">
+          <div className="grid grid-cols-3 md:grid-cols-1 sm:grid-cols-1 mt-20">
             {detailmain.map((item, key) => {
               return (
-                <div className="mr-4 h-auto mb-10" key={key}>
+                <div className="mr-4 h-auto md:mr-0 sm:mr-0 mb-10" key={key}>
                   <Image
                     src={item.imgsrc}
                     alt=""
@@ -323,8 +345,12 @@ const Contents = () => {
                     >
                       {item.author}
                     </p>
-                    <p className="ml-2 text-lightgrayblog-200">{item.createdAt}</p>
-                    <p className="ml-2 text-lightgrayblog-200">{item.minRead}</p>
+                    <p className="ml-2 text-lightgrayblog-200">
+                      {item.createdAt}
+                    </p>
+                    <p className="ml-2 text-lightgrayblog-200">
+                      {item.minRead}
+                    </p>
                   </div>
                   <div className="text-3xl font-gilroybold">
                     {item.description}
@@ -348,7 +374,7 @@ const Contents = () => {
         </div>
         <div>
           <div style={{ height: "600px" }}>
-            <div className="py-2  px-4  mt-20 ">
+            <div className="py-2 px-4 mt-20 ms:ml-2 ms:px-0 ms:py-0">
               <div
                 className="bg-yellow-300 p-3 py-4 text-xl  relative w-full border-2 border-darkcolor-200"
                 style={{ height: "500px" }}
@@ -361,7 +387,7 @@ const Contents = () => {
                     Get access to verified profiles.
                   </p>
 
-                  <div>
+                  <div className="md:hidden sm:hidden lg:block">
                     <p className="text-5xl text-black-800 font-extrabold break-all">
                       Leadzilla offers you the best way
                     </p>
@@ -371,14 +397,26 @@ const Contents = () => {
                     </p>
                   </div>
 
+                  <div className="lg:hidden">
+                    <p className="text-4xl ms:text-2xl text-black-800 font-extrabold break-all">
+                      Leadzilla offers you
+                    </p>
+
+                    <p className="text-4xl ms:text-2xl text-black-800 font-extrabold break-all">
+                      the best way to reach
+                    </p>
+                    <p className="text-4xl ms:text-2xl text-black-800 font-extrabold break-all">
+                      your customers.
+                    </p>
+                  </div>
+
                   <div className=" mb-20 mt-12">
                     <input
-                      style={{ width: "506px", maxWidth: "540px" }}
-                      className="p-5 border-2 border-darkcolor-200"
+                      className="p-5 ms:py-2 ms:px-0 ms:p-0 ms:w-3/5 ms:text-base border-2 border-darkcolor-200 inputstyle"
                       placeholder="Enter your email address"
                       type="search"
                     />
-                    <button className="bg-yellow-300 p-5 mb-20 border-2 font-bold border-darkcolor-200">
+                    <button className="bg-yellow-300 ms:text-base p-5 ms:py-2 ms:px-0 ms:p-0 mb-20 border-2 font-bold border-darkcolor-200">
                       Try for Free
                     </button>
                   </div>
